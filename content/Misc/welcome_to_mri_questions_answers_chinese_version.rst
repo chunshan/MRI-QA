@@ -1,0 +1,22 @@
+欢迎来到磁共振知识问答中文版
+==============================
+
+:date: 2015-10-07
+:authors: Chunshan
+:slug: welcome_to_mri_questions_answers_chinese_version
+
+首先声明这个网站的文章（除了本篇^_^）都翻译自\ `Questions and Answers in MRI <http://mriquestions.com>`_。
+
+在学习磁共振知识的过程中，我发现了\ `Questions and Answers in MRI <http://mriquestions.com>`_\ 这个网站，这个网站对磁共振相关知识介绍的非常全面，涵盖磁体，线圈，磁共振成像原理，磁共振伪影，磁共振功能成像等方方面面，堪称磁共振知识的百科全书，而且每个话题都写得深入浅出，图文并茂，甚至有视频讲解，磁共振初学者和对磁共振有一定了解的技术人员都能从中学到很多东西。这个网站的作者Allen D. Elster在开发这个网站之前其实已经分别在1994年和2001年出过 *Questions and Answers in Magnetic Resonance Imaging* 这本书的第一版和第二版，这个网站算是这本书的延伸。
+
+这个网站是英文的，相信想要学习磁共振的同仁们都有能力阅读，但要是有对应中文版的可阅读，相信学习者会更开心（有怀疑精神和更高追求的除外^_^），学习效率也会更高一些。
+
+本来我只想自己业余时间翻译着玩儿，将翻译后的内容记在\ `有道云笔记 <http://note.youdao.com/>`_\ 上，与部门同事进行分享。但后来觉得用一个网站能够分享给更多对磁共振感兴趣的同仁，在\ `太然 <http://www.tairan.net>`_\ 的建议下使用\ `Pelican <https://github.com/getpelican>`_\ 这个静态网页生成工具在\ `GitHub <https://github.com/>`_\ 的project pages免费空间上建站，这应该是成本最小而且也显得比较专业的方式了。遂又花了一些时间了解\ `Pelican <https://github.com/getpelican>`_\ 和\ `reStructuredText <https://en.wikipedia.org/wiki/ReStructuredText>`_，学习在\ `GitHub <https://github.com/>`_\ 上建网站的过程。翻译为中文网站也算是我给自己留的深入了解磁共振物理的作业，借此翻译把磁共振知识进行比较系统地了解，也看看自己能不能坚持翻译完或者聚集志同道合的朋友一起翻译完。
+
+翻译的过程我不想按照原网站的顺序逐个话题逐个问题翻译，而是先挑与我当前工作比较接近的话题先翻译，再翻译其他的话题。如果有比较心急的，就自己去读英文版，或者加入到我这个众筹项目中来，大家一起合作翻译(=^_^=)，求之不得。
+
+这个网站目前还没有独立域名，留待以后申请也不迟。目前我个人对\ `reStructuredText <https://en.wikipedia.org/wiki/ReStructuredText>`_\ 还不是很熟悉，排版还不是很美观，对\ `Pelican <https://github.com/getpelican>`_\ 的配置也还没很熟悉，网站的一些功能还没开发得很完善。好在\ `GitHub <https://github.com/>`_\ 可以提供非常好的版本控制，源文件也使用版本控制，改进后重新用\ `Pelican <https://github.com/getpelican>`_\ 生成页面再上传到\ `GitHub <https://github.com/>`_\ 就能重新发布。
+
+有兴趣加入的朋友联系我。
+
+email : shan.c.young@gmail.com
