@@ -5,29 +5,36 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://chunshan.github.io/MRI-QA/</loc>
-<lastmod>2015-10-10T22:40:01-00:00</lastmod>
+<lastmod>2015-10-11T22:25:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://chunshan.github.io/MRI-QA/archives.html</loc>
-<lastmod>2015-10-10T22:40:01-00:00</lastmod>
+<lastmod>2015-10-11T22:25:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://chunshan.github.io/MRI-QA/tags.html</loc>
-<lastmod>2015-10-10T22:40:01-00:00</lastmod>
+<lastmod>2015-10-11T22:25:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://chunshan.github.io/MRI-QA/categories.html</loc>
-<lastmod>2015-10-10T22:40:01-00:00</lastmod>
+<lastmod>2015-10-11T22:25:15-00:00</lastmod>
 <changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://chunshan.github.io/MRI-QA/dsc/meaning_of_cbf_mtt_etc.html</loc>
+<lastmod>2015-10-10T00:00:00+08:00</lastmod>
+<changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -47,7 +54,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://chunshan.github.io/MRI-QA/dsc/index.html</loc>
-<lastmod>2015-10-09T00:00:00+08:06</lastmod>
+<lastmod>2015-10-10T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -61,7 +68,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://chunshan.github.io/MRI-QA/author/chunshan.html</loc>
-<lastmod>2015-10-09T00:00:00+08:06</lastmod>
+<lastmod>2015-10-10T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

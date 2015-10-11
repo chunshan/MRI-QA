@@ -12,16 +12,16 @@
 
 <meta name="keywords" content="Perfusion, DSC, DSC, " />
 
-<meta property="og:title" content="Question-灌注方法：灌注（Perfusion）如何定义和测量？ "/>
-<meta property="og:url" content="http://chunshan.github.io/MRI-QA/dsc/measuring_perfusion.html" />
-<meta property="og:description" content="灌注（Perfusion）如何定义和测量" />
+<meta property="og:title" content="Question-灌注参数：血流量（BF，Blood Flow），血容量（BV，Blood Volume），平均通过时间（MTT， Mean Transit Time）等参数是怎么定义的？在灌注成像中如何使用？ "/>
+<meta property="og:url" content="http://chunshan.github.io/MRI-QA/dsc/meaning_of_cbf_mtt_etc.html" />
+<meta property="og:description" content="灌注参数血流量（BF，Blood Flow），血容量（BV，Blood Volume），平均通过时间（MTT， Mean Transit Time）等的定义和使用" />
 <meta property="og:site_name" content="MRI Q&amp;A" />
 <meta property="og:article:author" content="Chunshan" />
-<meta property="og:article:published_time" content="2015-10-09T00:00:00+08:00" />
-<meta name="twitter:title" content="Question-灌注方法：灌注（Perfusion）如何定义和测量？ ">
-<meta name="twitter:description" content="灌注（Perfusion）如何定义和测量">
+<meta property="og:article:published_time" content="2015-10-10T00:00:00+08:00" />
+<meta name="twitter:title" content="Question-灌注参数：血流量（BF，Blood Flow），血容量（BV，Blood Volume），平均通过时间（MTT， Mean Transit Time）等参数是怎么定义的？在灌注成像中如何使用？ ">
+<meta name="twitter:description" content="灌注参数血流量（BF，Blood Flow），血容量（BV，Blood Volume），平均通过时间（MTT， Mean Transit Time）等的定义和使用">
 
-        <title>Question-灌注方法：灌注（Perfusion）如何定义和测量？  · MRI Q&amp;A
+        <title>Question-灌注参数：血流量（BF，Blood Flow），血容量（BV，Blood Volume），平均通过时间（MTT， Mean Transit Time）等参数是怎么定义的？在灌注成像中如何使用？  · MRI Q&amp;A
 </title>
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
@@ -68,7 +68,7 @@
 <article>
 <div class="row-fluid">
     <header class="page-header span10 offset2">
-    <h1><a href="http://chunshan.github.io/MRI-QA/dsc/measuring_perfusion.html"> Question-灌注方法：灌注（Perfusion）如何定义和测量？  </a></h1>
+    <h1><a href="http://chunshan.github.io/MRI-QA/dsc/meaning_of_cbf_mtt_etc.html"> Question-灌注参数：血流量（BF，Blood Flow），血容量（BV，Blood Volume），平均通过时间（MTT， Mean Transit Time）等参数是怎么定义的？在灌注成像中如何使用？  </a></h1>
     </header>
 </div>
 
@@ -76,38 +76,51 @@
         <div class="span8 offset2 article-content">
 
             
-            <p>原文链接:<a class="reference external" href="http://www.mri-q.com/measuring-perfusion.html">How is perfusion defined and measured?</a></p>
+            <p>原文链接:<a class="reference external" href="http://www.mri-q.com/meaning-of-cbf-mtt-etc.html">How are parameters like BF, BV, and MTT defined and used in perfusion imaging?</a></p>
 <dl class="docutils">
 <dt><strong>概要</strong></dt>
 <dd><div class="first last figure">
-<img alt="" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/4131569_orig.png?323" />
+<img alt="" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/2265020_orig.png" />
 </div>
 </dd>
 </dl>
-<p>灌注是指通过一个器官或组织的毛细血管循环的血流量。考虑到器官的大小不同，灌注的量化通常需要归一化，血流量（mL/min）除以器官质量（每100g），所以灌注的单位一般被表示为mL/min/100g。</p>
+<p>最简单的局部循环模型包含一个动脉输入，一个组织毛细血管床和一个静脉输出。这个模型有悠久的历史，最早被19世纪的Fick用来研究心脏输出。20世纪40年代，Kety和Schmidt修改了此模型以用于指示剂稀释测定血流量技术中，20世纪50年代，Meier和Zierler进一步扩展了此模型。</p>
 <div class="figure">
-<img alt="" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/__9552085_orig.jpg" />
-<p class="caption">脑的动脉自旋标记的灌注参数图，有血管性脑胶质瘤</p>
+<img alt="" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/4670936_orig.gif?355" />
+<p class="caption">局部循环的简单模型有一个动脉输入和一个静脉输出，并且假设血流量（BF）和血容量（BV）是恒定的</p>
 </div>
-<p>不同的器官灌注情况不同，而且对同一器官，灌注也会随着其病理改变或代谢需要而改变。例如，脑灰质和白质灌注分别约60和20mL/min/100g。心肌灌注则大得多，休息时约100mL/min/100g，最大运动时可达400mL/min/100g。</p>
-<p>灌注的测量需要使用示踪剂（分子，分子聚集体或小颗粒），示踪剂与血流充分混合，分布在组织中并且可以被检测。一些示踪剂会留在血管内，其他的示踪剂则分布更加广泛。示踪剂可分为：</p>
-<ol class="arabic simple">
-<li>血管内示踪剂，限制在血管中。用于MR的血管内示踪剂包括钆膦维司（Ablavar，与血清白蛋白结合）和超小超顺磁性铁氧化合物分子（USPIO）。</li>
-<li>细胞外示踪剂，不进入细胞，但可自由地通过血管壁，分布在组织的细胞外空间。大多数钆基造影剂属于此类。</li>
-<li>可扩散示踪剂，分布在组织所有部位，包括细胞内。通常用于MRI的可扩散示踪剂是磁标记的水分子，用于动脉自旋标记（ASL，arterial spin labelling ）。</li>
-</ol>
+<p>假设通过系统的血流量和组织中的血容量都是恒定的。BF和BV通常会与灌注组织的绝对质量相除而进行归一化，其单位分别为mL/min/100g和mL/100g。此模型还假设没有血液滞积，也没有失血，所以流入的血液会最终全部流出。</p>
+<p>穿过组织的血管通路有些相对直接而有些则有很多分叉，这意味着不同的红细胞分子或对比剂分子穿过毛细血管床的时间会很不相同（尽管最终所有分子都会从静脉流出）。平均通过时间（MTT，用秒或分钟度量）反映了注射的示踪剂随血液流动驻留在组织中的平均时间。</p>
+<p>血流量BF，血容量BV以及平均通过时间MTT通过中心容积定律（central volume theorem）相联系，如果两个已知，第三个就可以计算出来。它们之间的关系如下：BF = BV / MTT. 考虑一下上文提到的血流量和血容量的单位，这个关系很容易记，血流量就表示单位时间内的血容量。</p>
+<p>在灌注成像研究中，BF，BV和MTT计算出来后一般用施加伪彩的参数图显示，这些参数图提供了互补的灌注相关信息，对做出临床决策很有帮助。</p>
+<div class="figure">
+<img alt="" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/5694391_orig.jpg" />
+</div>
+<p>T2加权像，显示胼胝体上的脑肿瘤</p>
+<div class="figure">
+<img alt="" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/6193878_orig.gif" />
+</div>
+<p>显著升高的BV，高度恶性的成胶质细胞瘤</p>
+<p>例如脑梗死区域一般显示为BV和BF减小，而MTT上升。相反地，没有梗死的局部缺血区域（缺血半暗带）一般BF减小，MTT上升，而BV正常。</p>
+<div class="figure">
+<img alt="" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/5694391_orig.jpg" />
+</div>
+<p>接受治疗的脑肿瘤对比剂增强的T1加权像，显示肿瘤变大</p>
+<div class="figure">
+<img alt="" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/7736565_orig.gif" />
+</div>
+<p>减少的BV预示更可能是肿瘤放射性坏死而不是肿瘤进化</p>
+<p>如何从图像数据中计算这些量化的灌注参数图的细节将会在后面的几个Q&amp;A中给出。</p>
 <dl class="docutils">
 <dt><strong>参考材料</strong></dt>
-<dd><p class="first">Cuenod CA, Balvay D. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/permeability_1-s2.0-s2211568413003306-main.pdf">Perfusion and vascular permeability: basic concepts and measurement in DCE-CT and DCE-MRI</a>. Diagn Interven Imaging 2013; 94:1187-1204. (Good review of basic mechanisms; some terminology is slightly different than abbreviations used in Tofts models).</p>
-<p>Frackowiak RSJ, Lenzi G-L, Jones T, Heather JD. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/quantitative_measurement_of_regional_cerebral.1.pdf">Quantitative measurement of regional cerebral blood flow and oxygen metabolism in man using 15O and positron emission tomography: theory, procedure, and normal values</a>. J Comput Assist Tomogr 1980; 4:727-736.</p>
-<p>Ito H, Inoue K, Goto R, et al. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/brain_tracers_nuc_med.pdf">Database of normal human cerebral blood flow measured by SPECT: I. Comparison between I-123-IMP, Tc-99m-HMPAO, and Tc-99m-ECD as referred with O-15 labeled water PET and voxel-based morphometry</a>. Ann Nucl Med 2006; 20:131-138.</p>
-<p>Prinzen FW, Bassingthwaighte JB. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/microspheres.pdf">Blood flow distributions by microsphere deposition methods</a>. Cardiovasc Res 2000; 45:13-21.</p>
-<p>Salerno M, Beller GA. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/circ_cardiovasc_imaging-2009-salerno-412-24.pdf">Noninvasive assessment of myocardial perfusion</a>. Circ Cardiovasc Imaigng 2009; 2:412-424. (comparison of different imaging methods for myocardial perfusion measurement)</p>
-<p class="last">Zhang K, Herzog H, Mauler J, et al. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/jcbfm201492a.pdf">Comparison of cerebral blood flow acquired by simultaneous [15O]water positron emission tomography and arterial spin labeling magnetic resonance imaging</a>. J Cerebr Blood Flow Metab 2014; 34:1373-1380.</p>
+<dd><p class="first">Fick A. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/fick_original.pdf">Ueber die Messung des Blutquantums in der Herzventrikeln</a>. Sitz der Physik-Med Ges Wurzburg 1870; 2:16–28. (Classic paper where the &quot;Fick Principle&quot; is formulated&quot;).</p>
+<p>Kety SS, Schmidt CF. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/kety_and_schmitt_original_.pdf">The determination of cerebral blood flow in man by the use of nitrous oxide in low concentrations</a>. Am J Physiol 1945; 143:53–66. (classic paper; worth a look)</p>
+<p>Meier P, Zierler KL. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/j_appl_physiol_1954.pdf">On the theory of the indicator-dilution method for measurement of blood flow and volume</a>. J Appl Physiol 1954; 6:731-744. (Lays out proof for the central volume theorem and derivation of mean transit time).</p>
+<p class="last">Zaharchuk G. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/ajnr_zharchuk_perfusion_review.pdf">Theoretical basis of hemodynamic MR imaging techniques to measure cerebral blood volume, cerebral blood flow, and permeability</a>. AJNR Am J Neuroradiol 2007; 28:1850-8.</p>
 </dd>
 <dt><strong>相关问题</strong></dt>
-<dd><p class="first"><a class="reference external" href="http://www.mri-q.com/quantifying-perfusion.html">Can myocardial perfusion be accurately quantified?</a></p>
-<p class="last"><a class="reference external" href="http://www.mri-q.com/dsc-v-dce-v-asl.html">What are the differences between DSC, DCE and ASL perfusion methods used in MRI?</a></p>
+<dd><p class="first"><a class="reference external" href="http://www.mri-q.com/quantifying-perfusion.html">How is the arterial input function used to extract more quantitative flow information from the DSC data?</a></p>
+<p class="last"><a class="reference external" href="http://www.mri-q.com/dsc-v-dce-v-asl.html">Question-灌注方法：灌注（Perfusion）如何定义和测量?</a></p>
 </dd>
 </dl>
 
@@ -117,8 +130,7 @@
             <aside>
             <nav>
             <ul class="articles-timeline">
-                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/misc/welcome_to_mri_questions_answers_chinese_version.html" title="Previous: 欢迎来到磁共振知识问答中文版">欢迎来到磁共振知识问答中文版</a></li>
-                <li class="next-article"><a href="http://chunshan.github.io/MRI-QA/dsc/meaning_of_cbf_mtt_etc.html" title="Next: Question-灌注参数：血流量（BF，Blood Flow），血容量（BV，Blood Volume），平均通过时间（MTT， Mean Transit Time）等参数是怎么定义的？在灌注成像中如何使用？">Question-灌注参数：血流量（BF，Blood Flow），血容量（BV，Blood Volume），平均通过时间（MTT， Mean Transit Time）等参数是怎么定义的？在灌注成像中如何使用？</a> »</li>
+                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/dsc/measuring_perfusion.html" title="Previous: Question-灌注方法：灌注（Perfusion）如何定义和测量？">Question-灌注方法：灌注（Perfusion）如何定义和测量？</a></li>
             </ul>
             </nav>
             </aside>
@@ -126,7 +138,7 @@
         <section>
         <div class="span2" style="float:right;font-size:0.9em;">
             <h4>Published</h4>
-            <time pubdate="pubdate" datetime="2015-10-09T00:00:00+08:00">十月 9, 2015</time>
+            <time pubdate="pubdate" datetime="2015-10-10T00:00:00+08:00">十月 10, 2015</time>
             <h4>Category</h4>
             <a class="category-link" href="http://chunshan.github.io/MRI-QA/categories.html#dsc-ref">DSC</a>
             <h4>Tags</h4>
