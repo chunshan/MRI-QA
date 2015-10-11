@@ -19,7 +19,9 @@ DEFAULT_DATE_FORMAT = ('%Y-%m-%d')
 DEFAULT_LANG = u'zh'
 
 # plugins and extensions settings
-PLUGINS = ['sitemap', 'extract_toc', 'tipue_search']
+#PLUGINS = ['sitemap', 'extract_toc', 'tipue_search']
+PLUGINS = ['sitemap', 'extract_toc', 'tipue_search', 
+           'neighbors', 'render_math', 'assets']
 PLUGIN_PATHS = [u"pelican-plugins",]
 
 SITEMAP = {
@@ -40,6 +42,18 @@ SITEMAP = {
 THEME = 'pelican-elegant'
 DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives', 'search', '404'))
 STATIC_PATHS = ['theme/images', 'images']
+USE_SHORTCUT_ICONS = True
+
+SOCIAL_PROFILE_LABEL = u'Stay in Touch'
+#RELATED_POSTS_LABEL = 'Keep Reading'
+SHARE_POST_INTRO = 'Like this post? Share on:'
+COMMENTS_INTRO = u'So what do you think? Did I miss something? Is any part unclear? Leave your comments below.'
+
+# Mailchimp
+EMAIL_SUBSCRIPTION_LABEL = u'Get Monthly Updates'
+EMAIL_FIELD_PLACEHOLDER = u'Enter your email...'
+SUBSCRIBE_BUTTON_TITLE = u'Send me Free updates'
+MAILCHIMP_FORM_ACTION = u'empty'
 
 # Landing Page
 PROJECTS = [
@@ -73,11 +87,11 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('GitHub', 'https://github.com/chunshan'),
+          ('Email', 'mailto:shan.c.young@gmail.com'),)
 
 # pagination settings		  
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 20
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
