@@ -10,18 +10,18 @@
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary">
 
-<meta name="keywords" content="Perfusion, DSC, DSC, " />
+<meta name="keywords" content="Perfusion, DSC, DCE, ASL, DSC, " />
 
-<meta property="og:title" content="Question-灌注参数：血流量（BF，Blood Flow），血容量（BV，Blood Volume），平均通过时间（MTT， Mean Transit Time）等参数是怎么定义的？在灌注成像中如何使用？ "/>
-<meta property="og:url" content="http://chunshan.github.io/MRI-QA/dsc/meaning_of_cbf_mtt_etc.html" />
-<meta property="og:description" content="灌注参数血流量（BF，Blood Flow），血容量（BV，Blood Volume），平均通过时间（MTT， Mean Transit Time）等的定义和使用" />
+<meta property="og:title" content="Question-MR灌注概述：MRI中的DSC，DCE和ASL灌注方法有何不同？ "/>
+<meta property="og:url" content="http://chunshan.github.io/MRI-QA/dsc/dsc-v-dce-v-asl.html" />
+<meta property="og:description" content="MRI中的DSC，DCE和ASL等灌注方法的不同之处" />
 <meta property="og:site_name" content="MRI Q&amp;A" />
 <meta property="og:article:author" content="Chunshan" />
-<meta property="og:article:published_time" content="2015-10-10T00:00:00+08:00" />
-<meta name="twitter:title" content="Question-灌注参数：血流量（BF，Blood Flow），血容量（BV，Blood Volume），平均通过时间（MTT， Mean Transit Time）等参数是怎么定义的？在灌注成像中如何使用？ ">
-<meta name="twitter:description" content="灌注参数血流量（BF，Blood Flow），血容量（BV，Blood Volume），平均通过时间（MTT， Mean Transit Time）等的定义和使用">
+<meta property="og:article:published_time" content="2015-10-16T00:00:00+08:00" />
+<meta name="twitter:title" content="Question-MR灌注概述：MRI中的DSC，DCE和ASL灌注方法有何不同？ ">
+<meta name="twitter:description" content="MRI中的DSC，DCE和ASL等灌注方法的不同之处">
 
-        <title>Question-灌注参数：血流量（BF，Blood Flow），血容量（BV，Blood Volume），平均通过时间（MTT， Mean Transit Time）等参数是怎么定义的？在灌注成像中如何使用？  · MRI Q&amp;A
+        <title>Question-MR灌注概述：MRI中的DSC，DCE和ASL灌注方法有何不同？  · MRI Q&amp;A
 </title>
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
@@ -68,7 +68,7 @@
 <article>
 <div class="row-fluid">
     <header class="page-header span10 offset2">
-    <h1><a href="http://chunshan.github.io/MRI-QA/dsc/meaning_of_cbf_mtt_etc.html"> Question-灌注参数：血流量（BF，Blood Flow），血容量（BV，Blood Volume），平均通过时间（MTT， Mean Transit Time）等参数是怎么定义的？在灌注成像中如何使用？  </a></h1>
+    <h1><a href="http://chunshan.github.io/MRI-QA/dsc/dsc-v-dce-v-asl.html"> Question-MR灌注概述：MRI中的DSC，DCE和ASL灌注方法有何不同？  </a></h1>
     </header>
 </div>
 
@@ -76,23 +76,18 @@
         <div class="span8 offset2 article-content">
 
             
-            <p>原文链接:<a class="reference external" href="http://www.mri-q.com/meaning-of-cbf-mtt-etc.html">How are parameters like BF, BV, and MTT defined and used in perfusion imaging?</a></p>
+            <p>原文链接:<a class="reference external" href="http://www.mri-q.com/dsc-v-dce-v-asl.html">What are the differences between DSC, DCE and ASL perfusion methods used in MRI?</a></p>
 <dl class="docutils">
 <dt><strong>概要</strong></dt>
 <dd><div class="first last figure align-center">
-<img alt="summary" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/2265020_orig.png" style="width: 700px;" />
+<img alt="summary" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/2402275_orig.png" style="width: 700px;" />
 </div>
 </dd>
 </dl>
-<p>最简单的局部循环模型包含一个动脉输入，一个组织毛细血管床和一个静脉输出。这个模型有悠久的历史，最早被19世纪的Fick用来研究心脏输出。20世纪40年代，Kety和Schmidt修改了此模型以用于指示剂稀释测定血流量技术中，20世纪50年代，Meier和Zierler进一步扩展了此模型。</p>
-<div class="figure align-right">
-<img alt="MTT=BV/BF" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/4670936_orig.gif?355" style="width: 500px;" />
-<p class="caption">局部循环的简单模型有一个动脉输入和一个静脉输出，并且假设血流量（BF）和血容量（BV）是恒定的</p>
-</div>
-<p>假设通过系统的血流量和组织中的血容量都是恒定的。BF和BV通常会与灌注组织的绝对质量相除而进行归一化，其单位分别为mL/min/100g和mL/100g。此模型还假设没有血液滞积，也没有失血，所以流入的血液会最终全部流出。</p>
-<p>穿过组织的血管通路有些相对直接而有些则有很多分叉，这意味着不同的红细胞分子或对比剂分子穿过毛细血管床的时间会很不相同（尽管最终所有分子都会从静脉流出）。平均通过时间（MTT，用秒或分钟度量）反映了注射的示踪剂随血液流动驻留在组织中的平均时间。</p>
-<p>血流量BF，血容量BV以及平均通过时间MTT通过中心容积定律（central volume theorem）相联系，如果两个已知，第三个就可以计算出来。它们之间的关系如下：BF = BV / MTT. 考虑一下上文提到的血流量和血容量的单位，这个关系很容易记，血流量就表示单位时间内的血容量。</p>
-<p>在灌注成像研究中，BF，BV和MTT计算出来后一般用施加伪彩的参数图显示，这些参数图提供了互补的灌注相关信息，对做出临床决策很有帮助。</p>
+<p>MRI测量灌注有三种常用方法：动态磁敏感对比度成像（DSC，Dynamic Susceptibility Contrast），动态对比增强成像（DCE，Dynamic Contrast Enhanced）和动脉自旋标记（ASL，Arterial Spin Labeling）。DSC和DCE都需要静脉注射钆螯合物，而ASL不需要外源性对比剂。这些技术将在下面简要说明，在后续的Q&amp;A中有更详细的解释。</p>
+<div class="section" id="dsc">
+<h2>磁共振动态磁敏感性对比成像-DSC</h2>
+<p>DSC灌注成像首先静脉团注钆螯合物，随后对感兴趣器官快速获取一系列梯度回波或自旋回波图像。当钆螯合物首次通过局部循环时，它仍然主要局限在血管内空间。由于钆基的顺磁性特征，团注通过时钆基在血管周围产生局部磁场扰动，T2(T2*)失相位造成信号损失。通过测量随时间变化的信号强度，并且按照一定的数学模型拟合，各种灌注参数（如，血容量，血流量，平均通过时间）都能够计算出来。由于DSC成像仅依赖于对比剂的首次通过，它有时被称为造影剂跟踪检查。，图像采集时间非常短（约2分钟）。</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="49%" />
@@ -100,55 +95,61 @@
 </colgroup>
 <tbody valign="top">
 <tr><td><div class="first last figure">
-<img alt="T2* weighted image" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/5694391_orig.jpg" style="width: 300px;" />
-<p class="caption">T2加权像，显示胼胝体上的脑肿瘤</p>
+<img alt="T1 weighted image of Gd" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/2636614_orig.jpg" style="width: 300px;" />
+<p class="caption">恶性脑肿瘤，钆螯合物增强的T1加权像</p>
 </div>
 </td>
 <td><div class="first last figure">
-<img alt="increased BV" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/6193878_orig.gif" style="width: 300px;" />
-<p class="caption">显著升高的BV，高度恶性的成胶质细胞瘤</p>
+<img alt="CBV of DSC" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/1927254_orig.gif" style="width: 300px;" />
+<p class="caption">DSC的脑血容量参数图</p>
 </div>
 </td>
 </tr>
-</tbody>
-</table>
-<p>例如脑梗死区域一般显示为BV和BF减小，而MTT上升。相反地，没有梗死的局部缺血区域（缺血半暗带）一般BF减小，MTT上升，而BV正常。</p>
-<table border="1" class="docutils">
-<colgroup>
-<col width="49%" />
-<col width="51%" />
-</colgroup>
-<tbody valign="top">
 <tr><td><div class="first last figure">
-<img alt="T1 weighted image" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/5694391_orig.jpg" style="width: 300px;" />
-<p class="caption">治疗中的脑肿瘤的对比剂增强的T1加权像，显示肿瘤变大</p>
+<img alt="Ktrans of DCE" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/6485778_orig.gif" style="width: 300px;" />
+<p class="caption">DCE的K<sup>trans</sup> 参数图</p>
 </div>
 </td>
 <td><div class="first last figure">
-<img alt="decreased BV" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/7736565_orig.gif" style="width: 300px;" />
-<p class="caption">减少的BV预示更可能是肿瘤放射性坏死而不是肿瘤进化</p>
+<img alt="CBV of ASL" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/1126093_orig.jpg" style="width: 300px;" />
+<p class="caption">ASL的脑血流量参数图</p>
 </div>
 </td>
 </tr>
 </tbody>
 </table>
-<p>如何从图像数据中计算这些量化的灌注参数图的细节将会在后面的几个Q&amp;A中给出。</p>
+</div>
+<div class="section" id="dce">
+<h2>磁共振动态对比增强成像-DCE</h2>
+<p>与DSC类似，DCE也需要注射钆基造影剂。但是DCE利用钆螯合物的T1缩短效应，在大约5-10分钟时间内重复获取T1加权图像。在此期间，钆造影剂在组织内的细胞外空间聚集，速度由灌注，毛细血管通透性和毛细血管表面积共同决定。这些图像数据可以直观地分析或半定量分析。应用房室模型可以得到量化结果，计算出多个生理参数，包括转移常数（K<sup>trans</sup>），血浆体积分数（VP）和组织细胞外空间的体积分数（VE）。</p>
+</div>
+<div class="section" id="asl">
+<h2>动脉自旋标记-ASL</h2>
+<p>与DSC和DCE不同，ASL不需要注射钆基对比剂，而是通过在近端血管用射频脉冲“磁标记”水分子，使用病人自己的水分子作为内源性扩散示踪剂。当这些水分子流到感兴趣的器官，他们会减少组织的信号强度，与灌注成比例。典型的ASL脉冲序列中，会在有标记脉冲和无标记脉冲情况下都采集图像，然后相减。通过应用数学模型，可以得到各种灌注参数（主要是血流量）。ASL技术本身的信噪比就比较低，所以需多次测量取平均，导致成像时间至少需要3-5分钟才能获得有用的数据。由于信噪比的限制，3T下的ASL明显好于1.5T。</p>
+<p>DSC，DCE和ASL更详细的描述在后续的Q&amp;A中会提供。如下的汇总表提供了各种技术的比较。</p>
+<div class="figure">
+<img alt="dsc-v-dce-v-asl" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/4213649_orig.png?640" style="width: 700px;" />
+</div>
 <dl class="docutils">
 <dt><strong>参考材料</strong></dt>
 <dd><ul class="first last simple">
-<li>Fick A. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/fick_original.pdf">Ueber die Messung des Blutquantums in der Herzventrikeln</a>. Sitz der Physik-Med Ges Wurzburg 1870; 2:16–28. (Classic paper where the &quot;Fick Principle&quot; is formulated&quot;).</li>
-<li>Kety SS, Schmidt CF. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/kety_and_schmitt_original_.pdf">The determination of cerebral blood flow in man by the use of nitrous oxide in low concentrations</a>. Am J Physiol 1945; 143:53–66. (classic paper; worth a look)</li>
-<li>Meier P, Zierler KL. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/j_appl_physiol_1954.pdf">On the theory of the indicator-dilution method for measurement of blood flow and volume</a>. J Appl Physiol 1954; 6:731-744. (Lays out proof for the central volume theorem and derivation of mean transit time).</li>
+<li>Borogovac A, Asllani I. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/asl_technical_review_818456.pdf">Arterial spin labeling (ASL) fMRI: advantages, theoretical constrains and experimental challenges in neurosciences</a>. Int J Biomed Imaging 2012; Article ID 818456:1-13.</li>
+<li>Diebler AR, Pollock JM, Kraft RA, et al. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/deibler_asl1.pdf">Arterial spin-labeling in routine clinical practice, Part 1: techniques and artifacts</a>. AJNR Am J Neuroradiol 2008; 29:1228-1234.</li>
+<li>Essig M, Shiroishi MS, Nguyen TB, et al. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/essig_5_questions_ajr2e122e9543.pdf">Perfusion MRI: the five most frequently asked technical questions</a>. AJR Am J Roentgenol 2013; 200:24-34.</li>
+<li>Ferré J-C, Bannier E, Raoult H, et al. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/asl_review_1156841300209x_1-s2.0-s221156841300209x-main.pdf">Arterial spin labeling (ASL) perfusion: techniques and clinical use</a>. Diagn Interv Radiol 2013; 94:1211-1223</li>
+<li>Jahng G-H, Li K-L, Ostergaard l, Calamante F. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/perfusion_review_article_kjr-15-554.pdf">Perfusion magnetic resonance imaging: a comprehensive update on principles and techniques</a>. Korean J Radiol 2014; 15:554-577. (good recent review).</li>
+<li>McGehee BE, Pollock JM, Maldjian JA. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/mcgehee_whitlow_review.pdf">Brain perfusion imaging: how does it work and what should I use</a>? J Magn Reson Imaging 2012; 36:1257-1272.</li>
+<li>Tofts PS. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/dce-mri_siemens.pdf">T1-weighted DCE imaging concepts: modelling, acquisition and analysis</a>. MAGNETOM Flash 2010; 3:30-35.</li>
 <li>Zaharchuk G. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/ajnr_zharchuk_perfusion_review.pdf">Theoretical basis of hemodynamic MR imaging techniques to measure cerebral blood volume, cerebral blood flow, and permeability</a>. AJNR Am J Neuroradiol 2007; 28:1850-8.</li>
 </ul>
 </dd>
 <dt><strong>相关问题</strong></dt>
 <dd><ul class="first last simple">
-<li><a class="reference external" href="http://www.mri-q.com/quantifying-perfusion.html">How is the arterial input function used to extract more quantitative flow information from the DSC data?</a></li>
-<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/dsc/measuring_perfusion.html">Question-灌注方法：灌注（Perfusion）如何定义和测量?</a></li>
+<li><a class="reference external" href="http://www.mri-q.com/how-to-perform-dsc.html">Question-DSC：如何做一个DSC灌注研究？</a></li>
 </ul>
 </dd>
 </dl>
+</div>
 
             
             
@@ -156,8 +157,7 @@
             <aside>
             <nav>
             <ul class="articles-timeline">
-                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/dsc/measuring_perfusion.html" title="Previous: Question-灌注方法：灌注（Perfusion）如何定义和测量？">Question-灌注方法：灌注（Perfusion）如何定义和测量？</a></li>
-                <li class="next-article"><a href="http://chunshan.github.io/MRI-QA/dsc/how-to-perform-dsc.html" title="Next: Question-DSC：如何做一个DSC灌注研究？">Question-DSC：如何做一个DSC灌注研究？</a> »</li>
+                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/dsc/how-to-perform-dsc.html" title="Previous: Question-DSC：如何做一个DSC灌注研究？">Question-DSC：如何做一个DSC灌注研究？</a></li>
             </ul>
             </nav>
             </aside>
@@ -165,11 +165,17 @@
         <section>
         <div class="span2" style="float:right;font-size:0.9em;">
             <h4>Published</h4>
-            <time pubdate="pubdate" datetime="2015-10-10T00:00:00+08:00">十月 10, 2015</time>
+            <time pubdate="pubdate" datetime="2015-10-16T00:00:00+08:00">十月 16, 2015</time>
             <h4>Category</h4>
             <a class="category-link" href="http://chunshan.github.io/MRI-QA/categories.html#dsc-ref">DSC</a>
             <h4>Tags</h4>
             <ul class="list-of-tags tags-in-article">
+                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#asl-ref">ASL
+                    <span>1</span>
+</a></li>
+                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#dce-ref">DCE
+                    <span>1</span>
+</a></li>
                 <li><a href="http://chunshan.github.io/MRI-QA/tags.html#dsc-ref">DSC
                     <span>4</span>
 </a></li>
