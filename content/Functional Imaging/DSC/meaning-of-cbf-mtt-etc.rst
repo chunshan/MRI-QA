@@ -7,14 +7,21 @@ Question-灌注参数：血流量（BF，Blood Flow），血容量（BV，Blood 
 :authors: Chunshan
 :summary: 灌注参数血流量（BF，Blood Flow），血容量（BV，Blood Volume），平均通过时间（MTT， Mean Transit Time）等的定义和使用
 
+
 原文链接:\ `How are parameters like BF, BV, and MTT defined and used in perfusion imaging? <http://www.mri-q.com/meaning-of-cbf-mtt-etc.html>`_
 
 **概要** 
  .. figure:: http://www.mri-q.com/uploads/3/2/7/4/3274160/2265020_orig.png
+    :alt: summary
+    :align: center
+    :width: 700
 
 最简单的局部循环模型包含一个动脉输入，一个组织毛细血管床和一个静脉输出。这个模型有悠久的历史，最早被19世纪的Fick用来研究心脏输出。20世纪40年代，Kety和Schmidt修改了此模型以用于指示剂稀释测定血流量技术中，20世纪50年代，Meier和Zierler进一步扩展了此模型。
 
 .. figure:: http://www.mri-q.com/uploads/3/2/7/4/3274160/4670936_orig.gif?355
+   :alt: MTT=BV/BF
+   :align: right
+   :width: 500
 
    局部循环的简单模型有一个动脉输入和一个静脉输出，并且假设血流量（BF）和血容量（BV）是恒定的
 
@@ -26,36 +33,32 @@ Question-灌注参数：血流量（BF，Blood Flow），血容量（BV，Blood 
 
 在灌注成像研究中，BF，BV和MTT计算出来后一般用施加伪彩的参数图显示，这些参数图提供了互补的灌注相关信息，对做出临床决策很有帮助。
 
-.. figure:: http://www.mri-q.com/uploads/3/2/7/4/3274160/5694391_orig.jpg
-
-T2加权像，显示胼胝体上的脑肿瘤
-
-.. figure:: http://www.mri-q.com/uploads/3/2/7/4/3274160/6193878_orig.gif
-
-显著升高的BV，高度恶性的成胶质细胞瘤
++--------------------------------------------------------------------------+----------------------------------------------------------------------------+
+| .. figure:: http://www.mri-q.com/uploads/3/2/7/4/3274160/5694391_orig.jpg| .. figure::  http://www.mri-q.com/uploads/3/2/7/4/3274160/6193878_orig.gif |
+|    :alt: T2* weighted image                                              |    :alt: increased BV                                                      |
+|    :width: 300                                                           |    :width: 300                                                             |
+|                                                                          |                                                                            |
+|    T2加权像，显示胼胝体上的脑肿瘤                                        |    显著升高的BV，高度恶性的成胶质细胞瘤                                    |
++--------------------------------------------------------------------------+----------------------------------------------------------------------------+
 
 例如脑梗死区域一般显示为BV和BF减小，而MTT上升。相反地，没有梗死的局部缺血区域（缺血半暗带）一般BF减小，MTT上升，而BV正常。
 
-.. figure:: http://www.mri-q.com/uploads/3/2/7/4/3274160/5694391_orig.jpg
-
-接受治疗的脑肿瘤对比剂增强的T1加权像，显示肿瘤变大
-
-.. figure:: http://www.mri-q.com/uploads/3/2/7/4/3274160/7736565_orig.gif
-
-减少的BV预示更可能是肿瘤放射性坏死而不是肿瘤进化
++--------------------------------------------------------------------------+----------------------------------------------------------------------------+
+| .. figure:: http://www.mri-q.com/uploads/3/2/7/4/3274160/5694391_orig.jpg| .. figure:: http://www.mri-q.com/uploads/3/2/7/4/3274160/7736565_orig.gif  |
+|    :alt: T1 weighted image                                               |    :alt: decreased BV                                                      |
+|    :width: 300                                                           |    :width: 300                                                             |
+|                                                                          |                                                                            |
+|    治疗中的脑肿瘤的对比剂增强的T1加权像，显示肿瘤变大                    |    减少的BV预示更可能是肿瘤放射性坏死而不是肿瘤进化                        |
++--------------------------------------------------------------------------+----------------------------------------------------------------------------+
 
 如何从图像数据中计算这些量化的灌注参数图的细节将会在后面的几个Q&A中给出。
 
 **参考材料**
-      Fick A. `Ueber die Messung des Blutquantums in der Herzventrikeln <http://www.mri-q.com/uploads/3/2/7/4/3274160/fick_original.pdf>`_. Sitz der Physik-Med Ges Wurzburg 1870; 2:16–28. (Classic paper where the "Fick Principle" is formulated"). 
-
-      Kety SS, Schmidt CF. `The determination of cerebral blood flow in man by the use of nitrous oxide in low concentrations <http://www.mri-q.com/uploads/3/2/7/4/3274160/kety_and_schmitt_original_.pdf>`_. Am J Physiol 1945; 143:53–66. (classic paper; worth a look)  
-
-      Meier P, Zierler KL. `On the theory of the indicator-dilution method for measurement of blood flow and volume <http://www.mri-q.com/uploads/3/2/7/4/3274160/j_appl_physiol_1954.pdf>`_. J Appl Physiol 1954; 6:731-744. (Lays out proof for the central volume theorem and derivation of mean transit time).
-
-      Zaharchuk G. `Theoretical basis of hemodynamic MR imaging techniques to measure cerebral blood volume, cerebral blood flow, and permeability <http://www.mri-q.com/uploads/3/2/7/4/3274160/ajnr_zharchuk_perfusion_review.pdf>`_. AJNR Am J Neuroradiol 2007; 28:1850-8.
+      * Fick A. `Ueber die Messung des Blutquantums in der Herzventrikeln <http://www.mri-q.com/uploads/3/2/7/4/3274160/fick_original.pdf>`_. Sitz der Physik-Med Ges Wurzburg 1870; 2:16–28. (Classic paper where the "Fick Principle" is formulated"). 
+      * Kety SS, Schmidt CF. `The determination of cerebral blood flow in man by the use of nitrous oxide in low concentrations <http://www.mri-q.com/uploads/3/2/7/4/3274160/kety_and_schmitt_original_.pdf>`_. Am J Physiol 1945; 143:53–66. (classic paper; worth a look)  
+      * Meier P, Zierler KL. `On the theory of the indicator-dilution method for measurement of blood flow and volume <http://www.mri-q.com/uploads/3/2/7/4/3274160/j_appl_physiol_1954.pdf>`_. J Appl Physiol 1954; 6:731-744. (Lays out proof for the central volume theorem and derivation of mean transit time).
+      * Zaharchuk G. `Theoretical basis of hemodynamic MR imaging techniques to measure cerebral blood volume, cerebral blood flow, and permeability <http://www.mri-q.com/uploads/3/2/7/4/3274160/ajnr_zharchuk_perfusion_review.pdf>`_. AJNR Am J Neuroradiol 2007; 28:1850-8.
 
 **相关问题**
-	`How is the arterial input function used to extract more quantitative flow information from the DSC data?  <http://www.mri-q.com/quantifying-perfusion.html>`_
-
-	`Question-灌注方法：灌注（Perfusion）如何定义和测量? <http://www.mri-q.com/dsc-v-dce-v-asl.html>`_
+	* `How is the arterial input function used to extract more quantitative flow information from the DSC data?  <http://www.mri-q.com/quantifying-perfusion.html>`_
+	* `Question-灌注方法：灌注（Perfusion）如何定义和测量? <http://chunshan.github.io/MRI-QA/dsc/measuring_perfusion.html>`_
