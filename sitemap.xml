@@ -5,35 +5,63 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://chunshan.github.io/MRI-QA/</loc>
-<lastmod>2015-10-16T23:02:26-00:00</lastmod>
+<lastmod>2015-10-18T21:58:06-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://chunshan.github.io/MRI-QA/archives.html</loc>
-<lastmod>2015-10-16T23:02:26-00:00</lastmod>
+<lastmod>2015-10-18T21:58:06-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://chunshan.github.io/MRI-QA/tags.html</loc>
-<lastmod>2015-10-16T23:02:26-00:00</lastmod>
+<lastmod>2015-10-18T21:58:06-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://chunshan.github.io/MRI-QA/categories.html</loc>
-<lastmod>2015-10-16T23:02:26-00:00</lastmod>
+<lastmod>2015-10-18T21:58:06-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/dsc/dsc-v-dce-v-asl.html</loc>
-<lastmod>2015-10-16T00:00:00+08:00</lastmod>
+<loc>http://chunshan.github.io/MRI-QA/dsc/dsc-signal-v-gd.html</loc>
+<lastmod>2015-10-21T00:00:00+08:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://chunshan.github.io/MRI-QA/dsc/dsc-curve-analysis.html</loc>
+<lastmod>2015-10-20T00:00:00+08:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://chunshan.github.io/MRI-QA/dsc/dsc-recirculation.html</loc>
+<lastmod>2015-10-19T00:00:00+08:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://chunshan.github.io/MRI-QA/dsc/t1-effects-on-dsc.html</loc>
+<lastmod>2015-10-18T00:00:00+08:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://chunshan.github.io/MRI-QA/dsc/bolus-gd-effect.html</loc>
+<lastmod>2015-10-17T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -41,6 +69,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://chunshan.github.io/MRI-QA/dsc/how-to-perform-dsc.html</loc>
 <lastmod>2015-10-16T00:00:00+08:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://chunshan.github.io/MRI-QA/dsc/dsc-v-dce-v-asl.html</loc>
+<lastmod>2015-10-15T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -68,7 +103,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://chunshan.github.io/MRI-QA/dsc/index.html</loc>
-<lastmod>2015-10-16T00:00:00+08:06</lastmod>
+<lastmod>2015-10-21T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -82,7 +117,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://chunshan.github.io/MRI-QA/author/chunshan.html</loc>
-<lastmod>2015-10-16T00:00:00+08:06</lastmod>
+<lastmod>2015-10-21T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
