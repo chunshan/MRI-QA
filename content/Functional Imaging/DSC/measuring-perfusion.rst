@@ -34,6 +34,10 @@ Question-灌注方法：灌注（Perfusion）如何定义和测量？
 2. 细胞外示踪剂，不进入细胞，但可自由地通过血管壁，分布在组织的细胞外空间。大多数钆基造影剂属于此类。
 3. 可扩散示踪剂，分布在组织所有部位，包括细胞内。通常用于MRI的可扩散示踪剂是磁标记的水分子，用于动脉自旋标记（ASL，arterial spin labelling ）。
 
+**高级讨论**
+
+To be updated
+
 **参考材料**
      * Cuenod CA, Balvay D. `Perfusion and vascular permeability: basic concepts and measurement in DCE-CT and DCE-MRI <http://www.mri-q.com/uploads/3/2/7/4/3274160/permeability_1-s2.0-s2211568413003306-main.pdf>`_. Diagn Interven Imaging 2013; 94:1187-1204. (Good review of basic mechanisms; some terminology is slightly different than abbreviations used in Tofts models).          
      * Frackowiak RSJ, Lenzi G-L, Jones T, Heather JD. `Quantitative measurement of regional cerebral blood flow and oxygen metabolism in man using 15O and positron emission tomography: theory, procedure, and normal values <http://www.mri-q.com/uploads/3/2/7/4/3274160/quantitative_measurement_of_regional_cerebral.1.pdf>`_. J Comput Assist Tomogr 1980; 4:727-736.  

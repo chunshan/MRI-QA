@@ -1,7 +1,7 @@
 Question-MR灌注概述：MRI中的DSC，DCE和ASL灌注方法有何不同？
 =============================================================
 
-:date: 2015-10-16
+:date: 2015-10-15
 :tags: Perfusion, DSC, DCE, ASL
 :slug: dsc-v-dce-v-asl
 :authors: Chunshan
@@ -62,4 +62,4 @@ DSC，DCE和ASL更详细的描述在后续的Q&A中会提供。如下的汇总�
      * Zaharchuk G. `Theoretical basis of hemodynamic MR imaging techniques to measure cerebral blood volume, cerebral blood flow, and permeability <http://www.mri-q.com/uploads/3/2/7/4/3274160/ajnr_zharchuk_perfusion_review.pdf>`_. AJNR Am J Neuroradiol 2007; 28:1850-8.
 
 **相关问题**
-	* `Question-DSC：如何做一个DSC灌注研究？ <http://www.mri-q.com/how-to-perform-dsc.html>`_
+	* `Question-DSC：如何做一个DSC灌注研究？ <http://chunshan.github.io/MRI-QA/dsc/how-to-perform-dsc.html>`_
