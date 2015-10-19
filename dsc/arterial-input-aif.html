@@ -10,18 +10,18 @@
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary">
 
-<meta name="keywords" content="Perfusion, DSC, DSC, " />
+<meta name="keywords" content="Perfusion, DSC，AIF, DSC, " />
 
-<meta property="og:title" content="Question-钆的T1效应：钆的T1效应出现情况下，对比增强区域有何表现？ "/>
-<meta property="og:url" content="http://chunshan.github.io/MRI-QA/dsc/t1-effects-on-dsc.html" />
-<meta property="og:description" content="钆外渗会造成T1效应" />
+<meta property="og:title" content="Question-动脉输入函数（AIF）：动脉输入函数是什么，为什么需要测量动脉输入函数？ "/>
+<meta property="og:url" content="http://chunshan.github.io/MRI-QA/dsc/arterial-input-aif.html" />
+<meta property="og:description" content="动脉输入函数的意义及必要性" />
 <meta property="og:site_name" content="MRI Q&amp;A" />
 <meta property="og:article:author" content="Chunshan" />
-<meta property="og:article:published_time" content="2015-10-18T00:00:00+08:00" />
-<meta name="twitter:title" content="Question-钆的T1效应：钆的T1效应出现情况下，对比增强区域有何表现？ ">
-<meta name="twitter:description" content="钆外渗会造成T1效应">
+<meta property="og:article:published_time" content="2015-10-22T00:00:00+08:00" />
+<meta name="twitter:title" content="Question-动脉输入函数（AIF）：动脉输入函数是什么，为什么需要测量动脉输入函数？ ">
+<meta name="twitter:description" content="动脉输入函数的意义及必要性">
 
-        <title>Question-钆的T1效应：钆的T1效应出现情况下，对比增强区域有何表现？  · MRI Q&amp;A
+        <title>Question-动脉输入函数（AIF）：动脉输入函数是什么，为什么需要测量动脉输入函数？  · MRI Q&amp;A
 </title>
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
@@ -68,7 +68,7 @@
 <article>
 <div class="row-fluid">
     <header class="page-header span10 offset2">
-    <h1><a href="http://chunshan.github.io/MRI-QA/dsc/t1-effects-on-dsc.html"> Question-钆的T1效应：钆的T1效应出现情况下，对比增强区域有何表现？  </a></h1>
+    <h1><a href="http://chunshan.github.io/MRI-QA/dsc/arterial-input-aif.html"> Question-动脉输入函数（AIF）：动脉输入函数是什么，为什么需要测量动脉输入函数？  </a></h1>
     </header>
 </div>
 
@@ -76,36 +76,38 @@
         <div class="span8 offset2 article-content">
 
             
-            <p>原文链接:<a class="reference external" href="http://www.mri-q.com/t1-effects-on-dsc.html">What about areas of contrast enhancement? Surely some T1 effects of gadolinium are present there...</a></p>
+            <p>原文链接:<a class="reference external" href="http://www.mri-q.com/arterial-input-aif.html">What is the arterial input function (AIF) and why do you need to measure it?</a></p>
 <dl class="docutils">
 <dt><strong>概要</strong></dt>
 <dd><div class="first last figure align-center">
-<img alt="summary" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/4612212_orig.png" style="width: 700px;" />
+<img alt="summary" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/9274759_orig.png" style="width: 700px;" />
 </div>
 </dd>
 </dl>
-<p>由于血脑屏障（BBB，Blood Brain Barrier）的阻隔，含钆造影剂正常情况下不能进入大脑和脊髓的血管外空间。血脑屏障的内皮细胞之间紧密连接，只让离子和小分子（如O2）穿过血管壁。如果血脑屏障由于疾病（如恶性肿瘤和感染）被破坏，造影剂漏入脑实质，使T1缩短，T1信号增强。</p>
+<p>理想的DSC实验中，我们希望钆能够以短而紧凑的静脉推注递送到组织，然而实际上，血液要经过心脏和肺，最初的静脉推注变得延迟并且分散，DSC实验中测得的组织浓度曲线形状依赖于到达的动脉输入函数（AIF, Arterial Input Function， a(t)）的形状。如果没有AIF，组织灌注动力学中内在有价值的信息就可能会丢失。</p>
 <div class="figure align-right">
-<img alt="Blood-brain Barrier" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/8677845_orig.jpg" style="width: 500px;" />
-<p class="caption">血脑屏障紧密连接的内皮细胞阻止血管内的钆造影剂进入大脑的细胞外空间（此图来自维基百科）</p>
+<img alt="tissue contrast concentration curve" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/8550739_orig.png?322" style="width: 500px;" />
+<p class="caption">组织对比剂浓度曲线c<sub>tissue</sub>(t) 的形状高度依赖于动脉输入函数的形状</p>
 </div>
-<p>有渗漏的血脑屏障会使造影剂在组织中累积，这违反了简单示踪剂动力学模型的基本假设，也就是违反了DSC成像的基础，没有池或造影剂滞留。血脑屏障破坏时，血流量/血容量的估计会出现明显的错误。</p>
-<p>钆造影剂累积造成T1缩短使DSC灌注成像出现两种效应：
-1，迟钝的T2*信号损失。DSC方法依赖于钆造影剂团通过时T2*失相位导致的信号下降。血管外钆造影剂的T1效应使得信号升高，延迟了希望的T2*缩短，造成一些情况下反常的灌注后信号过冲。    2，稳态信号效应。DSC图像采集通常使用相对较短的TR（一般为1000-2000ms），由于钆累积导致T1缩短的区域在射频脉冲之间恢复更快，因此有更强的稳态信号。翻转角（α）大时，这种现象更加明显。</p>
-<p>有几种措施补偿钆外渗造成的T1效应。一种常用方法是使用钆“预负荷”，在常规注射和DSC序列采集前约5-10分钟注射造影剂总剂量的 ¼ 到 ⅓。钆预负荷会升高对比度增强区域的基准信号，在DSC团注期间获得更好的T2*改变。
-第二种减少钆外渗造成的T1效应的方法是减小DSC采集序列的射频脉冲翻转角，然而翻转角减小也会导致信噪比下降。其他补偿组织中钆累积效应的方法是基于软件的泄露校正算法。</p>
+<p>获取AIF的最简单方法是使感兴趣区域能够覆盖一条容易识别的动脉，在腹部影像学检查中，可能是主动脉或肾动脉，在头部，往往主要是脑动脉（ACA, MCA）或其近侧分支。如果以这种方式得到的AIF应用于一个片层内的所有体素，称之为全局AIF(Global AIF)。但是测得的AIF位置与感兴趣体素的位置距离可能比较远，对比剂团注的延迟和分散在计算血流量时会产生明显的错误。潜在更好的方法是从与每一个成像的组织体素很近的小动脉中识别局部AIF（Local AIF），这也是过去十年众多研究的主题。</p>
+<p>现在的灌注软件包提供了自动或半自动的方法来识别最优的局部AIF，下图所示的例子中，从大脑一个小区域可能的AIF数组中可以选出最佳的候选者。被选为AIF的体素理想上有比较平坦的基线，陡峭的峰，和紧凑的形状。下图的例子中，第二（或第三）列的体素可能是最佳选择。</p>
+<div class="figure align-center">
+<img alt="choose AIF from Voxel-by-voxel interrogation" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/217349_orig.gif?387" style="width: 600px;" />
+<p class="caption">逐个体素查询来确定大脑中动脉附近1cm<sup>2</sup>区域的最优AIF。最优AIF一般有平坦的基线和陡峭的峰</p>
+</div>
+<p>一旦选择了合适的AIF，软件就可以产生每个像素的重要灌注参数，形成参数图，包括血容量，血流量和平均通过时间。这是如何完成的是下一个Q&amp;A的主题。</p>
 <dl class="docutils">
 <dt><strong>参考材料</strong></dt>
 <dd><ul class="first last simple">
-<li><a class="reference external" href="https://en.wikipedia.org/wiki/Blood-brain_barrier">&quot;Blood-brain Barrier&quot;</a>, Wikipedia, The Free Encyclopedia.</li>
-<li>Boxerman JL, Prah DE, Paulson ES, et al. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/preload_asnr.pdf">Gadolinium-based cerebral blood volume estimation determined by comparison with MION as a criterion standard</a>. AJNR Am J Neuroradiol 2012; 33:1081-87.</li>
-<li>Boxerman JL, Schmainda KM, Weisskoff RM. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/boxerman_ajnr_uncorrected_maps.pdf">Relative cerebral blood volume maps corrected for contrast agent extravasation significantly correlate with glioma tumor grade, whereas uncorrected maps do not</a>. AJNR Am J Neuroradiol 2006; 27:859-67.</li>
-<li>Welker K, Boxerman J, Kalnin A, et al. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/white_paper_asfnr_on_dsc_ajnr.a4341.full.pdf">ASFNR recommendations for clinical performance of MR dynamic susceptibility contrast perfusion imaging of the brain</a>. AJNR Am J Neuroradiol 2015; 36: E41-E51.</li>
+<li>Bleeker EJW, van Buchem MA, van Osch MJP. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/bleeker_2009.pdf">Optimal location for arterial input function measurements near the middle cerebral artery in first-pass perfusion MRI</a>. J Cereb Blood Flow Metab 2009; 29:840-852. (Best location for the AIF may be just outside the MCA, not within it).</li>
+<li>Calamante F, Mørup M, Hansen LK. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/calamante_et_al-2004-magnetic_resonance_in_medicine.pdf">Defining a local arterial input function for perfusion MRI using independent component analysis</a>. Magn Reson Med 2004; 52:789-797.</li>
+<li>Carroll TJ, Rowley HA, Haughton VM. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/automated_aif_radiol2e2272020092.pdf">Automatic calculation of the arterial input function for cerebral perfusion imaging with MR imaging</a>. Radiology 2003; 227:593-600.</li>
+<li>Mlynash M, Eyngorn I, Bammer R, et al. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/automated_aif_ajnr1479.full.pdf">Automated method for generating the arterial input function on perfusion-weighted MR imaging: validation in patients with stroke</a>. AJNR Am J Neuroradiol 2005; 26:1479-1486. (Computers generally due a more consistent/reliable job of finding the best AIF than people!)</li>
 </ul>
 </dd>
 <dt><strong>相关问题</strong></dt>
 <dd><ul class="first last simple">
-<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/dsc/how-to-perform-dsc.html">Question-DSC：如何做一个DSC灌注研究？</a></li>
+<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/dsc/quantitative-dsc.html">Question-DSC高级处理：如何使用动脉输入函数从DSC数据中提取更多量化的血流信息？</a></li>
 </ul>
 </dd>
 </dl>
@@ -116,8 +118,8 @@
             <aside>
             <nav>
             <ul class="articles-timeline">
-                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/dsc/bolus-gd-effect.html" title="Previous: Question-注钆效应：在常规MR增强图像中钆对比剂用于增强信号，为什么在DSC灌注图像中信号减弱？">Question-注钆效应：在常规MR增强图像中钆对比剂用于增强信号，为什么在DSC灌注图像中信号减弱？</a></li>
-                <li class="next-article"><a href="http://chunshan.github.io/MRI-QA/dsc/dsc-recirculation.html" title="Next: Question-DSC再循环效应：为什么DSC曲线在对比剂通过后不能恢复到基线？">Question-DSC再循环效应：为什么DSC曲线在对比剂通过后不能恢复到基线？</a> »</li>
+                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/dsc/dsc-signal-v-gd.html" title="Previous: Question-DSC信号与钆：DSC中，能够从采集信号中得到量化的钆浓度实际值么？">Question-DSC信号与钆：DSC中，能够从采集信号中得到量化的钆浓度实际值么？</a></li>
+                <li class="next-article"><a href="http://chunshan.github.io/MRI-QA/dsc/quantitative-dsc.html" title="Next: Question-DSC高级处理：如何使用动脉输入函数从DSC数据中提取更多量化的血流信息？">Question-DSC高级处理：如何使用动脉输入函数从DSC数据中提取更多量化的血流信息？</a> »</li>
             </ul>
             </nav>
             </aside>
@@ -125,13 +127,13 @@
         <section>
         <div class="span2" style="float:right;font-size:0.9em;">
             <h4>Published</h4>
-            <time pubdate="pubdate" datetime="2015-10-18T00:00:00+08:00">十月 18, 2015</time>
+            <time pubdate="pubdate" datetime="2015-10-22T00:00:00+08:00">十月 22, 2015</time>
             <h4>Category</h4>
             <a class="category-link" href="http://chunshan.github.io/MRI-QA/categories.html#dsc-ref">DSC</a>
             <h4>Tags</h4>
             <ul class="list-of-tags tags-in-article">
-                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#dsc-ref">DSC
-                    <span>10</span>
+                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#dscaif-ref">DSC，AIF
+                    <span>1</span>
 </a></li>
                 <li><a href="http://chunshan.github.io/MRI-QA/tags.html#perfusion-ref">Perfusion
                     <span>11</span>
