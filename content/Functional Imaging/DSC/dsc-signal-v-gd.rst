@@ -7,7 +7,7 @@ Question-DSC信号与钆：DSC中，能够从采集信号中得到量化的钆�
 :authors: Chunshan
 :summary: 从采集信号中如何得到量化的钆浓度实际值
 
-原文链接:\ `What parameters can be extracted from the DSC intensity curve? <http://www.mri-q.com/dsc-curve-analysis.html>`_
+原文链接:\ `Is it possible to quantify the actual concentration of Gd from its signal in a DSC study? <http://www.mri-q.com/dsc-signal-v-gd.html>`_
 
 **概要** 
  .. figure:: http://www.mri-q.com/uploads/3/2/7/4/3274160/5135509_orig.png
