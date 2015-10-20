@@ -10,18 +10,18 @@
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary">
 
-<meta name="keywords" content="Perfusion, DSC, DSC, " />
+<meta name="keywords" content="Perfusion, DCE, DCE, " />
 
-<meta property="og:title" content="Question-DSC信号与钆：DSC中，能够从采集信号中得到量化的钆浓度实际值么？ "/>
-<meta property="og:url" content="http://chunshan.github.io/MRI-QA/dsc/dsc-signal-v-gd.html" />
-<meta property="og:description" content="从采集信号中如何得到量化的钆浓度实际值" />
+<meta property="og:title" content="Question-DCE成像：如何评估从DCE检查中获得的信息？ "/>
+<meta property="og:url" content="http://chunshan.github.io/MRI-QA/dce/how-is-dce-analyzed.html" />
+<meta property="og:description" content="如何评估从DCE检查中获得的信息" />
 <meta property="og:site_name" content="MRI Q&amp;A" />
 <meta property="og:article:author" content="Chunshan" />
-<meta property="og:article:published_time" content="2015-10-21T00:00:00+08:00" />
-<meta name="twitter:title" content="Question-DSC信号与钆：DSC中，能够从采集信号中得到量化的钆浓度实际值么？ ">
-<meta name="twitter:description" content="从采集信号中如何得到量化的钆浓度实际值">
+<meta property="og:article:published_time" content="2015-10-26T00:00:00+08:00" />
+<meta name="twitter:title" content="Question-DCE成像：如何评估从DCE检查中获得的信息？ ">
+<meta name="twitter:description" content="如何评估从DCE检查中获得的信息">
 
-        <title>Question-DSC信号与钆：DSC中，能够从采集信号中得到量化的钆浓度实际值么？  · MRI Q&amp;A
+        <title>Question-DCE成像：如何评估从DCE检查中获得的信息？  · MRI Q&amp;A
 </title>
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
@@ -68,7 +68,7 @@
 <article>
 <div class="row-fluid">
     <header class="page-header span10 offset2">
-    <h1><a href="http://chunshan.github.io/MRI-QA/dsc/dsc-signal-v-gd.html"> Question-DSC信号与钆：DSC中，能够从采集信号中得到量化的钆浓度实际值么？  </a></h1>
+    <h1><a href="http://chunshan.github.io/MRI-QA/dce/how-is-dce-analyzed.html"> Question-DCE成像：如何评估从DCE检查中获得的信息？  </a></h1>
     </header>
 </div>
 
@@ -76,59 +76,40 @@
         <div class="span8 offset2 article-content">
 
             
-            <p>原文链接:<a class="reference external" href="http://www.mri-q.com/dsc-signal-v-gd.html">Is it possible to quantify the actual concentration of Gd from its signal in a DSC study?</a></p>
+            <p>原文链接:<a class="reference external" href="http://www.mri-q.com/how-is-dce-analyzed.html">How do you evaluate the information obtained from a DCE imaging study?</a></p>
 <dl class="docutils">
 <dt><strong>概要</strong></dt>
 <dd><div class="first last figure align-center">
-<img alt="summary" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/5135509_orig.png" style="width: 700px;" />
+<img alt="summary" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/225402_orig.png?310" style="width: 700px;" />
 </div>
 </dd>
 </dl>
-<p>在前面的Q&amp;A中，我们已经阐述了随着钆造影剂团的通过，T2*加权的DSC图像中MR信号强度如何降低。从这些原始数据中，一些有用的半定量参数可以提取出来，例如达峰时间（反映血流量）。为了从该数据提取更精确的和有意义的生理信息，第一步是将信号强度信息转换为实际钆浓度。</p>
-<p>通常使用的从信号强度到钆浓度的转换假设钆浓度[Gd]正比于观察到的T2*弛豫率（ΔR2* = 1/ΔT2*）的改变，也就是正比于相对信号强度的负对数。</p>
-<div class="figure align-center">
-<img alt="relationship between [Gd] and T2*-relaxation rate" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/1703874_orig.png?216" style="width: 400px;" />
+<p>DCE成像数据可以使用三种方法评估：简单的视觉评估，半定量的描述性指标分析或基于模型的定量分析。</p>
+<div class="figure align-right">
+<img alt="Contributions to total contrast enhancement as a function of time" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/3947751_orig.gif?476" style="width: 500px;" />
+<p class="caption">随时间变化不同生理现象对总对比增强的贡献</p>
 </div>
-<p>这里的So是给定体素的基线信号强度，St 是钆对比剂团通过时时刻t的信号强度。这个方程的推导在高级讨论中给出。</p>
-<p>信号强度与钆浓度之间的转换本质上是一个对数变换，从一个商业灌注软件中得到如下的图示。</p>
-<div class="figure align-center">
-<img alt="signal intensity versus time curve" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/3992770_orig.gif" style="width: 600px;" />
-<p class="caption">DSC信号强度随时间变化的曲线（原始数据）</p>
+<p>对不同时间点的对比增强图像的简单视觉评估是临床放射医生最常用的方法，首先寻找动态序列中造影剂首先出现的区域，病变区域对造影剂摄取的模式和流入/流出率，可以对病变性质提供线索。</p>
+<p>动态对比增强曲线的不同部分反映了不同的解剖和生理特征。该曲线初始陡峭的上坡与组织血流量相关，曲线的峰值高度反映的总血流量和血容量。曲线的下一部分由于造影剂渗透到组织间隙，反映的是毛细血管面积和渗透功能。曲线的最后部分反映组织总的细胞外空间和血浆间质容积。</p>
+<div class="figure align-left">
+<img alt="Semi-quantitative descriptive indices" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/3872153_orig.png?407" style="width: 400px;" />
 </div>
-<div class="figure align-center">
-<img alt="concentration curve" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/2287116_orig.gif" style="width: 600px;" />
-<p class="caption">变换后的浓度曲线，用伽马变量函数拟合</p>
-</div>
-<p><strong>高级讨论</strong></p>
-<p>下面是上文提到的钆浓度[Gd]和信号强度转换方程的简要推导。</p>
-<p>根据造影剂生理浓度的简化理论，观察到的弛豫率改变(ΔR2=1/ΔT2 and ΔR2*=1/ΔT2*) 与钆浓度[Gd]线性相关，因此测量对比剂团通过时一个体素的弛豫率改变，此位置任意时刻的钆浓度可以近似计算出来。</p>
-<dl class="docutils">
-<dt>回想一下，DSC实验中的信号（S）由一个简单的梯度回波序列产生，强度随时间指数衰减，表示如下：</dt>
-<dd>S = k e−TE/T2* = k e−TE•R2*</dd>
-<dt>其中k是常量，由组织相关属性（如T1, ρ, χ）和技术参数（如Bo, TR, NEX, α）共同决定。通过对方程两边取对数并重排，R2*可以计算出来。</dt>
-<dd>ln(S/k) = − TE • R2*
-R2* = − (1/TE) • ln(S/k)</dd>
-<dt>在钆造影剂团到达前，我们假设组织体素的初始弛豫率为R2*o，信号强度为So。在造影剂通过的时刻t时，我们假设弛豫率升高至 R2*t，信号强度下降为St，也就是</dt>
-<dd>R2*o = − (1/TE) • ln(So /k)
-R2*t = − (1/TE) • ln(St /k)</dd>
-<dt>R2*的改变正比于钆浓度，可以写为：</dt>
-<dd>ΔR2* = R2*t − R2*o = − (1/TE) • [ ln(St /k) – ln(So /k) ]</dd>
-<dt>使用对数的定义 ln(A) − ln(B) = ln(A/B) ，重写最后一个方程为：</dt>
-<dd>ΔR2* = − (1/TE) • ln(St /So)</dd>
-</dl>
-<p>弛豫率的改变与钆浓度成正比这一主要假设可能会被质疑，具体上讲，这样的线性关系仅对稀释匀质水溶液，并且使用自旋回波脉冲序列时成立。</p>
+<p>与DSC类似，也可以从原始DCE图像的强度数据中计算半定量描述性指标，包括到达时间（AT， Arrival Time），达峰时间（TTP， Time to Peak），流入率（WIR， Wash-in Rate），流出率（WOR，Wash-out Rate）曲线下面积（AUC，Area Under Curve），与基线相比的最大增强（ME， Maximum Enhancement）和最大增强百分比（%ME）。尽管这些指标的绝对值没有意义，但是与其他病变的信号强度改变比较，或与正常的背景组织比较还是有用的。</p>
+<p>DCE数据的全定量分析需要三步：1，将信号强度转换为钆造影剂浓度；2，选择一个合适的组织模型；3，从拟合的数据中估计模型参数。能够获取的重要的量化量化组织参数包括血管渗透性，造影剂交换比率，血流量和组织的细胞外空间体积。如何计算这些参数的细节和他们的生理意义是后续几个Q&amp;A的主题。</p>
 <dl class="docutils">
 <dt><strong>参考材料</strong></dt>
 <dd><ul class="first last simple">
-<li>Kiselev VG. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/kiselev2001_perfusion.pdf">On the theoretical basis of perfusion measurements by dynamic susceptibility contrast MRI</a>. Magn Reson Med 2001; 46:1113-1122.</li>
-<li>Østergaard L, Johannsen P, Host-Poulsen P, et al. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/ostergard_compare_dsc_to_o15.pdf">Cerebral blood flow measurements by magnetic resonance imaging bolus tracking: comparison with [15O]H2O positron emission tomography in humans</a>. J Cerbral Blood Flow Metab 1998; 18:935-940. (Early paper showing good agreement between DSC and PET measurements of cerebral blood flow. However, the MR data had to be &quot;calibrated&quot; to absolute flow rates measured by PET, meaning that absolute quantification of CBF by DSC alone was not possible).</li>
-<li>Simonsen CZ, Østergaard L, Smith DF, et al. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/simonsen_cz_et_al_j_mag_res_imaging_2000.pdf">Comparison of gradient- and spin-echo imaging: CBF, CBV, and MTT measurements</a>. J Magn Reson Imaging 2000; 12:411-416. (spin-echo techniques may be more accurate than GRE for quantification of microvascular flow)</li>
+<li>Choi YJ, Kim JK, Kim N, et al. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/prostate_functional_radiographics_review_g2e271065078.pdf">Functional MR imaging of prostate cancer</a>. RadioGraphics 2007; 27:65-77. (use of semi-quantitive DCE parameters to detect prostate cancer.)</li>
+<li>Kuhl CK, Mielcareck P, Klaschik S, et al. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/kuhl_types_i_ii_iii_breast_ce_radiology2e2112e12er99ap38101.pdf">Dynamic breast MR imaging: Are signal intensity time course data useful for differential diagnosis of enhancing lesions</a>? Radiology 1999; 211:101-110. (original paper describing Type I, II, and III kinetic patterns of contrast uptake in breast tumors).</li>
+<li>Schnall MD, Blume J, Bluemke DA, et al. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/mammo_radiol2e2381042117.pdf">Diagnostic architectural and dynamic features at breast MR imaging: multicenter study</a>. Radiology 2006; 238:42-53. (showed Kuhl classification not so accurate as thought).</li>
+<li>Verma S, Turkbey B, Muradyan N, et al. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/prostate_ajr2e122e8510.pdf">Overview of dynamic contrast-enhanced MRI in prostate cancer diagnosis and management</a>. AJR Am J Roentgenol 2012; 198:1277-1288.</li>
 </ul>
 </dd>
 <dt><strong>相关问题</strong></dt>
 <dd><ul class="first last simple">
-<li><a class="reference external" href="http://www.mri-q.com/what-is-relaxivity.html">What is meant by the relaxivity of a contrast agent? How is it measured?</a></li>
-<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/dsc/bolus-gd-effect.html">Question-注钆效应：在常规MR增强图像中钆对比剂用于增强信号，为什么在DSC灌注图像中信号减弱?</a></li>
+<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/dce/how-is-dce-performed.html">Question-DCE脉冲序列：使用什么脉冲序列进行DCE检查？</a></li>
+<li><a class="reference external" href="http://www.mri-q.com/quantifying-perfusion.html">Can myocardial perfusion be accurately quantified?</a></li>
+<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/dsc/dsc-v-dce-v-asl.html">How do calculated DCE parameters relate to patterns of enhancement we see on clinical images?</a></li>
 </ul>
 </dd>
 </dl>
@@ -139,8 +120,8 @@ R2*t = − (1/TE) • ln(St /k)</dd>
             <aside>
             <nav>
             <ul class="articles-timeline">
-                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/dsc/dsc-curve-analysis.html" title="Previous: Question-半定量参数：从DSC时间强度曲线中能够提取什么参数？">Question-半定量参数：从DSC时间强度曲线中能够提取什么参数？</a></li>
-                <li class="next-article"><a href="http://chunshan.github.io/MRI-QA/dsc/arterial-input-aif.html" title="Next: Question-动脉输入函数（AIF）：动脉输入函数是什么，为什么需要测量动脉输入函数？">Question-动脉输入函数（AIF）：动脉输入函数是什么，为什么需要测量动脉输入函数？</a> »</li>
+                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/dce/how-is-dce-performed.html" title="Previous: Question-DCE脉冲序列：使用什么脉冲序列进行DCE检查？">Question-DCE脉冲序列：使用什么脉冲序列进行DCE检查？</a></li>
+                <li class="next-article"><a href="http://chunshan.github.io/MRI-QA/dce/breast-dce.html" title="Next: Question-乳腺DCE：乳腺DCE需要一些特殊的技术么？">Question-乳腺DCE：乳腺DCE需要一些特殊的技术么？</a> »</li>
             </ul>
             </nav>
             </aside>
@@ -148,13 +129,13 @@ R2*t = − (1/TE) • ln(St /k)</dd>
         <section>
         <div class="span2" style="float:right;font-size:0.9em;">
             <h4>Published</h4>
-            <time pubdate="pubdate" datetime="2015-10-21T00:00:00+08:00">十月 21, 2015</time>
+            <time pubdate="pubdate" datetime="2015-10-26T00:00:00+08:00">十月 26, 2015</time>
             <h4>Category</h4>
-            <a class="category-link" href="http://chunshan.github.io/MRI-QA/categories.html#dsc-ref">DSC</a>
+            <a class="category-link" href="http://chunshan.github.io/MRI-QA/categories.html#dce-ref">DCE</a>
             <h4>Tags</h4>
             <ul class="list-of-tags tags-in-article">
-                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#dsc-ref">DSC
-                    <span>12</span>
+                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#dce-ref">DCE
+                    <span>6</span>
 </a></li>
                 <li><a href="http://chunshan.github.io/MRI-QA/tags.html#perfusion-ref">Perfusion
                     <span>16</span>
