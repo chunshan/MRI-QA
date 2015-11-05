@@ -1,11 +1,11 @@
-Question-DSC：如何做一个DSC灌注研究？
+Question-DSC：如何做一个DSC灌注检查？
 =============================================================
 
 :date: 2015-10-16
 :tags: Perfusion, DSC
 :slug: how-to-perform-dsc
 :authors: Chunshan
-:summary: 如何做一个DSC灌注研究
+:summary: 如何做一个DSC灌注检查
 
 .. |Ktrans| replace:: K\ :sup:`trans`
 

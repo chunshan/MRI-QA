@@ -28,7 +28,13 @@ Question-DSC再循环效应：为什么DSC曲线在对比剂通过后不能恢�
 
 **高级讨论**
 
-To be updated
+1,伽马变量函数可以有几种不同的形式，一个常用于造影剂首过法实验的形式为：S(t) = A(t-to)α e-(t-to)/β，其中A是一个比例因子，t0是造影剂团到达时间，α和β确定了分布的形状。为了避免伽马变量中隐含的再循环效应，通常只用对比度曲线的第一部分来估计这些参数。
+
+2,是否校正和如何校正再循环效应是有争议的。矛盾的是，不去除再循环效应影响时血容量估计会更加准确。同时，伽马变量拟合本身是带有噪声的，因为只使用了信号曲线第一部分的采样，从而产生了它自己的问题；
+
+3，如果采用了伽马变量方法，推荐生成另一个参数图（χ2参数图）用于检验拟合的好坏。
+
+4，典型的DSC扫描序列采集数据的时间小于30秒。严重缺血情况下，首团造影剂这段时间中还不能到达靶器官。血容量和其他生理参数因此被低估。
 
 **参考材料**
     * Boxerman JL, Rosen BR, Weisskoff RM. `Signal-to-noise analysis of cerebral blood volume maps from dynamic NMR imaging studies <http://www.mri-q.com/uploads/3/2/7/4/3274160/boxerman_jmri_1997.pdf>`_. J Magn Reson Imaging 1997; 7:528-37. (Disadvantages of gamma variate fitting).

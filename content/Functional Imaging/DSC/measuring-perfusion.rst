@@ -36,7 +36,44 @@ Question-灌注方法：灌注（Perfusion）如何定义和测量？
 
 **高级讨论**
 
-To be updated
+* 血管内示踪剂
+
+.. figure:: http://www.mri-q.com/uploads/3/2/7/4/3274160/6278820_orig.jpeg?287
+   :alt: 15 μm diameter injectable microspheres
+   :align: right
+   :width: 400
+
+   实验室灌注测量使用的约15微米直径的可注射微球体
+
+虽然没有完美的方法，传统测量组织灌注的实验室“金标准”是动脉内注射约15微米直径的微球体，这些颗粒会被困毛细血管床处，困住的比例与局部血流量呈正比，然后采集解剖标本，使用光学或电子学显微镜对颗粒计数，也可以对微球体进行放射性或者荧光标记从而能够使用半自动计数方法。
+
+由于上述方法需要插入动脉导管收集组织进行测量，实验室微球体对于常规临床灌注是不可行的。然而有几种能够被无创影像学方法检测的微球体已经被开发出来用于临床，最常见的有放射性同位素标记的血细胞，大颗粒聚合白蛋白（核医学）和包膜微泡（超声），但还没有真正市售的微球体用于MR灌注成像。钆膦维司（ablavar）与血清白蛋白结合并且在注射后几小时都会局限于血管内空间，与上述微球体性质相仿。超小超顺磁性铁氧化合物（USPIO）粒子也在MR成像中被尝试使用以达到类似目的。
+
+.. figure:: http://www.mri-q.com/uploads/3/2/7/4/3274160/__7081247_orig.gif
+   :alt: Cine images from 1st pass myocardial perfusion study
+   :align: right
+   :width: 400
+
+   首过法心肌灌注检查的电影图像，使用饱和恢复的扰相GRE序列
+
+* 细胞外示踪剂
+
+CT灌注成像和MR灌注成像中分别广泛使用碘基和钆基造影剂作为示踪剂，这些低分子量（500-1000Da）化合物注射后最初分布在血浆中，随即很快扩散到大多数组织的细胞外空间。唯一的例外是在中枢神经系统中，沿血脑屏障紧密的内皮细胞连接会阻断细胞外通道，阻止造影剂进入正常的大脑和脊髓。虽然一些新的专门的MR造影剂（如gadoxetate/eovist）有肝摄取，大部分造影剂不能进入正常细胞，局限在细胞外空间中。
+
+*  可扩散示踪剂
+
+.. figure:: http://www.mri-q.com/uploads/3/2/7/4/3274160/6118682_orig.jpg
+   :alt: measuring blood flow noninvasively.
+   :align: right
+   :width: 300
+
+   基于\ :sup:`15`\ O水的PET是无创测量血流量最准确的方法
+
+自由扩散的示踪剂是放射性或磁性标记的离子或能在细胞内外轻松穿梭的小分子。在核医学（PET）中众所周知的有\ :sup:`15`\ O标记的O\ :sub:`2`，H\ :sub:`2`\ O，CO\ :sub:`2`; \ :sup:`13`\ NH\ :sub:`2`; \ :sup:`82`\ Rb; \ :sup:`201`\ TI. 另一种扩散性示踪剂，吸入性疝气，用于CT灌注成像，曾经在20世纪90年代获得一定的关注，现在已经基本被抛弃了。MRI中磁标记的水分子被广泛用作扩散性示踪剂，这也是动脉自旋标记（ASL）技术的基础。
+
+使用\ :sup:`15`\ O的PET通常被认为是无创测量大多数器官灌注的金标准。但这是一项繁琐的技术，需要在线产生示踪剂，然后通过连续动脉采血输送给病人。这不是一个完美的解决方案，受部分容积效应的影响尤其在小且复杂的大脑结构周围。相比于微球体，基于\ :sup:`15`\ O水的PET往往会低估高流量时的灌注而高估低流量时的灌注。
+
+使用\ :sup:`15`\ O水的PET和使用DSC或ASL的MR灌注的详细比较几乎没有。已经进行的研究表明，MR灌注方法具有可重复性，能够获得血流量可靠的定性信息，准确的定量测量是可能的但是具有挑战性，依赖于MR成像方法（DSC或ASL）和使用的复杂数学模型。   
 
 **参考材料**
      * Cuenod CA, Balvay D. `Perfusion and vascular permeability: basic concepts and measurement in DCE-CT and DCE-MRI <http://www.mri-q.com/uploads/3/2/7/4/3274160/permeability_1-s2.0-s2211568413003306-main.pdf>`_. Diagn Interven Imaging 2013; 94:1187-1204. (Good review of basic mechanisms; some terminology is slightly different than abbreviations used in Tofts models).          

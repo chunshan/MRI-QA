@@ -37,7 +37,15 @@ Question-注钆效应：在常规MR增强图像中钆对比剂用于增强信号
 
 **高级讨论**
 
-To be updated
+你可能已经想到，血管中的Gd和其T2*效应之间的关系比上面的简单讨论更加复杂。
+
+首先，常规的钆造影剂被限制在血浆中，不进入血红细胞。因此，由于血管内血管外空间的分隔导致血管内空间有磁敏感性效应，分隔的程度与血细胞比容有关，而大血管和毛细血管的血细胞比容就是不同的。
+
+磁场强度也很重要，磁敏感性效应一般与B0\ :sup:`2`\ 成正比。
+
+所使用的脉冲序列也会决定不同血管中磁敏感性的相对贡献。GRE序列对所有血管中T2*失相位都很敏感，尤其是大血管；SE序列对小动脉，静脉和毛细血管中的T2效应更加敏感。
+
+最后，血管相对于B0的方向影响血管内和血管外的磁敏感现象。例如血管平行于B0将没有血管外磁敏感性变化而垂直于B0的血管会有最强的磁敏感效应。这种奇怪的现象由偶极-偶极弛豫的角度依赖性导致，这在前面的一个Q&A中有解释。
 
 **参考材料**
     * Boxerman J, Hambert L, Rosen B, Weisskoff R. `MR contrast due to intravascular magnetic susceptibility perturbations <http://www.mri-q.com/uploads/3/2/7/4/3274160/boxerman_1995.pdf>`_. Magn Reson Med 1995; 34:555-566. (explains susceptibility effect differences between large and small vessels).      
