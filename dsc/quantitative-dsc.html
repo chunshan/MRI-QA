@@ -130,7 +130,12 @@
 <p>最常用的奇异值分解（SVD， Singular Value Decomposition）方法也有许多变种。SVD是矩阵代数中一种常用的求解逆问题的分解方法。由于噪声和舍入误差SVD可能是病态的（不稳定），必须施加一些限制（正则化）。最直接的正则化方法（截断）是将所有低于一定水平的矩阵奇异值设为0。另一种正则化方法（Tikhonov 正则化）通过操纵对角线元素，从而对奇异值有更平滑的截断。</p>
 <p>标准奇异值分解的第二个问题是结果对组织不同部分之间的对比剂到达延迟非常敏感。诸如reformulated SVD和block-recirculant SVD很大程度上可以克服这些限制，逐渐被软件制造商在他们的软件中实现。</p>
 <p>一些较新的统计学方法更侧重提高残余函数的估计，减少其震荡。哪一种方法更具优势，现在还不好预测。</p>
-<p>To be updated</p>
+<p>我为什么不喜欢T<sub>max</sub></p>
+<p>在中风文献中，大量临床试验使用一种称为T<sub>max</sub>的灌注度量参数，T<sub>max</sub>被定义为残留函数R(t)到达最大值的时间，残留函数R(t)从反卷积中计算得到。理论上，Tmax是动脉输入函数（AIF）峰值与残留函数峰值之间的时间。</p>
+<p>T<sub>max</sub>与MTT不同。MTT反映的是造影剂达到感兴趣组织后通过毛细血管床的时间。相反，T<sub>max</sub>反映造影剂从测量AIF到到达毛细血管系统途中的延时和分散。</p>
+<p>T<sub>max</sub>高度依赖AIF的选择位置。AIF位置离感兴趣组织越远，计算得到的T<sub>max</sub>值会越大。另外，矩阵奇异值分解（SVD）的正则化（滤波）可以通过产生震荡和峰值位移改变R(t)，从而减少反卷积中噪声的影响，这个过程也会影响T<sub>max</sub>。</p>
+<p>尽管T<sub>max</sub>有些方法上的问题，许多中风神经学家似乎喜欢T<sub>max</sub>并且推荐在临床实践中使用这个参数。我相信它如此受欢迎的原因之一是T<sub>max</sub>参数图在脑的正常区域图像对比度相对比较“平”，而在低灌注或临界区域图像对比度有显著不同。</p>
+<p>总之，T<sub>max</sub>确实提供了一些对MTT和CBF互补的信息，但是这是一个“混乱”的参数，反映的是选择的AIF位置到感兴趣组织间造影剂的延迟和分散。因此它是非常依赖于AIF的选择，在比较不同患者的脑卒中研究中应谨慎使用。</p>
 <dl class="docutils">
 <dt><strong>参考材料</strong></dt>
 <dd><ul class="first last simple">
@@ -174,7 +179,7 @@
                     <span>12</span>
 </a></li>
                 <li><a href="http://chunshan.github.io/MRI-QA/tags.html#perfusion-ref">Perfusion
-                    <span>16</span>
+                    <span>30</span>
 </a></li>
             </ul>
 <h4>Stay in Touch</h4>

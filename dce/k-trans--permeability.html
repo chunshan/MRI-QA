@@ -10,18 +10,18 @@
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary">
 
-<meta name="keywords" content="Perfusion, DSC, AIF, DSC, " />
+<meta name="keywords" content="Perfusion, DCE, DCE, " />
 
-<meta property="og:title" content="Question-动脉输入函数（AIF）：动脉输入函数是什么，为什么需要测量动脉输入函数？ "/>
-<meta property="og:url" content="http://chunshan.github.io/MRI-QA/dsc/arterial-input-aif.html" />
-<meta property="og:description" content="动脉输入函数的意义及必要性" />
+<meta property="og:title" content="Question-Ktrans &amp; 渗透性 Ktrans是否等同于渗透性? "/>
+<meta property="og:url" content="http://chunshan.github.io/MRI-QA/dce/k-trans--permeability.html" />
+<meta property="og:description" content="Ktrans是否等同于渗透性" />
 <meta property="og:site_name" content="MRI Q&amp;A" />
 <meta property="og:article:author" content="Chunshan" />
-<meta property="og:article:published_time" content="2015-10-22T00:00:00+08:00" />
-<meta name="twitter:title" content="Question-动脉输入函数（AIF）：动脉输入函数是什么，为什么需要测量动脉输入函数？ ">
-<meta name="twitter:description" content="动脉输入函数的意义及必要性">
+<meta property="og:article:published_time" content="2015-10-31T00:00:00+08:00" />
+<meta name="twitter:title" content="Question-Ktrans &amp; 渗透性 Ktrans是否等同于渗透性? ">
+<meta name="twitter:description" content="Ktrans是否等同于渗透性">
 
-        <title>Question-动脉输入函数（AIF）：动脉输入函数是什么，为什么需要测量动脉输入函数？  · MRI Q&amp;A
+        <title>Question-Ktrans &amp; 渗透性 Ktrans是否等同于渗透性?  · MRI Q&amp;A
 </title>
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
@@ -68,7 +68,7 @@
 <article>
 <div class="row-fluid">
     <header class="page-header span10 offset2">
-    <h1><a href="http://chunshan.github.io/MRI-QA/dsc/arterial-input-aif.html"> Question-动脉输入函数（AIF）：动脉输入函数是什么，为什么需要测量动脉输入函数？  </a></h1>
+    <h1><a href="http://chunshan.github.io/MRI-QA/dce/k-trans--permeability.html"> Question-Ktrans &amp; 渗透性  Ktrans是否等同于渗透性?  </a></h1>
     </header>
 </div>
 
@@ -76,38 +76,64 @@
         <div class="span8 offset2 article-content">
 
             
-            <p>原文链接:<a class="reference external" href="http://www.mri-q.com/arterial-input-aif.html">What is the arterial input function (AIF) and why do you need to measure it?</a></p>
+            <p>原文链接:<a class="reference external" href="http://www.mri-q.com/k-trans--permeability.html">Is Ktrans the same as permeability?</a></p>
 <dl class="docutils">
 <dt><strong>概要</strong></dt>
 <dd><div class="first last figure align-center">
-<img alt="summary" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/9274759_orig.png" style="width: 700px;" />
+<img alt="summary" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/4882327_orig.png" style="width: 700px;" />
 </div>
 </dd>
 </dl>
-<p>理想的DSC实验中，我们希望钆能够以短而紧凑的静脉推注递送到组织，然而实际上，血液要经过心脏和肺，最初的静脉推注变得延迟并且分散，DSC实验中测得的组织浓度曲线形状依赖于到达的动脉输入函数（AIF, Arterial Input Function， a(t)）的形状。如果没有AIF，组织灌注动力学中内在有价值的信息就可能会丢失。</p>
 <div class="figure align-right">
-<img alt="tissue contrast concentration curve" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/8550739_orig.png?322" style="width: 500px;" />
-<p class="caption">组织对比剂浓度曲线c<sub>tissue</sub>(t) 的形状高度依赖于动脉输入函数的形状</p>
+<img alt="Volume transfer rate of gadolinium" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/7177973_orig.gif" style="width: 500px;" />
+<p class="caption">钆（黑点）进入组织的体积转移速率（Ktrans）依赖于血浆流量（F），渗透性（P）和血管表面积（S）</p>
 </div>
-<p>获取AIF的最简单方法是使感兴趣区域能够覆盖一条容易识别的动脉，在腹部影像学检查中，可能是主动脉或肾动脉，在头部，往往主要是脑动脉（ACA, MCA）或其近侧分支。如果以这种方式得到的AIF应用于一个片层内的所有体素，称之为全局AIF(Global AIF)。但是测得的AIF位置与感兴趣体素的位置距离可能比较远，对比剂团注的延迟和分散在计算血流量时会产生明显的错误。潜在更好的方法是从与每一个成像的组织体素很近的小动脉中识别局部AIF（Local AIF），这也是过去十年众多研究的主题。</p>
-<p>现在的灌注软件包提供了自动或半自动的方法来识别最优的局部AIF，下图所示的例子中，从大脑一个小区域可能的AIF数组中可以选出最佳的候选者。被选为AIF的体素理想上有比较平坦的基线，陡峭的峰，和紧凑的形状。下图的例子中，第二（或第三）列的体素可能是最佳选择。</p>
+<p>体积转移常数（Ktrans）反映钆造影剂从血浆进入血管外细胞外空间（EES）组织的流出速率。Ktrans取决于于三个因素：血浆流量（F），血管通透性（P）和单位质量的毛细血管表面积（S）。在实践中，渗透性和表面积分别的贡献不能清楚地分离出来，因此一般把它们一起考虑，即乘积PS。</p>
+<p>如下图所示，两个有相同血流和PS乘积的毛细血管网络中，钆将会以相同的速率进入组织，即使它们的渗透性和表面积可能不同。</p>
 <div class="figure align-center">
-<img alt="choose AIF from Voxel-by-voxel interrogation" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/217349_orig.gif?387" style="width: 600px;" />
-<p class="caption">逐个体素查询来确定大脑中动脉附近1cm<sup>2</sup>区域的最优AIF。最优AIF一般有平坦的基线和陡峭的峰</p>
+<img alt="Two different capillary networks with the same flows" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/6387590_orig.gif?575" style="width: 700px;" />
+<p class="caption">两种有具有相同流量（F）和PS乘积的毛细血管网络有相同的Ktrans值</p>
 </div>
-<p>一旦选择了合适的AIF，软件就可以产生每个像素的重要灌注参数，形成参数图，包括血容量，血流量和平均通过时间。这是如何完成的是下一个Q&amp;A的主题。</p>
+<p>一般而言，F,P,S分别对Ktrans的贡献不能分开。然而，两种特殊情况可以揭示这三个因素相对的重要性及它们的相互作用。</p>
+<ul class="simple">
+<li>情况1 （渗透性有限） 这种情况下（下面的左图），血浆流量（F）比PS乘积大得多。大量钆随血流传送到组织，但进入组织间隙的量仅取决于毛细血管床的大小和渗透性。这种情况下，Ktrans = P×S。</li>
+<li>情况2 （流量有限） 这种情况下血浆流量比PS乘积小的多，所有钆在到达毛细血管床的静脉端之前几乎都泄露到EES，因而，Ktrans = F。</li>
+</ul>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr><td><div class="first last figure">
+<img alt="Gd-enhanced T1-image of malignant glioma" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/1715352_orig.gif" style="width: 400px;" />
+</div>
+</td>
+<td><div class="first last figure">
+<img alt="Ktrans map" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/8239895_orig.gif" style="width: 400px;" />
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>高级讨论</strong></p>
+<p>毛细血管渗透性的单位（cm/min）并不是那么显而易见的。渗透性（P）定义为由于浓度（moles/cm³）差的驱动，一段时间内（min）一种溶质通过给定面积（cm²）薄膜的摩尔数。因此该单位可以写为：</p>
+<p>P = [moles]/[cm²]/[min]/[moles/cm³] = cm/min</p>
+<p>同样，S并不表示毛细血管的表面积（单位cm²），而是表示“每单位质量组织中的表面积比例”。因此S通过面积/质量度量（比如，cm²/100g）。总起来，PS乘积的单位是 [cm/min]•[cm²/100g] = cc/min/100g，与流量（F）的单位是相同的。</p>
 <dl class="docutils">
 <dt><strong>参考材料</strong></dt>
 <dd><ul class="first last simple">
-<li>Bleeker EJW, van Buchem MA, van Osch MJP. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/bleeker_2009.pdf">Optimal location for arterial input function measurements near the middle cerebral artery in first-pass perfusion MRI</a>. J Cereb Blood Flow Metab 2009; 29:840-852. (Best location for the AIF may be just outside the MCA, not within it).</li>
-<li>Calamante F, Mørup M, Hansen LK. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/calamante_et_al-2004-magnetic_resonance_in_medicine.pdf">Defining a local arterial input function for perfusion MRI using independent component analysis</a>. Magn Reson Med 2004; 52:789-797.</li>
-<li>Carroll TJ, Rowley HA, Haughton VM. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/automated_aif_radiol2e2272020092.pdf">Automatic calculation of the arterial input function for cerebral perfusion imaging with MR imaging</a>. Radiology 2003; 227:593-600.</li>
-<li>Mlynash M, Eyngorn I, Bammer R, et al. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/automated_aif_ajnr1479.full.pdf">Automated method for generating the arterial input function on perfusion-weighted MR imaging: validation in patients with stroke</a>. AJNR Am J Neuroradiol 2005; 26:1479-1486. (Computers generally due a more consistent/reliable job of finding the best AIF than people!)</li>
+<li>Cuenod CA, Balvay D. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/permeability_1-s2.0-s2211568413003306-main.pdf">Perfusion and vascular permeability: basic concepts and measurement in DCE-CT and DCE-MRI</a>. Diagn Interv Imaging 2013; 94:1187-1204. (Good review of basic mechanisms; some terminology is slightly different than abbreviations used in Tofts models).</li>
+<li>Pappenheimer JR. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/pappenheimer_387.full.pdf">Passage of molecules through capillary walls</a>. Physiol Rev 1953; 33;387-423.</li>
+<li>Sourbron S, Ingrisch M, Siefert A, et al. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/sourbron_et_al-2009-magnetic_resonance_in_medicine.pdf">Quantification of cerebral blood flow, cerebral blood volume, and blood-brain-barrier leakage with DCE-MRI</a>. Magn Reson Med 2009; 62:205-217.</li>
+<li>Tofts PS. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/dce-mri_siemens.pdf">T1-weighted DCE imaging concepts: modelling, acquisition and analysis</a>. MAGNETOM Flash 2010; 3:30-35.</li>
+<li>Zhang N, Zhang L, Qui B, et al. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/zhangnihms365626.pdf">Correlation of volume transfer coefficient Ktrans with histopathologic grades of gliomas</a>. J Magn Reson Imaging 2012; 36:355-363.</li>
 </ul>
 </dd>
 <dt><strong>相关问题</strong></dt>
 <dd><ul class="first last simple">
-<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/dsc/quantitative-dsc.html">Question-DSC高级处理：如何使用动脉输入函数从DSC数据中提取更多量化的血流信息？</a></li>
+<li><a class="reference external" href="http://www.mri-q.com/dce-tissue-parmeters.html">What quantitative parameters can be extracted from the DCE data?</a></li>
+<li><a class="reference external" href="http://www.mri-q.com/parameters-to-images.html">How do calculated DCE parameters relate to patterns of enhancement we see on clinical images?</a></li>
 </ul>
 </dd>
 </dl>
@@ -118,8 +144,8 @@
             <aside>
             <nav>
             <ul class="articles-timeline">
-                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/dsc/dsc-signal-v-gd.html" title="Previous: Question-DSC信号与钆：DSC中，能够从采集信号中得到量化的钆浓度实际值么？">Question-DSC信号与钆：DSC中，能够从采集信号中得到量化的钆浓度实际值么？</a></li>
-                <li class="next-article"><a href="http://chunshan.github.io/MRI-QA/dsc/quantitative-dsc.html" title="Next: Question-DSC高级处理：如何使用动脉输入函数从DSC数据中提取更多量化的血流信息？">Question-DSC高级处理：如何使用动脉输入函数从DSC数据中提取更多量化的血流信息？</a> »</li>
+                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/dce/parameters-to-images.html" title="Previous: Question-DCE参数与图像 -- 计算的DCE参数如何与我们在临床图像上看到的增强模式相联系？">Question-DCE参数与图像 -- 计算的DCE参数如何与我们在临床图像上看到的增强模式相联系？</a></li>
+                <li class="next-article"><a href="http://chunshan.github.io/MRI-QA/dce/utility-of-dce.html" title="Next: Question-量化DCE的应用 什么情况下量化的DCE成像是有用的？有没有这样的例子？">Question-量化DCE的应用 什么情况下量化的DCE成像是有用的？有没有这样的例子？</a> »</li>
             </ul>
             </nav>
             </aside>
@@ -127,16 +153,13 @@
         <section>
         <div class="span2" style="float:right;font-size:0.9em;">
             <h4>Published</h4>
-            <time pubdate="pubdate" datetime="2015-10-22T00:00:00+08:00">十月 22, 2015</time>
+            <time pubdate="pubdate" datetime="2015-10-31T00:00:00+08:00">十月 31, 2015</time>
             <h4>Category</h4>
-            <a class="category-link" href="http://chunshan.github.io/MRI-QA/categories.html#dsc-ref">DSC</a>
+            <a class="category-link" href="http://chunshan.github.io/MRI-QA/categories.html#dce-ref">DCE</a>
             <h4>Tags</h4>
             <ul class="list-of-tags tags-in-article">
-                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#aif-ref">AIF
-                    <span>1</span>
-</a></li>
-                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#dsc-ref">DSC
-                    <span>12</span>
+                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#dce-ref">DCE
+                    <span>10</span>
 </a></li>
                 <li><a href="http://chunshan.github.io/MRI-QA/tags.html#perfusion-ref">Perfusion
                     <span>30</span>

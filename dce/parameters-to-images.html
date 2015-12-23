@@ -10,18 +10,18 @@
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary">
 
-<meta name="keywords" content="Perfusion, DSC, DCE, DCE, " />
+<meta name="keywords" content="Perfusion, DCE, DCE, " />
 
-<meta property="og:title" content="Question-DCE概述：DCE成像是什么？与DSC成像有何不同？ "/>
-<meta property="og:url" content="http://chunshan.github.io/MRI-QA/dce/what-is-dce.html" />
-<meta property="og:description" content="DCE成像概述及与DSC的不同之处" />
+<meta property="og:title" content="Question-DCE参数与图像 -- 计算的DCE参数如何与我们在临床图像上看到的增强模式相联系？ "/>
+<meta property="og:url" content="http://chunshan.github.io/MRI-QA/dce/parameters-to-images.html" />
+<meta property="og:description" content="计算的DCE参数如何与我们在临床图像上看到的增强模式相联系？" />
 <meta property="og:site_name" content="MRI Q&amp;A" />
 <meta property="og:article:author" content="Chunshan" />
-<meta property="og:article:published_time" content="2015-10-24T00:00:00+08:00" />
-<meta name="twitter:title" content="Question-DCE概述：DCE成像是什么？与DSC成像有何不同？ ">
-<meta name="twitter:description" content="DCE成像概述及与DSC的不同之处">
+<meta property="og:article:published_time" content="2015-10-30T00:00:00+08:00" />
+<meta name="twitter:title" content="Question-DCE参数与图像 -- 计算的DCE参数如何与我们在临床图像上看到的增强模式相联系？ ">
+<meta name="twitter:description" content="计算的DCE参数如何与我们在临床图像上看到的增强模式相联系？">
 
-        <title>Question-DCE概述：DCE成像是什么？与DSC成像有何不同？  · MRI Q&amp;A
+        <title>Question-DCE参数与图像 -- 计算的DCE参数如何与我们在临床图像上看到的增强模式相联系？  · MRI Q&amp;A
 </title>
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
@@ -68,7 +68,7 @@
 <article>
 <div class="row-fluid">
     <header class="page-header span10 offset2">
-    <h1><a href="http://chunshan.github.io/MRI-QA/dce/what-is-dce.html"> Question-DCE概述：DCE成像是什么？与DSC成像有何不同？  </a></h1>
+    <h1><a href="http://chunshan.github.io/MRI-QA/dce/parameters-to-images.html"> Question-DCE参数与图像 -- 计算的DCE参数如何与我们在临床图像上看到的增强模式相联系？  </a></h1>
     </header>
 </div>
 
@@ -76,31 +76,83 @@
         <div class="span8 offset2 article-content">
 
             
-            <p>原文链接:<a class="reference external" href="http://www.mri-q.com/what-is-dce.html">What is DCE imaging and how does it differ from DSC imaging?</a></p>
+            <p>原文链接:<a class="reference external" href="http://www.mri-q.com/parameters-to-images.html">How do calculated DCE parameters relate to patterns of enhancement we see on clinical images?</a></p>
 <dl class="docutils">
 <dt><strong>概要</strong></dt>
 <dd><div class="first last figure align-center">
-<img alt="summary" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/8984630_orig.png" style="width: 700px;" />
+<img alt="summary" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/534902_orig.png?338" style="width: 700px;" />
 </div>
 </dd>
 </dl>
-<p>动态对比增强（DCE，Dynamic Contrast Enhancement）成像测量注射钆造影剂后组织T1随时间的变化。它与动态磁敏性对比（DSC，Dynamic Susceptibility Contrast）不同，后者测量T2或T2*的变化。</p>
-<div class="figure align-right">
-<img alt="Breakdown of BBB in a glioma" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/926004_orig.jpg" style="width: 400px;" />
-<p class="caption">胶质瘤中血脑屏障被破坏</p>
+<p>流行的Tofts模型包含与钆在组织中的药代动力学相关的四个参数。通过数学分析可以计算这些参数并且创建它们的解剖参数图。但是这些参数在实践中有何意义？它们与我们观察到的视觉上的动态增强图像有何关联？</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="49%" />
+<col width="51%" />
+</colgroup>
+<tbody valign="top">
+<tr><td><div class="first last figure">
+<img alt="Gd-enhanced T1-image of malignant glioma" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/454033_orig.jpg" style="width: 400px;" />
+<p class="caption">钆增强的恶性胶质瘤T1加权像</p>
 </div>
-<p>钆造影剂注射后，它会驻留在血浆中，并随血液流动到各个器官。这些相对小的药物分子（500-1000Da）会以被动扩散的方式穿过血管内皮细胞进入大多数组织的细胞外空间。唯一的例外是脑和脊髓，内皮细胞紧密连接构成了血脑屏障（BBB， Blood Brain Barrier）阻碍了扩散过程。如果血脑屏障被肿瘤，感染或者其他疾病破坏，钆造影剂就会累积，T1缩短使得T1对比度增强。</p>
-<p>观察和量化对比度增强随时间的变化是DCE成像的主要目标。一般来讲，对比度增强的程度取决于局部血流量（F），血管的大小和数量（由组织单位质量的表面积S和渗透性P进行量化）。</p>
-<p>虽然不可能将F，S，P每个部分单独分离出来，但是通过数学建模，我们可以测量它们的综合效应，反映在所谓的转移常数（K<sup>trans</sup>）中。K<sup>trans</sup>表征钆对比剂穿过血管内皮细胞的扩散净流入。DCE计算出来的指标如K<sup>trans</sup>在肿瘤治疗评价中越来越重要，特别是针对肿瘤血管的非细胞毒性靶向药物。K<sup>trans</sup>也被用来评估肺，关节和其他器官的炎症过程。</p>
-<p>除了K<sup>trans</sup>，DCE也可以计算组织的其他参数，如：组织的血管外细胞外体积分数（v<sub>e</sub>），组织的血浆体积分数（v<sub>p</sub>）和钆造影剂从组织细胞外空间返流回血浆的流出常数（k<sub>ep</sub>）。</p>
-<p>这些不同DCE参数的意义和计算将在接下来的几个Q&amp;A中阐述。</p>
-<p><strong>参考材料</strong></p>
+</td>
+<td><div class="first last figure">
+<img alt="Ktrans map" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/4125760_orig.gif" style="width: 400px;" />
+<p class="caption">Ktrans 参数图</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>第一个也是最重要的一个DCE参数是Ktrans，钆在血浆和血管外细胞外间隙（EES）组织的体积转移常数。像化学反应速率，它的单位是1/time，如min-1,。简而言之，Ktrans反映的是钆从血浆流入EES所有过程的总和（主要是血流量和毛细血管渗透）。</p>
+<p>Tofts模型中第二个独立的动力学参数是EES的体积分数，表示为Ve，正式定义是每单位体积组织中EES的体积，是一个介于0到1之间的无量纲的数字。Ve反映组织间质中聚集钆的可用空间的大小。</p>
+<p>Tofts模型中的第三个参数是Kep，表示钆从EES返流回血管系统的时间常数。回想一下，Kep不是一个完全独立的参数，它被定义为前两者的比率（如Kep = Ktrans/Ve），所以Kep的增加反映的是Ktrans的增加或者Ve的减少，或者二者兼而有之。</p>
+<p>扩展的Tofts模型中出现的第四个参数是Vp，血浆的体积分数。在许多病变中这个变量比较小而且无关紧要。然而在严重的血管肿瘤中，血管内对总信号的贡献会达到10%或更大，以至不能被忽略。</p>
+<p>DCE参数Ktrans，Ve，kep，vp与不同组织的时间-信号强度（钆浓度）曲线的形态有直接联系。具体表现为，</p>
+<blockquote>
+<ul class="simple">
+<li>Ktrans与时间-信号强度曲线的初始斜率（“wash-in”速率）相关</li>
+<li>ve与时间-信号强度曲线的峰高和达峰时间（TTP）相关</li>
+<li>kep控制曲线的形状，反映独立分量Ktrans和ve的相对贡献。</li>
+<li>vp，如果比较小，对曲线的影响不大，但是如果vp比较大，导致时间-信号强度曲线更快速的上坡，更高更早的峰高，更快的造影剂流出，变得与动脉输入函数更为相似。</li>
+</ul>
+</blockquote>
+<table border="1" class="docutils">
+<colgroup>
+<col width="33%" />
+<col width="35%" />
+<col width="33%" />
+</colgroup>
+<tbody valign="top">
+<tr><td><div class="first last figure">
+<img alt="With fixed ve, Ktrans correlates with initial up-slope" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/3041172_orig.png" style="width: 300px;" />
+<p class="caption">固定ve，Ktrans与时间-信号强度曲线的初始上升斜率（“wash-in”速率）相关</p>
+</div>
+</td>
+<td><div class="first last figure">
+<img alt="With fixed Ktrans, ve" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/4600917_orig.png?302" style="width: 300px;" />
+<p class="caption">固定Ktrans，ve与时间-信号强度曲线的峰高和达峰时间（TTP）相关</p>
+</div>
+</td>
+<td><div class="first last figure">
+<img alt="With fixed Ktrans, ve" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/440331_orig.png" style="width: 300px;" />
+<p class="caption">随着vp增大，时间-信号强度曲线变得与动脉输入函数更为相似</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
 <dl class="docutils">
+<dt><strong>参考材料</strong></dt>
+<dd><ul class="first last simple">
+<li>Ferrier MC, Sarin H, Fung SH, et al. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/neoplasia_ktran_vs_ki_piis1476558607800790.pdf">Validation of dynamic contrast-enhanced magnetic resonance imaging-derived vascular permeability measurements using quantitative autoradiography in the RG2 rat brain tumor model</a>. Neoplasia 2007; 9:546-555. (Good correlation between Ktrans and autoradiographically measured influx rate in a rat glioma model with high permeability).</li>
+<li>Tofts PS. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/b103_tofts-modeling-jmri1997.pdf">Modeling tracer kinetics in dynamic Gd-DTPA MR imaging</a>. J Magn Reson Imaging 1997; 7:91-101.</li>
+<li>Tofts PS. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/dce-mri_siemens.pdf">T1-weighted DCE imaging concepts: modelling, acquisition and analysis</a>. MAGNETOM Flash 2010; 3:30-35.</li>
+</ul>
+</dd>
 <dt><strong>相关问题</strong></dt>
 <dd><ul class="first last simple">
-<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/dsc/dsc-v-dce-v-asl.html">Question-MR灌注概述：MRI中的DSC，DCE和ASL灌注方法有何不同？</a></li>
-<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/dce/how-is-dce-analyzed.html">Question-DCE成像：如何评估从DCE检查中获得的信息？</a></li>
-<li><a class="reference external" href="http://www.mri-q.com/dce-tissue-parmeters.html">What quantitative parameters can be extracted from the DCE data?</a></li>
+<li><a class="reference external" href="http://www.mri-q.com/how-is-dce-analyzed.html">How do you evaluate the information obtained from a DCE imaging study?</a></li>
 </ul>
 </dd>
 </dl>
@@ -111,8 +163,8 @@
             <aside>
             <nav>
             <ul class="articles-timeline">
-                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/dsc/quantitative-dsc.html" title="Previous: Question-DSC高级处理：如何使用动脉输入函数从DSC数据中提取更多量化的血流信息？">Question-DSC高级处理：如何使用动脉输入函数从DSC数据中提取更多量化的血流信息？</a></li>
-                <li class="next-article"><a href="http://chunshan.github.io/MRI-QA/dce/how-is-dce-performed.html" title="Next: Question-DCE脉冲序列：使用什么脉冲序列进行DCE检查？">Question-DCE脉冲序列：使用什么脉冲序列进行DCE检查？</a> »</li>
+                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/dce/dce-tissue-parmeters.html" title="Previous: Question-DCE参数：从DCE数据中能够提取哪些量化参数？">Question-DCE参数：从DCE数据中能够提取哪些量化参数？</a></li>
+                <li class="next-article"><a href="http://chunshan.github.io/MRI-QA/dce/k-trans--permeability.html" title="Next: Question-Ktrans &amp; 渗透性 Ktrans是否等同于渗透性?">Question-Ktrans & 渗透性 Ktrans是否等同于渗透性?</a> »</li>
             </ul>
             </nav>
             </aside>
@@ -120,16 +172,13 @@
         <section>
         <div class="span2" style="float:right;font-size:0.9em;">
             <h4>Published</h4>
-            <time pubdate="pubdate" datetime="2015-10-24T00:00:00+08:00">十月 24, 2015</time>
+            <time pubdate="pubdate" datetime="2015-10-30T00:00:00+08:00">十月 30, 2015</time>
             <h4>Category</h4>
             <a class="category-link" href="http://chunshan.github.io/MRI-QA/categories.html#dce-ref">DCE</a>
             <h4>Tags</h4>
             <ul class="list-of-tags tags-in-article">
                 <li><a href="http://chunshan.github.io/MRI-QA/tags.html#dce-ref">DCE
                     <span>10</span>
-</a></li>
-                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#dsc-ref">DSC
-                    <span>12</span>
 </a></li>
                 <li><a href="http://chunshan.github.io/MRI-QA/tags.html#perfusion-ref">Perfusion
                     <span>30</span>

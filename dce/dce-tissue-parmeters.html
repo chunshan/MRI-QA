@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Chunshan" />
+        <meta name="copyright" content="Chunshan" />
+
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary">
+
+<meta name="keywords" content="Perfusion, DCE, DCE, " />
+
+<meta property="og:title" content="Question-DCE参数：从DCE数据中能够提取哪些量化参数？ "/>
+<meta property="og:url" content="http://chunshan.github.io/MRI-QA/dce/dce-tissue-parmeters.html" />
+<meta property="og:description" content="从DCE数据中能够提取哪些量化参数" />
+<meta property="og:site_name" content="MRI Q&amp;A" />
+<meta property="og:article:author" content="Chunshan" />
+<meta property="og:article:published_time" content="2015-10-29T00:00:00+08:00" />
+<meta name="twitter:title" content="Question-DCE参数：从DCE数据中能够提取哪些量化参数？ ">
+<meta name="twitter:description" content="从DCE数据中能够提取哪些量化参数">
+
+        <title>Question-DCE参数：从DCE数据中能够提取哪些量化参数？  · MRI Q&amp;A
+</title>
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="http://chunshan.github.io/MRI-QA/theme/css/style.min.css?7aeecf36">
+        <link rel="shortcut icon" href="http://chunshan.github.io/MRI-QA/theme/images/favicon.ico" type="image/x-icon" type="image/png" />
+        <link rel="icon" href="http://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-152x152.png" type="image/png" />
+        <link rel="apple-touch-icon" href="http://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon.png"  type="image/png" />
+        <link rel="apple-touch-icon" sizes="57x57" href="http://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-57x57.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="http://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-72x72.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="76x76" href="http://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-76x76.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="http://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-114x114.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="120x120" href="http://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-120x120.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="http://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-144x144.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="152x152" href="http://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-152x152.png" type="image/png" />
+        <link href="http://chunshan.github.io/MRI-QA/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="MRI Q&amp;A - Full Atom Feed" />
+    </head>
+    <body>
+        <div id="content-sans-footer">
+        <div class="navbar navbar-static-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="http://chunshan.github.io/MRI-QA/"><span class=site-name>MRI Q&A</span></a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right top-menu">
+                            <li ><a href="http://chunshan.github.io/MRI-QA">Home</a></li>
+                            <li ><a href="http://chunshan.github.io/MRI-QA/categories.html">Categories</a></li>
+                            <li ><a href="http://chunshan.github.io/MRI-QA/tags.html">Tags</a></li>
+                            <li ><a href="http://chunshan.github.io/MRI-QA/archives.html">Archives</a></li>
+                            <li><form class="navbar-search" action="http://chunshan.github.io/MRI-QA/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span1"></div>
+                <div class="span10">
+<article>
+<div class="row-fluid">
+    <header class="page-header span10 offset2">
+    <h1><a href="http://chunshan.github.io/MRI-QA/dce/dce-tissue-parmeters.html"> Question-DCE参数：从DCE数据中能够提取哪些量化参数？  </a></h1>
+    </header>
+</div>
+
+<div class="row-fluid">
+        <div class="span8 offset2 article-content">
+
+            
+            <p>原文链接:<a class="reference external" href="http://www.mri-q.com/dce-tissue-parmeters.html">What quantitative parameters can be extracted from the DCE data?</a></p>
+<dl class="docutils">
+<dt><strong>概要</strong></dt>
+<dd><div class="first last figure align-center">
+<img alt="summary" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/7776115_orig.png" style="width: 700px;" />
+</div>
+</dd>
+</dl>
+<p>DCE原始数据被转换为钆造影剂浓度后，下一步是确定一个用于数据拟合的组织模型。比较简单而且广泛使用的模型是由Paul Tofts和他的同事们提出的，说明如下。</p>
+<div class="figure align-left">
+<img alt="Tofts Model" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/5463119_orig.gif" style="width: 500px;" />
+<p class="caption">Tofts模型。图中细胞外空间相对于不含钆的细胞内空间（深蓝色）有些夸大。此外，血浆体积分数（vp，米色）一般比细胞外血管外空间的体积分数（Ve，浅蓝色）小得多。</p>
+</div>
+<p>在Tofts模型中，每个体素包含三种成分：组织实质细胞（深蓝色），血管（含红细胞和血浆），组织的细胞外血管外空间（EES）。钆造影剂在刚刚注射后是在血浆中的，由于浓度梯度的存在，会通过血管内皮细胞被动扩散到细胞外血管外空间（EES）。钆的容积转移常数（Ktrans）依赖于血流，血管表面积，和血管通透性。与Ktrans相关的速率常数 kep表示从细胞外血管外空间返流回血浆的速率。钆造影剂不进入细胞，所以它的浓度取决于血浆体积分数（vp）和EES的体积分数 (ve) ，这两个体积分数都是无量纲的，在图中有标示。</p>
+<p>Tofts 模型有两个基本的数学公式（见下面高级讨论）。第一个公式假设血浆体积分数（Vp）比较小，对总组织的磁共振信号贡献比较小。Tofts模型的第二个公式包含了血浆的贡献，这增加了复杂性，但是可能更适合表示严重血管病变的情况，如恶性肿瘤。Tofts模型中DCE参数的意义和实际使用将在后续几个Q&amp;A中进行探索。</p>
+<p><strong>高级讨论</strong></p>
+<p><strong>使用Tofts模型进行药代动力学分析</strong></p>
+<p>最初的Tofts-Kermode模型（1991年）假设组织中钆造影剂的平衡浓度Ct仅由血浆中造影剂浓度（Cp）与细胞外血管外组织中造影剂浓度（Ce）差异导致的简单被动扩散驱动。由于钆造影剂不进入细胞，Ce比Ct高了1/Ve，Ve（0&lt;Ve&lt;1）是细胞外血管外空间（EES）组织的无量纲体积分数。Tofts-Kermode方程定义如下：</p>
+<div class="figure align-center">
+<img alt="Tofts-Kermode equation" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/1551089.png?330" style="width: 500px;" />
+</div>
+<p>其中Ktrans 是容积转移常数，单位是min−1。该方程的右边可以重写为：</p>
+<div class="figure align-center">
+<img alt="Tofts-Kermode equation" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/8400810_orig.png?481" style="width: 500px;" />
+</div>
+<p>其中， kep 定义为Ktrans/ve，表示造影剂从EES返流回血浆的速率。Ktrans, ve, 和 kep互相联系，并不是完全互相独立的参数。如果已知其中两者，可以算出第三者。
+在DCE检查中，我们可以控制血浆中随时间变化的钆造影剂浓度（Cp），使用动脉输入函数（AIF）表示，或者使用双指数衰减估计的AIF表示，双指数衰减的的初始值从肾脏清除率和整个身体的细胞外空间分布得到。另外，通过测量组织的信号强度，我们可以确定组织中钆造影剂浓度，Ct。Ktrans和ve是未知的，但是这些事潜在的重要生理学参数，可以通过将测量数据拟合到Tofts模型上进行估计。</p>
+<p>最初的Tofts-Kermode模型假设组织中钆的总浓度可以忽略血管内钆的贡献。换句话说，血浆体积分数Vp非常小，在分析中可忽略。因此简单的TK模型只有两个自有参数，这个微分方程可以通过积分解决，</p>
+<div class="figure align-center">
+<img alt="Tofts-Kermode equation" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/8960309_orig.png?305" style="width: 500px;" />
+</div>
+<p>对逐个像素使用非线性最小二乘估计，可以加计算出Ktrans和ve。</p>
+<p>上述公式假定组织中钆的总浓度可以忽略血管内钆的贡献，Ct仅仅由EES中的钆得到。尽管这对某些病变是成立的，如多发性硬化斑块和低级别肿瘤，但对许多恶性肿瘤和其他严重血管病变并不成立。</p>
+<p>对原始Tofts模型的修改通常就是将血管的贡献考虑在内，引入一个新的参数Vp，含血浆组织的体积分数。与Ve一样，Vp是无量纲的，因为它表示组织每单位体积中的血浆容量。扩展后的Tofts模型现在有两部分，含3个参数，用下面这个引入了新术语（VpCp）的方程表示。</p>
+<div class="figure align-center">
+<img alt="Tofts-Kermode equation" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/2151624_orig.png?372" style="width: 500px;" />
+</div>
+<p>应当指出的是模型中增加更多的自由参数并不一定能够改进此模型，它需要更多的数据点来估计多出来的变量。非线性最小二乘拟合算法已经有些不稳定和病态，可能受到更多噪声的干扰从而收敛到不切实际的值。</p>
+<p><strong>其他用于DCE成像的组织模型</strong></p>
+<p>在Tofts和Kermode（英国）研究药代动力学模型的同时，Brix和他的同事（德国）也研究出了一个药代动力学模型。最初的Brix公式（现在已扩展）是一个中央（血管/血浆）和外周（组织细胞外空间）的开放-交换模型。钆在两者之间正向和反向的交换速率分别表示K12和K21，与Tofts模型中的Ktrans和Kep大致对应。然而，Brix模型明确将血流从渗透效应中分离出来（在Ktrans概念中二者是混在一起的）。最初的Brix模型根据信号改变的比例计算钆浓度，这是一个相对不太准确的方法，但是也有优点，这种方法不需要扫打造影剂之前的T1 Mapping序列，也不需要测量动脉输入函数。</p>
+<p>分布参数模型，也被成为组织同质化模型，摒弃了Tofts模型和Brix模型中使用的钆造影剂在组织中“充分混合”的概念，而是假设沿每根毛细血管存在钆浓度梯度，这需要将传输时间纳入模型，但此模型有直接从分析中提取血流信息的潜力。</p>
+<dl class="docutils">
+<dt><strong>参考材料</strong></dt>
+<dd><ul class="first last simple">
+<li>Brix G, Semmler W, Port R, et al. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/brix_pharmacokinetic_parameters_in_cns_gd_dtpa_enhanced.18.pdf">Pharmacokinetic parameters in CNS Gd-DTPA enhanced MR imaging</a>. J Comput Assist Tomogr 1991; 15:621-628.</li>
+<li>Tofts PS. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/b103_tofts-modeling-jmri1997.pdf">Modeling tracer kinetics in dynamic Gd-DTPA MR imaging</a>. J Magn Reson Imaging 1997; 7:91-101.</li>
+<li>Tofts PS, Brix, G, Buckley DL, et al. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/tofts_et_al-1999-journal_of_magnetic_resonance_imaging.pdf">Estimating kinetic parameters from dynamic contrast-enhanced T1-weighted MRI of a diffusable tracer: standardized quantities and symbols</a>. J Magn Reson Imaging 1999; 10:223-232.</li>
+<li>Tofts PS, Kermode AG. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/b48_toftsandkermode-mrm1991.pdf">Measurement of the blood-brain barrier permeability and leakage space using dynamic MR imaging. 1. Fundamental concepts</a>. Magn Reson Med 1991; 17:357-367</li>
+<li>Zaharchuk G. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/ajnr_zharchuk_perfusion_review.pdf">Theoretical basis of hemodynamic MR imaging techniques to measure cerebral blood volume, cerebral blood flow, and permeability</a>. AJNR Am J Neuroradiol 2007; 28:1850-8.</li>
+</ul>
+</dd>
+<dt><strong>相关问题</strong></dt>
+<dd><ul class="first last simple">
+<li><a class="reference external" href="http://www.mri-q.com/parameters-to-images.html">Is Ktrans the same as permeability？</a></li>
+<li><a class="reference external" href="http://www.mri-q.com/parameters-to-images.html">How do calculated DCE parameters relate to patterns of enhancement we see on clinical images?</a></li>
+</ul>
+</dd>
+</dl>
+
+            
+            
+            <hr/>
+            <aside>
+            <nav>
+            <ul class="articles-timeline">
+                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/dce/dce-signal-v-gd.html" title="Previous: Question-DCE信号与钆浓度：如何根据DCE信号强度计算血液和组织中的钆浓度？">Question-DCE信号与钆浓度：如何根据DCE信号强度计算血液和组织中的钆浓度？</a></li>
+                <li class="next-article"><a href="http://chunshan.github.io/MRI-QA/dce/parameters-to-images.html" title="Next: Question-DCE参数与图像 -- 计算的DCE参数如何与我们在临床图像上看到的增强模式相联系？">Question-DCE参数与图像 -- 计算的DCE参数如何与我们在临床图像上看到的增强模式相联系？</a> »</li>
+            </ul>
+            </nav>
+            </aside>
+        </div>
+        <section>
+        <div class="span2" style="float:right;font-size:0.9em;">
+            <h4>Published</h4>
+            <time pubdate="pubdate" datetime="2015-10-29T00:00:00+08:00">十月 29, 2015</time>
+            <h4>Category</h4>
+            <a class="category-link" href="http://chunshan.github.io/MRI-QA/categories.html#dce-ref">DCE</a>
+            <h4>Tags</h4>
+            <ul class="list-of-tags tags-in-article">
+                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#dce-ref">DCE
+                    <span>10</span>
+</a></li>
+                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#perfusion-ref">Perfusion
+                    <span>30</span>
+</a></li>
+            </ul>
+<h4>Stay in Touch</h4>
+    <a href="https://github.com/chunshan" title="My GitHub Profile" class="sidebar-social-links" target="_blank">
+    <i class="fa fa-github sidebar-social-links"></i></a>
+    <a href="mailto:shan.c.young@gmail.com" title="My Email Address" class="sidebar-social-links" target="_blank">
+    <i class="fa fa-envelope sidebar-social-links"></i></a>
+<!-- Begin MailChimp Signup Form -->
+<div id="mc-embed-signup">
+<form action="empty" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<h4>Get Monthly Updates</h4>
+<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter your email..." required>
+<div class="clear"><input type="submit" value="Send me Free updates" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+</form>
+</div>
+<!--End mc_embed_signup-->
+        </div>
+        </section>
+</div>
+</article>
+                </div>
+                <div class="span1"></div>
+            </div>
+        </div>
+        <div id="push"></div>
+    </div>
+<footer>
+<div id="footer">
+    <ul class="footer-content">
+        <li class="elegant-power">Powered by <a href="http://getpelican.com/" title="Pelican Home Page">Pelican</a>. Theme: <a href="http://oncrashreboot.com/pelican-elegant" title="Theme Elegant Home Page">Elegant</a> by <a href="http://oncrashreboot.com" title="Talha Mansoor Home Page">Talha Mansoor</a></li>
+    </ul>
+</div>
+</footer>            <script src="http://code.jquery.com/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        <script>
+            function validateForm(query)
+            {
+                return (query.length > 0);
+            }
+        </script>
+
+    
+    </body>
+    <!-- Theme: Elegant built for Pelican
+    License : http://oncrashreboot.com/pelican-elegant -->
+</html>
