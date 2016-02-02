@@ -10,18 +10,18 @@
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary">
 
-<meta name="keywords" content="Perfusion, DCE, DCE, " />
+<meta name="keywords" content="MR Artifacts, tissue related artifacts, tissue-related-artifacts, " />
 
-<meta property="og:title" content="Question-Ktrans &amp; 渗透性 Ktrans是否等同于渗透性? "/>
-<meta property="og:url" content="http://chunshan.github.io/MRI-QA/dce/k-trans--permeability.html" />
-<meta property="og:description" content="Ktrans是否等同于渗透性" />
+<meta property="og:title" content="Question-同相和失相：同相位（in-phase）成像和失相位（out-of-phase）成像意思是什么？ "/>
+<meta property="og:url" content="http://chunshan.github.io/MRI-QA/tissue-related-artifacts/in-phaseout-of-phase1.html" />
+<meta property="og:description" content="同相位（in-phase）成像和失相位（out-of-phase）成像意思是什么？" />
 <meta property="og:site_name" content="MRI Q&amp;A" />
 <meta property="og:article:author" content="Chunshan" />
-<meta property="og:article:published_time" content="2015-10-31T00:00:00+08:00" />
-<meta name="twitter:title" content="Question-Ktrans &amp; 渗透性 Ktrans是否等同于渗透性? ">
-<meta name="twitter:description" content="Ktrans是否等同于渗透性">
+<meta property="og:article:published_time" content="2015-11-24T00:00:00+08:00" />
+<meta name="twitter:title" content="Question-同相和失相：同相位（in-phase）成像和失相位（out-of-phase）成像意思是什么？ ">
+<meta name="twitter:description" content="同相位（in-phase）成像和失相位（out-of-phase）成像意思是什么？">
 
-        <title>Question-Ktrans &amp; 渗透性 Ktrans是否等同于渗透性?  · MRI Q&amp;A
+        <title>Question-同相和失相：同相位（in-phase）成像和失相位（out-of-phase）成像意思是什么？  · MRI Q&amp;A
 </title>
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
@@ -68,7 +68,7 @@
 <article>
 <div class="row-fluid">
     <header class="page-header span10 offset2">
-    <h1><a href="http://chunshan.github.io/MRI-QA/dce/k-trans--permeability.html"> Question-Ktrans &amp; 渗透性  Ktrans是否等同于渗透性?  </a></h1>
+    <h1><a href="http://chunshan.github.io/MRI-QA/tissue-related-artifacts/in-phaseout-of-phase1.html"> Question-同相和失相：同相位（in-phase）成像和失相位（out-of-phase）成像意思是什么？  </a></h1>
     </header>
 </div>
 
@@ -76,64 +76,71 @@
         <div class="span8 offset2 article-content">
 
             
-            <p>原文链接:<a class="reference external" href="http://www.mri-q.com/k-trans--permeability.html">Is Ktrans the same as permeability?</a></p>
+            <p>原文链接:<a class="reference external" href="http://www.mri-q.com/in-phaseout-of-phase1.html">What is meant by in-phase vs out-of-phase imaging?</a></p>
 <dl class="docutils">
 <dt><strong>概要</strong></dt>
 <dd><div class="first last figure align-center">
-<img alt="summary" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/4882327_orig.png" style="width: 700px;" />
+<img alt="summary" src="http://www.mri-q.com/uploads/3/4/5/7/34572113/1493888_orig.png?290" style="width: 700px;" />
 </div>
 </dd>
 </dl>
+<p>像在前一个Q&amp;A中所描述的，同一个体素中水和脂肪信号间的相位取消导致梯度回波图像上第二类化学位移伪影的产生。这种伪影表现为器官和解剖结构在水-脂肪交界处的黑线。这种伪影的幅度依赖于水和脂肪间的相位循环，1.5T下由于化学位移导致的相位循环的频率约215Hz。</p>
 <div class="figure align-right">
-<img alt="Volume transfer rate of gadolinium" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/7177973_orig.gif" style="width: 500px;" />
-<p class="caption">钆（黑点）进入组织的体积转移速率（Ktrans）依赖于血浆流量（F），渗透性（P）和血管表面积（S）</p>
+<img alt="phase cancellation artifact" src="http://www.mri-q.com/uploads/3/4/5/7/34572113/1046728_orig.gif" style="width: 450px;" />
 </div>
-<p>体积转移常数（Ktrans）反映钆造影剂从血浆进入血管外细胞外空间（EES）组织的流出速率。Ktrans取决于于三个因素：血浆流量（F），血管通透性（P）和单位质量的毛细血管表面积（S）。在实践中，渗透性和表面积分别的贡献不能清楚地分离出来，因此一般把它们一起考虑，即乘积PS。</p>
-<p>如下图所示，两个有相同血流和PS乘积的毛细血管网络中，钆将会以相同的速率进入组织，即使它们的渗透性和表面积可能不同。</p>
-<div class="figure align-center">
-<img alt="Two different capillary networks with the same flows" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/6387590_orig.gif?575" style="width: 700px;" />
-<p class="caption">两种有具有相同流量（F）和PS乘积的毛细血管网络有相同的Ktrans值</p>
-</div>
-<p>一般而言，F,P,S分别对Ktrans的贡献不能分开。然而，两种特殊情况可以揭示这三个因素相对的重要性及它们的相互作用。</p>
-<ul class="simple">
-<li>情况1 （渗透性有限） 这种情况下（下面的左图），血浆流量（F）比PS乘积大得多。大量钆随血流传送到组织，但进入组织间隙的量仅取决于毛细血管床的大小和渗透性。这种情况下，Ktrans = P×S。</li>
-<li>情况2 （流量有限） 这种情况下血浆流量比PS乘积小的多，所有钆在到达毛细血管床的静脉端之前几乎都泄露到EES，因而，Ktrans = F。</li>
-</ul>
+<p>1.5T下，同相和失相之间的相位循环约每2.2ms发生一次。3.0T时循环速度加倍，每1.1ms发生一次。1.5T下采集的梯度回波图像当TE为2.2ms，6.6ms，11.0ms时称为失相（Out Of Phase，OOP），TE为4.4ms，8.8ms等值时称为同相（In Phase，IP）。</p>
+<p>到1980年代末，一些研究者开始意识到相位消除效应可以在临床上用来识别甚至量化组织（如肝）中的脂肪含量。今天这一原则一个特别常见的应用是帮助区分肾上腺腺瘤（通常包含脂肪）和癌及转移瘤（一般不含脂肪）。其他各种腹部病变的诊断，包括血管平滑肌脂肪瘤，肾透明细胞癌和肝局灶性脂肪侵润都可以通过IP-OOP成像辅助诊断。这种技术在下图说明，包含一对梯度回波图像，有相同TR但是不同TE，一个同相，一个失相。如果病变处信号强度在OOP图像上显著下降说明很可能包含显微脂肪。因此，IP/OOP扫描是目前大多数腹部成像协议的一种标准组成部分。</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="50%" />
-<col width="50%" />
+<col width="34%" />
+<col width="32%" />
+<col width="34%" />
 </colgroup>
 <tbody valign="top">
 <tr><td><div class="first last figure">
-<img alt="Gd-enhanced T1-image of malignant glioma" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/1715352_orig.gif" style="width: 400px;" />
+<img alt="Lipid-rich adrenal adenoma (arrow)" src="http://www.mri-q.com/uploads/3/4/5/7/34572113/4404998_orig.jpg?246" style="width: 300px;" />
+<p class="caption">富含脂肪的肾上腺腺瘤（箭头）。同相的梯度回波图像（TE=4.4ms）显示中等强度信号肿瘤</p>
 </div>
 </td>
 <td><div class="first last figure">
-<img alt="Ktrans map" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/8239895_orig.gif" style="width: 400px;" />
+<img alt="Out-of-phase GRE image at TE=2.2 msec" src="http://www.mri-q.com/uploads/3/4/5/7/34572113/5503468_orig.jpg" style="width: 300px;" />
+<p class="caption">失相的梯度回波图像（TE=2.2ms），腺瘤（箭头）信号下降，有相位取消伪影。</p>
+</div>
+</td>
+<td><div class="first last figure">
+<img alt="Lipid droplets (arrow) in adrenal adenoma." src="http://www.mri-q.com/uploads/3/4/5/7/34572113/9856587_orig.jpg?169" style="width: 150px;" />
+<p class="caption">肾上腺腺瘤中的脂滴（箭头）</p>
+</div>
+</td>
+</tr>
+<tr><td><div class="first last figure">
+<img alt="Hepatic steatosis. In-phase GRE with TE=4.4 msec." src="http://www.mri-q.com/uploads/3/4/5/7/34572113/5292881_orig.jpg?242" style="width: 300px;" />
+<p class="caption">肝脂肪变性。同相的梯度回波图像（TE=4.4ms）</p>
+</div>
+</td>
+<td><div class="first last figure">
+<img alt="Reduction in hepatic signal" src="http://www.mri-q.com/uploads/3/4/5/7/34572113/5894731_orig.jpg" style="width: 300px;" />
+<p class="caption">失相梯度回波图像（TE=2.2ms）上肝脏信号降低</p>
+</div>
+</td>
+<td><div class="first last figure">
+<img alt="Specimen shows lipid droplets" src="http://www.mri-q.com/uploads/3/4/5/7/34572113/9983895_orig.jpg" style="width: 150px;" />
+<p class="caption">标本上显示存在脂滴</p>
 </div>
 </td>
 </tr>
 </tbody>
 </table>
-<p><strong>高级讨论</strong></p>
-<p>毛细血管渗透性的单位（cm/min）并不是那么显而易见的。渗透性（P）定义为由于浓度（moles/cm³）差的驱动，一段时间内（min）一种溶质通过给定面积（cm²）薄膜的摩尔数。因此该单位可以写为：</p>
-<p>P = [moles]/[cm²]/[min]/[moles/cm³] = cm/min</p>
-<p>同样，S并不表示毛细血管的表面积（单位cm²），而是表示“每单位质量组织中的表面积比例”。因此S通过面积/质量度量（比如，cm²/100g）。总起来，PS乘积的单位是 [cm/min]•[cm²/100g] = cc/min/100g，与流量（F）的单位是相同的。</p>
 <dl class="docutils">
 <dt><strong>参考材料</strong></dt>
 <dd><ul class="first last simple">
-<li>Cuenod CA, Balvay D. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/permeability_1-s2.0-s2211568413003306-main.pdf">Perfusion and vascular permeability: basic concepts and measurement in DCE-CT and DCE-MRI</a>. Diagn Interv Imaging 2013; 94:1187-1204. (Good review of basic mechanisms; some terminology is slightly different than abbreviations used in Tofts models).</li>
-<li>Pappenheimer JR. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/pappenheimer_387.full.pdf">Passage of molecules through capillary walls</a>. Physiol Rev 1953; 33;387-423.</li>
-<li>Sourbron S, Ingrisch M, Siefert A, et al. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/sourbron_et_al-2009-magnetic_resonance_in_medicine.pdf">Quantification of cerebral blood flow, cerebral blood volume, and blood-brain-barrier leakage with DCE-MRI</a>. Magn Reson Med 2009; 62:205-217.</li>
-<li>Tofts PS. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/dce-mri_siemens.pdf">T1-weighted DCE imaging concepts: modelling, acquisition and analysis</a>. MAGNETOM Flash 2010; 3:30-35.</li>
-<li>Zhang N, Zhang L, Qui B, et al. <a class="reference external" href="http://www.mri-q.com/uploads/3/2/7/4/3274160/zhangnihms365626.pdf">Correlation of volume transfer coefficient Ktrans with histopathologic grades of gliomas</a>. J Magn Reson Imaging 2012; 36:355-363.</li>
+<li>Outwater EK, Blasbalg R, Siegelman ES, Vala M. <a class="reference external" href="http://www.mri-q.com/uploads/3/4/5/7/34572113/outwater_fat_waterradiographics2e182e62e9821195.pdf">Detection of lipid in abdominal tissues with opposed-phase gradient-echo images at 1.5T: techniques and diagnostic importance</a>. Radiographics 1998; 18:1465-80.</li>
 </ul>
 </dd>
 <dt><strong>相关问题</strong></dt>
 <dd><ul class="first last simple">
-<li><a class="reference external" href="http://www.mri-q.com/dce-tissue-parmeters.html">What quantitative parameters can be extracted from the DCE data?</a></li>
-<li><a class="reference external" href="http://www.mri-q.com/parameters-to-images.html">How do calculated DCE parameters relate to patterns of enhancement we see on clinical images?</a></li>
+<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/tissue-related-artifacts/chemical-shift-2nd-kind.html">什么是第二类化学位移伪影（Chemical Shift:2nd Kind）？</a></li>
+<li><a class="reference external" href="http://www.mri-q.com/multi-echo-gre.html">How do you produce multiple GRE's from a single pulse?</a></li>
 </ul>
 </dd>
 </dl>
@@ -144,8 +151,8 @@
             <aside>
             <nav>
             <ul class="articles-timeline">
-                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/dce/parameters-to-images.html" title="Previous: Question-DCE参数与图像 -- 计算的DCE参数如何与我们在临床图像上看到的增强模式相联系？">Question-DCE参数与图像 -- 计算的DCE参数如何与我们在临床图像上看到的增强模式相联系？</a></li>
-                <li class="next-article"><a href="http://chunshan.github.io/MRI-QA/dce/utility-of-dce.html" title="Next: Question-量化DCE的应用 什么情况下量化的DCE成像是有用的？有没有这样的例子？">Question-量化DCE的应用 什么情况下量化的DCE成像是有用的？有没有这样的例子？</a> »</li>
+                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/tissue-related-artifacts/chemical-shift-2nd-kind.html" title="Previous: Question-第二类化学位移伪影：什么是第二类化学位移伪影（Chemical Shift:2nd Kind）？">Question-第二类化学位移伪影：什么是第二类化学位移伪影（Chemical Shift:2nd Kind）？</a></li>
+                <li class="next-article"><a href="http://chunshan.github.io/MRI-QA/tissue-related-artifacts/ir-bounce-point.html" title="Next: Question-反转恢复序列中的反弹点伪影：我注意到T1-FLAIR图像中有时也会出现“印度墨水”样的轮廓，这也是一种化学位移伪影么？">Question-反转恢复序列中的反弹点伪影：我注意到T1-FLAIR图像中有时也会出现“印度墨水”样的轮廓，这也是一种化学位移伪影么？</a> »</li>
             </ul>
             </nav>
             </aside>
@@ -153,16 +160,16 @@
         <section>
         <div class="span2" style="float:right;font-size:0.9em;">
             <h4>Published</h4>
-            <time pubdate="pubdate" datetime="2015-10-31T00:00:00+08:00">十月 31, 2015</time>
+            <time pubdate="pubdate" datetime="2015-11-24T00:00:00+08:00">十一月 24, 2015</time>
             <h4>Category</h4>
-            <a class="category-link" href="http://chunshan.github.io/MRI-QA/categories.html#dce-ref">DCE</a>
+            <a class="category-link" href="http://chunshan.github.io/MRI-QA/categories.html#tissue-related-artifacts-ref">tissue-related-artifacts</a>
             <h4>Tags</h4>
             <ul class="list-of-tags tags-in-article">
-                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#dce-ref">DCE
+                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#mr-artifacts-ref">MR Artifacts
                     <span>10</span>
 </a></li>
-                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#perfusion-ref">Perfusion
-                    <span>30</span>
+                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#tissue-related-artifacts-ref">tissue related artifacts
+                    <span>10</span>
 </a></li>
             </ul>
 <h4>Stay in Touch</h4>
