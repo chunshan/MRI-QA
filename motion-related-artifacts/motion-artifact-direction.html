@@ -10,18 +10,18 @@
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary">
 
-<meta name="keywords" content="MR Artifacts, tissue related artifacts, tissue-related-artifacts, " />
+<meta name="keywords" content="MR Artifacts, motion related artifacts, motion-related-artifacts, " />
 
-<meta property="og:title" content="Question-第二类化学位移伪影：什么是第二类化学位移伪影（Chemical Shift:2nd Kind）？ "/>
-<meta property="og:url" content="http://chunshan.github.io/MRI-QA/tissue-related-artifacts/chemical-shift-2nd-kind.html" />
-<meta property="og:description" content="什么是第二类化学位移伪影？" />
+<meta property="og:title" content="Question-运动伪影：为什么运动伪影在相位编码方向传播而不是频率编码方向？ "/>
+<meta property="og:url" content="http://chunshan.github.io/MRI-QA/motion-related-artifacts/motion-artifact-direction.html" />
+<meta property="og:description" content="为什么运动伪影在相位编码方向传播而不是频率编码方向？" />
 <meta property="og:site_name" content="MRI Q&amp;A" />
 <meta property="og:article:author" content="Chunshan" />
-<meta property="og:article:published_time" content="2015-11-23T00:00:00+08:00" />
-<meta name="twitter:title" content="Question-第二类化学位移伪影：什么是第二类化学位移伪影（Chemical Shift:2nd Kind）？ ">
-<meta name="twitter:description" content="什么是第二类化学位移伪影？">
+<meta property="og:article:published_time" content="2015-12-02T00:00:00+08:00" />
+<meta name="twitter:title" content="Question-运动伪影：为什么运动伪影在相位编码方向传播而不是频率编码方向？ ">
+<meta name="twitter:description" content="为什么运动伪影在相位编码方向传播而不是频率编码方向？">
 
-        <title>Question-第二类化学位移伪影：什么是第二类化学位移伪影（Chemical Shift:2nd Kind）？  · MRI Q&amp;A
+        <title>Question-运动伪影：为什么运动伪影在相位编码方向传播而不是频率编码方向？  · MRI Q&amp;A
 </title>
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
@@ -68,7 +68,7 @@
 <article>
 <div class="row-fluid">
     <header class="page-header span10 offset2">
-    <h1><a href="http://chunshan.github.io/MRI-QA/tissue-related-artifacts/chemical-shift-2nd-kind.html"> Question-第二类化学位移伪影：什么是第二类化学位移伪影（Chemical Shift:2nd Kind）？  </a></h1>
+    <h1><a href="http://chunshan.github.io/MRI-QA/motion-related-artifacts/motion-artifact-direction.html"> Question-运动伪影：为什么运动伪影在相位编码方向传播而不是频率编码方向？  </a></h1>
     </header>
 </div>
 
@@ -76,64 +76,35 @@
         <div class="span8 offset2 article-content">
 
             
-            <p>原文链接:<a class="reference external" href="http://www.mri-q.com/chemical-shift-2nd-kind.html">What is a chemical shift artifact of the second kind?</a></p>
+            <p>原文链接:<a class="reference external" href="http://mri-q.com/motion-artifact-direction.html">Why are motion artifacts propagated in the phase-encode direction instead of the frequency-encode direction?</a></p>
 <dl class="docutils">
 <dt><strong>概要</strong></dt>
 <dd><div class="first last figure align-center">
-<img alt="summary" src="http://www.mri-q.com/uploads/3/4/5/7/34572113/3582283_orig.png" style="width: 700px;" />
+<img alt="summary" src="http://mri-q.com/uploads/3/4/5/7/34572113/1373222_orig.png?308" style="width: 700px;" />
 </div>
 </dd>
 </dl>
+<div class="figure align-left">
+<img alt="Why are motion artifacts propagated in the phase-encode direction instead of the frequency-encode direction" src="http://mri-q.com/uploads/3/4/5/7/34572113/8958625_orig.gif?376" style="width: 500px;" />
+</div>
+<p>在2DFT成像中，频率和相位编码方向上数据采集的采样时间之间存在着相当大的差距。在频率编码方向，所有256-512个信号的采样是在一个回波的间隔中获得的（例如，5-80毫秒）。相反，在相位编码方向上获取一个采样的时间在几秒钟到几分钟的级别，因为基本上k空间中所有的线必须都收集获得完整的数据集用于傅里叶重建。</p>
 <div class="figure align-right">
-<img alt="chemical shift artifact of the second kind" src="http://www.mri-q.com/uploads/3/4/5/7/34572113/7639677_orig.jpg?277" style="width: 400px;" />
+<img alt="Why are motion artifacts propagated in the phase-encode direction instead of the frequency-encode direction" src="http://mri-q.com/uploads/3/4/5/7/34572113/3712012_orig.jpg?323" style="width: 400px;" />
+<p class="caption">在此轴向头部检查中，选择从左到右的相位编码方向，从而眼窝的运动伪影不会溢出到大脑区域。</p>
 </div>
-<p>第二类化学位移伪影有时又被称为印度墨水或黑线伪影，因为器官和肌肉束看起来像被黑笔描了边。这些黑线并不反应真正的解剖结构，而是含有水和脂肪的边界像素的信号被破坏性干扰的结果。由于这个原因，它有时被称为相位取消伪影。图示了脊柱，大腿和腹部的例子。</p>
-<table border="1" class="docutils">
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody valign="top">
-<tr><td><div class="first last figure">
-<img alt="Chemical shift artifact of the second kind" src="http://www.mri-q.com/uploads/3/4/5/7/34572113/8546841_orig.gif?273" style="width: 350px;" />
-</div>
-</td>
-<td><div class="first last figure">
-<img alt="Chemical shift artifact at border of muscle and fat" src="http://www.mri-q.com/uploads/3/4/5/7/34572113/3975551_orig.jpg?332" style="width: 350px;" />
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-<p>这种形式的化学位移伪影只发生在梯度回波成像中（不像第一类化学位移伪影也会发生在自旋回波成像中）。此外，第二类化学位移伪影是由于相位取消效应导致的，所以不限于频率编码方向（第一类化学位移伪影仅限于此频率编码方向），会出现在沿脂肪-水交界处的所有像素。</p>
-<p>在自旋回波成像中，水和脂肪间的信号会在每个回波的中心回到相位相干（尽管它们频率不同，空间位置不同）。梯度回波成像中，水和脂肪质子在每个回波的中心却不会回到相位相干（因为梯度回波序列缺少自旋回波序列中的180°相位重聚脉冲）。梯度回波序列中，水和脂肪质子之间的相位差是回波时间（TE）的函数。1.5T下，水和脂肪质子间从相位相同变为不相同又变为相同的周期约1/225Hz（4.4ms），因此1.5T下，在TE=2.2，6.6，11.0，15.4ms等值时，梯度回波成像中脂肪和水相位正好彼此相反。在TE接近这些“特殊值”时采集的梯度回波图像就会出现第二类的化学位移伪影。</p>
-<table border="1" class="docutils">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<tbody valign="top">
-<tr><td><div class="first last figure">
-<img alt="phase cancellation artifact" src="http://www.mri-q.com/uploads/3/4/5/7/34572113/8242005_orig.gif" style="width: 450px;" />
-</div>
-</td>
-</tr>
-<tr><td><div class="first last figure">
-<img alt="phase cancellation artifact" src="http://www.mri-q.com/uploads/3/4/5/7/34572113/206041_orig.gif" style="width: 450px;" />
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-<p>上图显示了相位取消效应和“黑线”产生的起源。中间的边界像素包含相同数目的水和脂肪质子，而且在TE=2.2ms相位相反时成像，因为水和脂肪信号相位相反，它们彼此取消，净幅值为零，因此没有信号。纯水或纯脂肪时没有这样的相位取消，由于显示的图像都是幅值重建，因此最终的图像中都是亮的。因此纯水和纯脂肪的像素被它们之间交界处的黑色边界分开。</p>
+<p>最严重的生理运动（呼吸，吞咽，心脏搏动）的周期在一百毫秒到几秒钟之间。由于这些运动相对于频率采样间隔是缓慢的，它们通常在频率编码方向上产生空间上的局部轻微模糊。相反，由于相位采样间隔通常等于或比大多数的生理运动周期更长，伪影在这个方向上将更加突出。此外，无论生理运动发生在频率编码，相位编码，或切片选择方向，这些伪影都将在相位编码方向传播。</p>
+<p>一个对所有类型的运动简单有效的成像策略是交换相位编码轴和频率编码轴。虽然这不会改变运动伪影，它会将伪影移到一个不同的方向从而使得伪影不会溢出到感兴趣区域。比如，在轴向头颅成像中，相位编码方向通常选为从左到右，这样眼窝的运动伪影就不会溢出到大脑区域。</p>
 <dl class="docutils">
 <dt><strong>参考材料</strong></dt>
 <dd><ul class="first last simple">
-<li>Wehrli FW, Perkins TG, Shimakawa A, Roberts F. <a class="reference external" href="http://www.mri-q.com/uploads/3/4/5/7/34572113/wehrli_chemic_shift.pdf">Chemical shift-induced amplitude modulations in images obtained with gradient refocusing</a>.  Magn Reson Imaging 1987; 5:157-8.</li>
+<li>Axel L, Summers RM, Kressel HY, Charles C.  <a class="reference external" href="http://mri-q.com/uploads/3/4/5/7/34572113/axel_respiratory.pdf">Respiratory effects in two-dimensional Fourier transform MR imaging</a>.  Radiology 1986; 160:795-801.</li>
+<li>Storey P, Chen Q, Li W, et al. <a class="reference external" href="http://mri-q.com/uploads/3/4/5/7/34572113/storey_band_artifacts_due_toperiodic_motion_mrm.pdf">Band artifacts due to bulk motion</a>. Magn Reson Med 2002; 48:1028-1036.</li>
+<li>Wood ML, Henkelman RM.  <a class="reference external" href="http://mri-q.com/uploads/3/4/5/7/34572113/wood_and_henkleman_motion_artifacts.pdf">MR image artifacts from periodic motion</a>.  Med Phys  1985;12:143-151.</li>
 </ul>
 </dd>
 <dt><strong>相关问题</strong></dt>
 <dd><ul class="first last simple">
-<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/tissue-related-artifacts/chemical-shift-artifact.html">什么是化学位移伪影？</a></li>
+<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/motion-related-artifacts/why-discrete-ghosts.html">为什么运动伪影常会形成离散的鬼影？</a></li>
 </ul>
 </dd>
 </dl>
@@ -144,8 +115,8 @@
             <aside>
             <nav>
             <ul class="articles-timeline">
-                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/tissue-related-artifacts/reducing-chemical-shift.html" title="Previous: Question-减少化学位移伪影：怎么做可以消除或减少化学位移伪影">Question-减少化学位移伪影：怎么做可以消除或减少化学位移伪影</a></li>
-                <li class="next-article"><a href="http://chunshan.github.io/MRI-QA/tissue-related-artifacts/in-phaseout-of-phase1.html" title="Next: Question-同相和失相：同相位（in-phase）成像和失相位（out-of-phase）成像意思是什么？">Question-同相和失相：同相位（in-phase）成像和失相位（out-of-phase）成像意思是什么？</a> »</li>
+                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/motion-related-artifacts/why-discrete-ghosts.html" title="Previous: Question-鬼影：为什么运动伪影常会形成离散的鬼影？">Question-鬼影：为什么运动伪影常会形成离散的鬼影？</a></li>
+                <li class="next-article"><a href="http://chunshan.github.io/MRI-QA/motion-related-artifacts/reducing-motion-artifacts.html" title="Next: Question-减少运动伪影：运动伪影如何减少或消除？">Question-减少运动伪影：运动伪影如何减少或消除？</a> »</li>
             </ul>
             </nav>
             </aside>
@@ -153,16 +124,16 @@
         <section>
         <div class="span2" style="float:right;font-size:0.9em;">
             <h4>Published</h4>
-            <time pubdate="pubdate" datetime="2015-11-23T00:00:00+08:00">十一月 23, 2015</time>
+            <time pubdate="pubdate" datetime="2015-12-02T00:00:00+08:00">十二月 2, 2015</time>
             <h4>Category</h4>
-            <a class="category-link" href="http://chunshan.github.io/MRI-QA/categories.html#tissue-related-artifacts-ref">tissue-related-artifacts</a>
+            <a class="category-link" href="http://chunshan.github.io/MRI-QA/categories.html#motion-related-artifacts-ref">motion-related-artifacts</a>
             <h4>Tags</h4>
             <ul class="list-of-tags tags-in-article">
+                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#motion-related-artifacts-ref">motion related artifacts
+                    <span>8</span>
+</a></li>
                 <li><a href="http://chunshan.github.io/MRI-QA/tags.html#mr-artifacts-ref">MR Artifacts
                     <span>18</span>
-</a></li>
-                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#tissue-related-artifacts-ref">tissue related artifacts
-                    <span>10</span>
 </a></li>
             </ul>
 <h4>Stay in Touch</h4>
