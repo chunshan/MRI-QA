@@ -5,7 +5,7 @@
 :authors: Chunshan
 :slug: welcome_to_mri_questions_answers_chinese_version
 
-首先声明这个网站的文章（除了本篇^_^）都翻译自\ `Questions and Answers in MRI <http://mriquestions.com>`_。
+首先声明这个网站的文章（除了本篇^_^）都翻译自\ `Questions and Answers in MRI <http://mriquestions.com>`_。网站上看到的图片也都是来源于\ `Questions and Answers in MRI <http://mriquestions.com>`_，这些图片非常宝贵，其版权都属于Allen D. Elster博士和\ `Questions and Answers in MRI <http://mriquestions.com>`_。
 
 在学习磁共振知识的过程中，我发现了\ `Questions and Answers in MRI <http://mriquestions.com>`_\ 这个网站，这个网站对磁共振相关知识介绍的非常全面，涵盖磁体，线圈，磁共振成像原理，磁共振伪影，磁共振功能成像等方方面面，堪称磁共振知识的百科全书，而且每个话题都写得深入浅出，图文并茂，甚至有视频讲解，磁共振初学者和对磁共振有一定了解的技术人员都能从中学到很多东西。这个网站的作者Allen D. Elster在开发这个网站之前其实已经分别在1994年和2001年出过 *Questions and Answers in Magnetic Resonance Imaging* 这本书的第一版和第二版，这个网站算是这本书的延伸。
 
