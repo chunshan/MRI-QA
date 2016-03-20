@@ -10,18 +10,18 @@
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary">
 
-<meta name="keywords" content="MR Artifacts, tissue related artifacts, tissue-related-artifacts, " />
+<meta name="keywords" content="MR Artifacts, technique related artifacts, technique-related-artifacts, " />
 
-<meta property="og:title" content="Question-同相和失相：同相位（in-phase）成像和失相位（out-of-phase）成像意思是什么？ "/>
-<meta property="og:url" content="http://chunshan.github.io/MRI-QA/tissue-related-artifacts/in-phaseout-of-phase1.html" />
-<meta property="og:description" content="同相位（in-phase）成像和失相位（out-of-phase）成像意思是什么？" />
+<meta property="og:title" content="Question-非相位卷折：相位过采样如何消除卷折伪影？ "/>
+<meta property="og:url" content="http://chunshan.github.io/MRI-QA/technique-related-artifacts/phase-oversampling.html" />
+<meta property="og:description" content="相位过采样如何消除卷折伪影？" />
 <meta property="og:site_name" content="MRI Q&amp;A" />
 <meta property="og:article:author" content="Chunshan" />
-<meta property="og:article:published_time" content="2015-11-24T00:00:00+08:00" />
-<meta name="twitter:title" content="Question-同相和失相：同相位（in-phase）成像和失相位（out-of-phase）成像意思是什么？ ">
-<meta name="twitter:description" content="同相位（in-phase）成像和失相位（out-of-phase）成像意思是什么？">
+<meta property="og:article:published_time" content="2015-12-23T00:00:00+08:00" />
+<meta name="twitter:title" content="Question-非相位卷折：相位过采样如何消除卷折伪影？ ">
+<meta name="twitter:description" content="相位过采样如何消除卷折伪影？">
 
-        <title>Question-同相和失相：同相位（in-phase）成像和失相位（out-of-phase）成像意思是什么？  · MRI Q&amp;A
+        <title>Question-非相位卷折：相位过采样如何消除卷折伪影？  · MRI Q&amp;A
 </title>
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
@@ -69,7 +69,7 @@
 <article>
 <div class="row-fluid">
     <header class="page-header span10 offset2">
-    <h1><a href="http://chunshan.github.io/MRI-QA/tissue-related-artifacts/in-phaseout-of-phase1.html"> Question-同相和失相：同相位（in-phase）成像和失相位（out-of-phase）成像意思是什么？  </a></h1>
+    <h1><a href="http://chunshan.github.io/MRI-QA/technique-related-artifacts/phase-oversampling.html"> Question-非相位卷折：相位过采样如何消除卷折伪影？  </a></h1>
     </header>
 </div>
 
@@ -77,71 +77,40 @@
         <div class="span8 offset2 article-content">
 
             
-            <p>原文链接:<a class="reference external" href="http://www.mri-q.com/in-phaseout-of-phase1.html">What is meant by in-phase vs out-of-phase imaging?</a></p>
+            <p>原文链接:<a class="reference external" href="http://mri-q.com/phase-oversampling.html">How does phase oversampling eliminate the wrap-around artifact?</a></p>
 <dl class="docutils">
 <dt><strong>概要</strong></dt>
 <dd><div class="first last figure align-center">
-<img alt="summary" src="http://www.mri-q.com/uploads/3/4/5/7/34572113/1493888_orig.png?290" style="width: 700px;" />
+<img alt="summary" src="http://mri-q.com/uploads/3/4/5/7/34572113/6844099_orig.png?313" style="width: 700px;" />
 </div>
 </dd>
 </dl>
-<p>像在前一个Q&amp;A中所描述的，同一个体素中水和脂肪信号间的相位取消导致梯度回波图像上第二类化学位移伪影的产生。这种伪影表现为器官和解剖结构在水-脂肪交界处的黑线。这种伪影的幅度依赖于水和脂肪间的相位循环，1.5T下由于化学位移导致的相位循环的频率约215Hz。</p>
 <div class="figure align-right">
-<img alt="phase cancellation artifact" src="http://www.mri-q.com/uploads/3/4/5/7/34572113/1046728_orig.gif" style="width: 450px;" />
+<img alt="Wrap-around artifact" src="http://mri-q.com/uploads/3/4/5/7/34572113/4080625_orig.jpg?182" style="width: 300px;" />
+<p class="caption">卷折伪影</p>
 </div>
-<p>1.5T下，同相和失相之间的相位循环约每2.2ms发生一次。3.0T时循环速度加倍，每1.1ms发生一次。1.5T下采集的梯度回波图像当TE为2.2ms，6.6ms，11.0ms时称为失相（Out Of Phase，OOP），TE为4.4ms，8.8ms等值时称为同相（In Phase，IP）。</p>
-<p>到1980年代末，一些研究者开始意识到相位消除效应可以在临床上用来识别甚至量化组织（如肝）中的脂肪含量。今天这一原则一个特别常见的应用是帮助区分肾上腺腺瘤（通常包含脂肪）和癌及转移瘤（一般不含脂肪）。其他各种腹部病变的诊断，包括血管平滑肌脂肪瘤，肾透明细胞癌和肝局灶性脂肪侵润都可以通过IP-OOP成像辅助诊断。这种技术在下图说明，包含一对梯度回波图像，有相同TR但是不同TE，一个同相，一个失相。如果病变处信号强度在OOP图像上显著下降说明很可能包含显微脂肪。因此，IP/OOP扫描是目前大多数腹部成像协议的一种标准组成部分。</p>
-<table border="1" class="docutils">
-<colgroup>
-<col width="34%" />
-<col width="32%" />
-<col width="34%" />
-</colgroup>
-<tbody valign="top">
-<tr><td><div class="first last figure">
-<img alt="Lipid-rich adrenal adenoma (arrow)" src="http://www.mri-q.com/uploads/3/4/5/7/34572113/4404998_orig.jpg?246" style="width: 300px;" />
-<p class="caption">富含脂肪的肾上腺腺瘤（箭头）。同相的梯度回波图像（TE=4.4ms）显示中等强度信号肿瘤</p>
+<p>相位过采样，也被称为“非相位卷折”，是一种减少或消除卷折伪影（wrap-around artifacts）的技术。像在<a class="reference external" href="http://chunshan.github.io/MRI-QA/technique-related-artifacts/eliminate-wrap-around.html">前一个Q&amp;A</a>中描述的，相位卷折是混叠的一种形式，当物体的解剖尺寸超出了定义的视野（FOV）时便会发生。物体超出FOV的部分在频率上出现错误，折叠到图像的边缘。卷折几乎只在相位编码方向出现。</p>
+<p>减少或消除相位卷折伪影的几个直接的方法在<a class="reference external" href="http://chunshan.github.io/MRI-QA/technique-related-artifacts/eliminate-wrap-around.html">前面的Q&amp;A</a>中已经讨论了，包括：1）增加FOV；2）交换相位和频率轴；3）使用表面线圈；4）应用饱和带。</p>
+<p>所有的制造商也提供相位过采样技术控制相位卷折，这也是本Q&amp;A的主题。如你所想到的，主要厂商对这一技术的命名并不相同：“相位过采样（Phase oversampling）”（Siemens），“非相位卷折（No phase-wrap）”（GE），“卷折抑制（Fold-over suppression）”（Philips），“反卷折（Anti-wrap）”（Hitachi），“相位卷折抑制（Phase-wrap suppression）”（Toshiba）。</p>
+<p>所有的厂商都使用相同的技术，只有轻微的变化，说明如下。这个例子说明了100%相位过采样的情况，实际上大多数扫描仪上过采样因子是一定范围内可调节的。</p>
+<p>相位过采样需要四个步骤，如果扫描仪软件中选择相位过采样这个选项，四个步骤就会自动进行。（1）相位编码方向上的视野（FOV）翻倍，（2）相位编码步数（Np）翻倍，（3）激励次数减半，（4）仅显示重建图像的中间部分。步骤（1）和（2）保证空间分辨率与不使用相位过采样时相同。步骤（3）保证信噪比和成像时间。</p>
+<div class="figure align-center">
+<img alt="phase oversampling" src="http://mri-q.com/uploads/3/4/5/7/34572113/9110633_orig.gif?544" style="width: 700px;" />
 </div>
-</td>
-<td><div class="first last figure">
-<img alt="Out-of-phase GRE image at TE=2.2 msec" src="http://www.mri-q.com/uploads/3/4/5/7/34572113/5503468_orig.jpg" style="width: 300px;" />
-<p class="caption">失相的梯度回波图像（TE=2.2ms），腺瘤（箭头）信号下降，有相位取消伪影。</p>
-</div>
-</td>
-<td><div class="first last figure">
-<img alt="Lipid droplets (arrow) in adrenal adenoma." src="http://www.mri-q.com/uploads/3/4/5/7/34572113/9856587_orig.jpg?169" style="width: 150px;" />
-<p class="caption">肾上腺腺瘤中的脂滴（箭头）</p>
-</div>
-</td>
-</tr>
-<tr><td><div class="first last figure">
-<img alt="Hepatic steatosis. In-phase GRE with TE=4.4 msec." src="http://www.mri-q.com/uploads/3/4/5/7/34572113/5292881_orig.jpg?242" style="width: 300px;" />
-<p class="caption">肝脂肪变性。同相的梯度回波图像（TE=4.4ms）</p>
-</div>
-</td>
-<td><div class="first last figure">
-<img alt="Reduction in hepatic signal" src="http://www.mri-q.com/uploads/3/4/5/7/34572113/5894731_orig.jpg" style="width: 300px;" />
-<p class="caption">失相梯度回波图像（TE=2.2ms）上肝脏信号降低</p>
-</div>
-</td>
-<td><div class="first last figure">
-<img alt="Specimen shows lipid droplets" src="http://www.mri-q.com/uploads/3/4/5/7/34572113/9983895_orig.jpg" style="width: 150px;" />
-<p class="caption">标本上显示存在脂滴</p>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
+<p>尽管理论上使用相位过采样技术不会有额外损失，但还是有一些限制和特殊的考虑。首先，相位过采样不能与一些专门的多段技术（如POMP）结合使用，因为这些技术也要求增加FOV并且改变相位偏移。其次，由于激励次数减少以保证成像时间不变，相位过采样技术仅在原先采用至少两次激发的扫描中会没有时间损失。单次激发序列中也可以使用相位过采样，但需要使用半傅里叶（“½ NEX”）成像，会造成信噪比下降，相位错误增加。</p>
+<p>最后，相位过采样技术不能阻止视野外组织的噪声和运动引入的相位偏移传播到成像体积（虽然对于稳定的组织可以有效去除）。例如，在矢状位颈椎检查中，如果相位编码方向是从上到下，图像质量仍然会因为呼吸和心脏搏动伪影导致退化，虽然心脏和胸部视觉上都没有卷折到脊椎图像中。</p>
 <dl class="docutils">
 <dt><strong>参考材料</strong></dt>
 <dd><ul class="first last simple">
-<li>Outwater EK, Blasbalg R, Siegelman ES, Vala M. <a class="reference external" href="http://www.mri-q.com/uploads/3/4/5/7/34572113/outwater_fat_waterradiographics2e182e62e9821195.pdf">Detection of lipid in abdominal tissues with opposed-phase gradient-echo images at 1.5T: techniques and diagnostic importance</a>. Radiographics 1998; 18:1465-80.</li>
+<li>Axel L, Morton D. <a class="reference external" href="http://mri-q.com/uploads/3/4/5/7/34572113/axel_phase_wrapping.pdf">Correction of phase wrapping in magnetic resonance imaging</a>. Med Phys 1989;16:284-287.</li>
+<li>Heiland S. <a class="reference external" href="http://mri-q.com/uploads/3/4/5/7/34572113/artifacts_a_to_z.pdf">From A as in aliasing to Z as in zipper: artifacts in MRI</a>. Clin Neuroradiol 2008; 1:25-36.</li>
+<li>Pusey E, Yoon C, Anselmo ML, Lufkin RB. Aliasing artifacts in MR imaging. Comput Med Imag Graphics 1988;12:219-224.</li>
+<li>Zhuo J, Gullapalli RP. <a class="reference external" href="http://mri-q.com/uploads/3/4/5/7/34572113/zhuo_aritfacts_radiographics.pdf">AAPM/RSNA physics tutorial for residents</a>. MR artifacts, safety, and quality control. Radiographics 2006;26:275-297.</li>
 </ul>
 </dd>
 <dt><strong>相关问题</strong></dt>
 <dd><ul class="first last simple">
-<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/tissue-related-artifacts/chemical-shift-2nd-kind.html">什么是第二类化学位移伪影（Chemical Shift:2nd Kind）？</a></li>
-<li><a class="reference external" href="http://www.mri-q.com/multi-echo-gre.html">How do you produce multiple GRE's from a single pulse?</a></li>
+<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/technique-related-artifacts/wrap-around-artifact.html">为什么会发生相位卷折伪影？</a></li>
 </ul>
 </dd>
 </dl>
@@ -152,8 +121,8 @@
             <aside>
             <nav>
             <ul class="articles-timeline">
-                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/tissue-related-artifacts/chemical-shift-2nd-kind.html" title="Previous: Question-第二类化学位移伪影：什么是第二类化学位移伪影（Chemical Shift:2nd Kind）？">Question-第二类化学位移伪影：什么是第二类化学位移伪影（Chemical Shift:2nd Kind）？</a></li>
-                <li class="next-article"><a href="http://chunshan.github.io/MRI-QA/tissue-related-artifacts/ir-bounce-point.html" title="Next: Question-反转恢复序列中的反弹点伪影：我注意到T1-FLAIR图像中有时也会出现“印度墨水”样的轮廓，这也是一种化学位移伪影么？">Question-反转恢复序列中的反弹点伪影：我注意到T1-FLAIR图像中有时也会出现“印度墨水”样的轮廓，这也是一种化学位移伪影么？</a> »</li>
+                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/technique-related-artifacts/eliminate-wrap-around.html" title="Previous: Question-减少卷折：如何消除相位卷折伪影？">Question-减少卷折：如何消除相位卷折伪影？</a></li>
+                <li class="next-article"><a href="http://chunshan.github.io/MRI-QA/technique-related-artifacts/frequency-wrap-around.html" title="Next: Question-卷折方向：为什么卷折伪影在频率编码方向上看不到？">Question-卷折方向：为什么卷折伪影在频率编码方向上看不到？</a> »</li>
             </ul>
             </nav>
             </aside>
@@ -161,16 +130,16 @@
         <section>
         <div class="span2" style="float:right;font-size:0.9em;">
             <h4>Published</h4>
-            <time pubdate="pubdate" datetime="2015-11-24T00:00:00+08:00">十一月 24, 2015</time>
+            <time pubdate="pubdate" datetime="2015-12-23T00:00:00+08:00">十二月 23, 2015</time>
             <h4>Category</h4>
-            <a class="category-link" href="http://chunshan.github.io/MRI-QA/categories.html#tissue-related-artifacts-ref">tissue-related-artifacts</a>
+            <a class="category-link" href="http://chunshan.github.io/MRI-QA/categories.html#technique-related-artifacts-ref">technique-related-artifacts</a>
             <h4>Tags</h4>
             <ul class="list-of-tags tags-in-article">
                 <li><a href="http://chunshan.github.io/MRI-QA/tags.html#mr-artifacts-ref">MR Artifacts
                     <span>33</span>
 </a></li>
-                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#tissue-related-artifacts-ref">tissue related artifacts
-                    <span>10</span>
+                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#technique-related-artifacts-ref">technique related artifacts
+                    <span>15</span>
 </a></li>
             </ul>
 <h4>Stay in Touch</h4>

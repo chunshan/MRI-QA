@@ -10,18 +10,18 @@
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary">
 
-<meta name="keywords" content="MR Artifacts, tissue related artifacts, tissue-related-artifacts, " />
+<meta name="keywords" content="MR Artifacts, technique related artifacts, technique-related-artifacts, " />
 
-<meta property="og:title" content="Question-同相和失相：同相位（in-phase）成像和失相位（out-of-phase）成像意思是什么？ "/>
-<meta property="og:url" content="http://chunshan.github.io/MRI-QA/tissue-related-artifacts/in-phaseout-of-phase1.html" />
-<meta property="og:description" content="同相位（in-phase）成像和失相位（out-of-phase）成像意思是什么？" />
+<meta property="og:title" content="Question-Nyquist N/2鬼影：在EPI上，我们经常可以看到三个重叠的图像，看起来像相位卷折伪影，这是怎么产生的？ "/>
+<meta property="og:url" content="http://chunshan.github.io/MRI-QA/technique-related-artifacts/nyquist-n2-ghosts.html" />
+<meta property="og:description" content="Nyquist N/2鬼影" />
 <meta property="og:site_name" content="MRI Q&amp;A" />
 <meta property="og:article:author" content="Chunshan" />
-<meta property="og:article:published_time" content="2015-11-24T00:00:00+08:00" />
-<meta name="twitter:title" content="Question-同相和失相：同相位（in-phase）成像和失相位（out-of-phase）成像意思是什么？ ">
-<meta name="twitter:description" content="同相位（in-phase）成像和失相位（out-of-phase）成像意思是什么？">
+<meta property="og:article:published_time" content="2015-12-27T00:00:00+08:00" />
+<meta name="twitter:title" content="Question-Nyquist N/2鬼影：在EPI上，我们经常可以看到三个重叠的图像，看起来像相位卷折伪影，这是怎么产生的？ ">
+<meta name="twitter:description" content="Nyquist N/2鬼影">
 
-        <title>Question-同相和失相：同相位（in-phase）成像和失相位（out-of-phase）成像意思是什么？  · MRI Q&amp;A
+        <title>Question-Nyquist N/2鬼影：在EPI上，我们经常可以看到三个重叠的图像，看起来像相位卷折伪影，这是怎么产生的？  · MRI Q&amp;A
 </title>
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
@@ -69,7 +69,7 @@
 <article>
 <div class="row-fluid">
     <header class="page-header span10 offset2">
-    <h1><a href="http://chunshan.github.io/MRI-QA/tissue-related-artifacts/in-phaseout-of-phase1.html"> Question-同相和失相：同相位（in-phase）成像和失相位（out-of-phase）成像意思是什么？  </a></h1>
+    <h1><a href="http://chunshan.github.io/MRI-QA/technique-related-artifacts/nyquist-n2-ghosts.html"> Question-Nyquist N/2鬼影：在EPI上，我们经常可以看到三个重叠的图像，看起来像相位卷折伪影，这是怎么产生的？  </a></h1>
     </header>
 </div>
 
@@ -77,71 +77,38 @@
         <div class="span8 offset2 article-content">
 
             
-            <p>原文链接:<a class="reference external" href="http://www.mri-q.com/in-phaseout-of-phase1.html">What is meant by in-phase vs out-of-phase imaging?</a></p>
+            <p>原文链接:<a class="reference external" href="http://mriquestions.com/nyquist-n2-ghosts.html">On EPI we commonly see three overlapping images. It looks somewhat like a phase wraparound artifact. What is causing this?</a></p>
 <dl class="docutils">
 <dt><strong>概要</strong></dt>
 <dd><div class="first last figure align-center">
-<img alt="summary" src="http://www.mri-q.com/uploads/3/4/5/7/34572113/1493888_orig.png?290" style="width: 700px;" />
+<img alt="summary" src="http://mriquestions.com/uploads/3/4/5/7/34572113/2567680_orig.png" style="width: 700px;" />
 </div>
 </dd>
 </dl>
-<p>像在前一个Q&amp;A中所描述的，同一个体素中水和脂肪信号间的相位取消导致梯度回波图像上第二类化学位移伪影的产生。这种伪影表现为器官和解剖结构在水-脂肪交界处的黑线。这种伪影的幅度依赖于水和脂肪间的相位循环，1.5T下由于化学位移导致的相位循环的频率约215Hz。</p>
 <div class="figure align-right">
-<img alt="phase cancellation artifact" src="http://www.mri-q.com/uploads/3/4/5/7/34572113/1046728_orig.gif" style="width: 450px;" />
+<img alt="Nyquist N/2 Ghost Artifact" src="http://mriquestions.com/uploads/3/4/5/7/34572113/6562_orig.jpg?261" style="width: 300px;" />
+<p class="caption">Nyquist N/2 鬼影</p>
 </div>
-<p>1.5T下，同相和失相之间的相位循环约每2.2ms发生一次。3.0T时循环速度加倍，每1.1ms发生一次。1.5T下采集的梯度回波图像当TE为2.2ms，6.6ms，11.0ms时称为失相（Out Of Phase，OOP），TE为4.4ms，8.8ms等值时称为同相（In Phase，IP）。</p>
-<p>到1980年代末，一些研究者开始意识到相位消除效应可以在临床上用来识别甚至量化组织（如肝）中的脂肪含量。今天这一原则一个特别常见的应用是帮助区分肾上腺腺瘤（通常包含脂肪）和癌及转移瘤（一般不含脂肪）。其他各种腹部病变的诊断，包括血管平滑肌脂肪瘤，肾透明细胞癌和肝局灶性脂肪侵润都可以通过IP-OOP成像辅助诊断。这种技术在下图说明，包含一对梯度回波图像，有相同TR但是不同TE，一个同相，一个失相。如果病变处信号强度在OOP图像上显著下降说明很可能包含显微脂肪。因此，IP/OOP扫描是目前大多数腹部成像协议的一种标准组成部分。</p>
-<table border="1" class="docutils">
-<colgroup>
-<col width="34%" />
-<col width="32%" />
-<col width="34%" />
-</colgroup>
-<tbody valign="top">
-<tr><td><div class="first last figure">
-<img alt="Lipid-rich adrenal adenoma (arrow)" src="http://www.mri-q.com/uploads/3/4/5/7/34572113/4404998_orig.jpg?246" style="width: 300px;" />
-<p class="caption">富含脂肪的肾上腺腺瘤（箭头）。同相的梯度回波图像（TE=4.4ms）显示中等强度信号肿瘤</p>
+<p>这篇文章介绍的伪影被称为Nyquist N/2鬼影，发生于平面回波成像（EPI）序列中，EPI序列以zig-zag轨迹填充k空间。头部MRI中，这种伪影有时又被称为“三个脑袋伪影（Three Brains Artifacts）”。</p>
+<p>EPI脉冲序列由一系列回波组成，每一个回波产生k空间中的一横行数据。在zig-zag采集中，每两个回波采集方向会交替一次。对于图像重建，偶数的回波必须时间上反转从而与奇数的回波相匹配，才能进行傅里叶变换。</p>
+<p>如果向前和向后的回波不是彼此的完美镜像，图像处理过程中就会引入伪影。即使第一个回波的开始有微小的延迟，也会传播到所有后续的回波，导致偶数回波和奇数回波的峰值时间有轻微差别。当做傅里叶变换时，该相位误差导致信号强度在图像相位编码方向偏移一半。如果FOV内有N个像素，此混叠的鬼影看起来相对于正确位置的主图像平移了N/2个像素。</p>
+<div class="figure align-right">
+<img alt="Zig-zag k-space trajectory" src="http://mriquestions.com/uploads/3/4/5/7/34572113/6214368_orig.gif" style="width: 300px;" />
+<p class="caption">zig-zag形式k空间轨迹填充时奇数和偶数回波的峰值时间有轻微的差别是Nyquist N/2鬼影的原因之一</p>
 </div>
-</td>
-<td><div class="first last figure">
-<img alt="Out-of-phase GRE image at TE=2.2 msec" src="http://www.mri-q.com/uploads/3/4/5/7/34572113/5503468_orig.jpg" style="width: 300px;" />
-<p class="caption">失相的梯度回波图像（TE=2.2ms），腺瘤（箭头）信号下降，有相位取消伪影。</p>
-</div>
-</td>
-<td><div class="first last figure">
-<img alt="Lipid droplets (arrow) in adrenal adenoma." src="http://www.mri-q.com/uploads/3/4/5/7/34572113/9856587_orig.jpg?169" style="width: 150px;" />
-<p class="caption">肾上腺腺瘤中的脂滴（箭头）</p>
-</div>
-</td>
-</tr>
-<tr><td><div class="first last figure">
-<img alt="Hepatic steatosis. In-phase GRE with TE=4.4 msec." src="http://www.mri-q.com/uploads/3/4/5/7/34572113/5292881_orig.jpg?242" style="width: 300px;" />
-<p class="caption">肝脂肪变性。同相的梯度回波图像（TE=4.4ms）</p>
-</div>
-</td>
-<td><div class="first last figure">
-<img alt="Reduction in hepatic signal" src="http://www.mri-q.com/uploads/3/4/5/7/34572113/5894731_orig.jpg" style="width: 300px;" />
-<p class="caption">失相梯度回波图像（TE=2.2ms）上肝脏信号降低</p>
-</div>
-</td>
-<td><div class="first last figure">
-<img alt="Specimen shows lipid droplets" src="http://www.mri-q.com/uploads/3/4/5/7/34572113/9983895_orig.jpg" style="width: 150px;" />
-<p class="caption">标本上显示存在脂滴</p>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
+<p>Nyquist鬼影有许多可能的原因包括糟糕的匀场，梯度线圈发热，病人运动和重建误差。然而最常见的原因是梯度脉冲快速变化使线圈感生涡电流和磁体壳。涡电流反过来产生局部磁场干扰B0场，在数据中添加了相位偏移。偶数线和奇数线的读出梯度方向相反，这意味着涡电流引起的相位偏移在这些交替的线上是相反的。</p>
+<p>使用倾斜层面也有助于产生Nyquist N/2鬼影。倾斜成像需要在图像采集过程中对三个物理梯度（Gx，Gy，Gz）同步进行不同的混合，但是，每一个物理梯度有独特的电感，对开关接通和关闭的响应不同。如果三个梯度不是在完全相同的时间点激活和失活，就会发生相位误差。有时简单调整层面倾斜度（多或少）就可以减少Nyquist伪影。</p>
+<p>其他减小Nyquist N/2伪影的方法包括重新匀场，减少回波链长度，降低相位编码分辨率，使用多次激发（分段）EPI，和应用并行成像加速。如果这些方法不起作用，伪影仍在多个部位上存在，可能需要让工程师进行全面维修，重新调整梯度和涡电流补偿。</p>
 <dl class="docutils">
 <dt><strong>参考材料</strong></dt>
 <dd><ul class="first last simple">
-<li>Outwater EK, Blasbalg R, Siegelman ES, Vala M. <a class="reference external" href="http://www.mri-q.com/uploads/3/4/5/7/34572113/outwater_fat_waterradiographics2e182e62e9821195.pdf">Detection of lipid in abdominal tissues with opposed-phase gradient-echo images at 1.5T: techniques and diagnostic importance</a>. Radiographics 1998; 18:1465-80.</li>
+<li>Buonocore MH, Gao L. <a class="reference external" href="http://mriquestions.com/uploads/3/4/5/7/34572113/nyquist_ghost_1910380114_ftp.pdf">Ghost artifact reduction for echo planar imaging using image phase correction</a>. Magn Reson Med 1997; 38:89-100.</li>
+<li>Yang QX, Posse S, Le Bihan D, Smith MB. <a class="reference external" href="http://mriquestions.com/uploads/3/4/5/7/34572113/yang_nyquist_ghost_1995.pdf">Double-sampled echo-planar imaging at 3 Tesla</a>. J Magn Reson 1996; 113:145-150.</li>
 </ul>
 </dd>
 <dt><strong>相关问题</strong></dt>
 <dd><ul class="first last simple">
-<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/tissue-related-artifacts/chemical-shift-2nd-kind.html">什么是第二类化学位移伪影（Chemical Shift:2nd Kind）？</a></li>
-<li><a class="reference external" href="http://www.mri-q.com/multi-echo-gre.html">How do you produce multiple GRE's from a single pulse?</a></li>
+<li><a class="reference external" href="http://mriquestions.com/eddy-current-problems.html">I've heard that &quot;eddy currents&quot; cause problems for imaging.  What are they?</a></li>
 </ul>
 </dd>
 </dl>
@@ -152,8 +119,8 @@
             <aside>
             <nav>
             <ul class="articles-timeline">
-                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/tissue-related-artifacts/chemical-shift-2nd-kind.html" title="Previous: Question-第二类化学位移伪影：什么是第二类化学位移伪影（Chemical Shift:2nd Kind）？">Question-第二类化学位移伪影：什么是第二类化学位移伪影（Chemical Shift:2nd Kind）？</a></li>
-                <li class="next-article"><a href="http://chunshan.github.io/MRI-QA/tissue-related-artifacts/ir-bounce-point.html" title="Next: Question-反转恢复序列中的反弹点伪影：我注意到T1-FLAIR图像中有时也会出现“印度墨水”样的轮廓，这也是一种化学位移伪影么？">Question-反转恢复序列中的反弹点伪影：我注意到T1-FLAIR图像中有时也会出现“印度墨水”样的轮廓，这也是一种化学位移伪影么？</a> »</li>
+                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/technique-related-artifacts/gibbs-artifact.html" title="Previous: Question-吉布斯（截断）伪影：什么是吉布斯伪影？">Question-吉布斯（截断）伪影：什么是吉布斯伪影？</a></li>
+                <li class="next-article"><a href="http://chunshan.github.io/MRI-QA/technique-related-artifacts/zipper-artifact.html" title="Next: Question-拉链及相关伪影：我们断断续续在我们图像看到拉链样伪影，它们是怎么产生的？">Question-拉链及相关伪影：我们断断续续在我们图像看到拉链样伪影，它们是怎么产生的？</a> »</li>
             </ul>
             </nav>
             </aside>
@@ -161,16 +128,16 @@
         <section>
         <div class="span2" style="float:right;font-size:0.9em;">
             <h4>Published</h4>
-            <time pubdate="pubdate" datetime="2015-11-24T00:00:00+08:00">十一月 24, 2015</time>
+            <time pubdate="pubdate" datetime="2015-12-27T00:00:00+08:00">十二月 27, 2015</time>
             <h4>Category</h4>
-            <a class="category-link" href="http://chunshan.github.io/MRI-QA/categories.html#tissue-related-artifacts-ref">tissue-related-artifacts</a>
+            <a class="category-link" href="http://chunshan.github.io/MRI-QA/categories.html#technique-related-artifacts-ref">technique-related-artifacts</a>
             <h4>Tags</h4>
             <ul class="list-of-tags tags-in-article">
                 <li><a href="http://chunshan.github.io/MRI-QA/tags.html#mr-artifacts-ref">MR Artifacts
                     <span>33</span>
 </a></li>
-                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#tissue-related-artifacts-ref">tissue related artifacts
-                    <span>10</span>
+                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#technique-related-artifacts-ref">technique related artifacts
+                    <span>15</span>
 </a></li>
             </ul>
 <h4>Stay in Touch</h4>

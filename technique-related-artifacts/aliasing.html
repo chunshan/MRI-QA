@@ -10,18 +10,18 @@
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary">
 
-<meta name="keywords" content="MR Artifacts, tissue related artifacts, tissue-related-artifacts, " />
+<meta name="keywords" content="MR Artifacts, technique related artifacts, technique-related-artifacts, " />
 
-<meta property="og:title" content="Question-同相和失相：同相位（in-phase）成像和失相位（out-of-phase）成像意思是什么？ "/>
-<meta property="og:url" content="http://chunshan.github.io/MRI-QA/tissue-related-artifacts/in-phaseout-of-phase1.html" />
-<meta property="og:description" content="同相位（in-phase）成像和失相位（out-of-phase）成像意思是什么？" />
+<meta property="og:title" content="Question-混叠：什么是混叠？ "/>
+<meta property="og:url" content="http://chunshan.github.io/MRI-QA/technique-related-artifacts/aliasing.html" />
+<meta property="og:description" content="什么是混叠？" />
 <meta property="og:site_name" content="MRI Q&amp;A" />
 <meta property="og:article:author" content="Chunshan" />
-<meta property="og:article:published_time" content="2015-11-24T00:00:00+08:00" />
-<meta name="twitter:title" content="Question-同相和失相：同相位（in-phase）成像和失相位（out-of-phase）成像意思是什么？ ">
-<meta name="twitter:description" content="同相位（in-phase）成像和失相位（out-of-phase）成像意思是什么？">
+<meta property="og:article:published_time" content="2015-12-20T00:00:00+08:00" />
+<meta name="twitter:title" content="Question-混叠：什么是混叠？ ">
+<meta name="twitter:description" content="什么是混叠？">
 
-        <title>Question-同相和失相：同相位（in-phase）成像和失相位（out-of-phase）成像意思是什么？  · MRI Q&amp;A
+        <title>Question-混叠：什么是混叠？  · MRI Q&amp;A
 </title>
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
@@ -69,7 +69,7 @@
 <article>
 <div class="row-fluid">
     <header class="page-header span10 offset2">
-    <h1><a href="http://chunshan.github.io/MRI-QA/tissue-related-artifacts/in-phaseout-of-phase1.html"> Question-同相和失相：同相位（in-phase）成像和失相位（out-of-phase）成像意思是什么？  </a></h1>
+    <h1><a href="http://chunshan.github.io/MRI-QA/technique-related-artifacts/aliasing.html"> Question-混叠：什么是混叠？  </a></h1>
     </header>
 </div>
 
@@ -77,71 +77,32 @@
         <div class="span8 offset2 article-content">
 
             
-            <p>原文链接:<a class="reference external" href="http://www.mri-q.com/in-phaseout-of-phase1.html">What is meant by in-phase vs out-of-phase imaging?</a></p>
+            <p>原文链接:<a class="reference external" href="http://mri-q.com/aliasing.html">What is aliasing?</a></p>
 <dl class="docutils">
 <dt><strong>概要</strong></dt>
 <dd><div class="first last figure align-center">
-<img alt="summary" src="http://www.mri-q.com/uploads/3/4/5/7/34572113/1493888_orig.png?290" style="width: 700px;" />
+<img alt="summary" src="http://mri-q.com/uploads/3/4/5/7/34572113/3716403_orig.png" style="width: 700px;" />
 </div>
 </dd>
 </dl>
-<p>像在前一个Q&amp;A中所描述的，同一个体素中水和脂肪信号间的相位取消导致梯度回波图像上第二类化学位移伪影的产生。这种伪影表现为器官和解剖结构在水-脂肪交界处的黑线。这种伪影的幅度依赖于水和脂肪间的相位循环，1.5T下由于化学位移导致的相位循环的频率约215Hz。</p>
 <div class="figure align-right">
-<img alt="phase cancellation artifact" src="http://www.mri-q.com/uploads/3/4/5/7/34572113/1046728_orig.gif" style="width: 450px;" />
+<img alt="aliasing" src="http://mri-q.com/uploads/3/4/5/7/34572113/6443188_orig.gif" style="width: 400px;" />
 </div>
-<p>1.5T下，同相和失相之间的相位循环约每2.2ms发生一次。3.0T时循环速度加倍，每1.1ms发生一次。1.5T下采集的梯度回波图像当TE为2.2ms，6.6ms，11.0ms时称为失相（Out Of Phase，OOP），TE为4.4ms，8.8ms等值时称为同相（In Phase，IP）。</p>
-<p>到1980年代末，一些研究者开始意识到相位消除效应可以在临床上用来识别甚至量化组织（如肝）中的脂肪含量。今天这一原则一个特别常见的应用是帮助区分肾上腺腺瘤（通常包含脂肪）和癌及转移瘤（一般不含脂肪）。其他各种腹部病变的诊断，包括血管平滑肌脂肪瘤，肾透明细胞癌和肝局灶性脂肪侵润都可以通过IP-OOP成像辅助诊断。这种技术在下图说明，包含一对梯度回波图像，有相同TR但是不同TE，一个同相，一个失相。如果病变处信号强度在OOP图像上显著下降说明很可能包含显微脂肪。因此，IP/OOP扫描是目前大多数腹部成像协议的一种标准组成部分。</p>
-<table border="1" class="docutils">
-<colgroup>
-<col width="34%" />
-<col width="32%" />
-<col width="34%" />
-</colgroup>
-<tbody valign="top">
-<tr><td><div class="first last figure">
-<img alt="Lipid-rich adrenal adenoma (arrow)" src="http://www.mri-q.com/uploads/3/4/5/7/34572113/4404998_orig.jpg?246" style="width: 300px;" />
-<p class="caption">富含脂肪的肾上腺腺瘤（箭头）。同相的梯度回波图像（TE=4.4ms）显示中等强度信号肿瘤</p>
-</div>
-</td>
-<td><div class="first last figure">
-<img alt="Out-of-phase GRE image at TE=2.2 msec" src="http://www.mri-q.com/uploads/3/4/5/7/34572113/5503468_orig.jpg" style="width: 300px;" />
-<p class="caption">失相的梯度回波图像（TE=2.2ms），腺瘤（箭头）信号下降，有相位取消伪影。</p>
-</div>
-</td>
-<td><div class="first last figure">
-<img alt="Lipid droplets (arrow) in adrenal adenoma." src="http://www.mri-q.com/uploads/3/4/5/7/34572113/9856587_orig.jpg?169" style="width: 150px;" />
-<p class="caption">肾上腺腺瘤中的脂滴（箭头）</p>
-</div>
-</td>
-</tr>
-<tr><td><div class="first last figure">
-<img alt="Hepatic steatosis. In-phase GRE with TE=4.4 msec." src="http://www.mri-q.com/uploads/3/4/5/7/34572113/5292881_orig.jpg?242" style="width: 300px;" />
-<p class="caption">肝脂肪变性。同相的梯度回波图像（TE=4.4ms）</p>
-</div>
-</td>
-<td><div class="first last figure">
-<img alt="Reduction in hepatic signal" src="http://www.mri-q.com/uploads/3/4/5/7/34572113/5894731_orig.jpg" style="width: 300px;" />
-<p class="caption">失相梯度回波图像（TE=2.2ms）上肝脏信号降低</p>
-</div>
-</td>
-<td><div class="first last figure">
-<img alt="Specimen shows lipid droplets" src="http://www.mri-q.com/uploads/3/4/5/7/34572113/9983895_orig.jpg" style="width: 150px;" />
-<p class="caption">标本上显示存在脂滴</p>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
+<p>混叠(aliasing)是指由于数字采样频率不充分导致信号的频率测量得不准确。如果信号没有采样足够多的数据点，它的真实频率就会被低估。这种错误估计的信号将无法与另外真实低频率的信号进行区分（即混叠在一起）。</p>
+<p>要正确地测量信号，数字采样频率必须至少为信号所含最高频率的两倍。这就是Nyquist采样定理（Nyquist sampling theorem）。</p>
+<p>这种混叠现象不仅在磁共振成像中存在，而是存在于各种技术中，例如声音的失真，照片中的波纹状条纹，电影中不自然的动作等。“货车车轮效应”是一个常见的混淆现象的例子，在这个视觉错觉中，取决于视频中的数字帧率，车轮上的轮辐看起来会以不同的速率旋转，甚至会后退。</p>
+<p>混叠是磁共振中一种重要的现象，是一种常见伪影（相位卷折，在下面几个Q&amp;A中讨论）的根源。混叠伪影的其他形式包括MRS中远处体素的波谱污染和MRA中流速或流向的测量错误。混叠现象也可以利用，它也是并行成像技术如SENSE和GRAPPA的基础。</p>
+<p>这种现象的物理基础可见如下的说明。注意到对相位编码梯度的每一个值，会分配相位周期的一个特定数字覆盖扫描视野。比如，在第一阶段相位编码步骤中，0°和360°之间的相移涵盖整个扫描视野，物体超出视野的部分，其相位小于0°，或大于360°。举例来说，示意图中的腹部左侧，超出了视野，相移为361°到450°。由于此相位编码步骤中所有有意义的频率已被定义到0°到360°之间，361°相移会被分配到1°相移的空间位置，450°相移会被分配到450°-360°=90°的空间位置。患者身体的左侧就会卷折，空间上错配到图像对侧（右）。患者的右侧卷折到左侧也是类似的过程。</p>
 <dl class="docutils">
 <dt><strong>参考材料</strong></dt>
 <dd><ul class="first last simple">
-<li>Outwater EK, Blasbalg R, Siegelman ES, Vala M. <a class="reference external" href="http://www.mri-q.com/uploads/3/4/5/7/34572113/outwater_fat_waterradiographics2e182e62e9821195.pdf">Detection of lipid in abdominal tissues with opposed-phase gradient-echo images at 1.5T: techniques and diagnostic importance</a>. Radiographics 1998; 18:1465-80.</li>
+<li><a class="reference external" href="https://en.wikipedia.org/wiki/Aliasing">&quot;Aliasing&quot;</a>. Wikipedia, the Free Encyclopedia.</li>
+<li>Oldhasusen BA. <a class="reference external" href="http://mri-q.com/uploads/3/4/5/7/34572113/aliasing.pdf">Aliasing</a>. (Lecture notes for Vision Science course, UC Davis, 10 Oct 2000, available on-line)</li>
 </ul>
 </dd>
 <dt><strong>相关问题</strong></dt>
 <dd><ul class="first last simple">
-<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/tissue-related-artifacts/chemical-shift-2nd-kind.html">什么是第二类化学位移伪影（Chemical Shift:2nd Kind）？</a></li>
-<li><a class="reference external" href="http://www.mri-q.com/multi-echo-gre.html">How do you produce multiple GRE's from a single pulse?</a></li>
+<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/technique-related-artifacts/wrap-around-artifact.html">为什么会发生相位卷折伪影？</a></li>
 </ul>
 </dd>
 </dl>
@@ -152,8 +113,8 @@
             <aside>
             <nav>
             <ul class="articles-timeline">
-                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/tissue-related-artifacts/chemical-shift-2nd-kind.html" title="Previous: Question-第二类化学位移伪影：什么是第二类化学位移伪影（Chemical Shift:2nd Kind）？">Question-第二类化学位移伪影：什么是第二类化学位移伪影（Chemical Shift:2nd Kind）？</a></li>
-                <li class="next-article"><a href="http://chunshan.github.io/MRI-QA/tissue-related-artifacts/ir-bounce-point.html" title="Next: Question-反转恢复序列中的反弹点伪影：我注意到T1-FLAIR图像中有时也会出现“印度墨水”样的轮廓，这也是一种化学位移伪影么？">Question-反转恢复序列中的反弹点伪影：我注意到T1-FLAIR图像中有时也会出现“印度墨水”样的轮廓，这也是一种化学位移伪影么？</a> »</li>
+                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/technique-related-artifacts/slice-overlap.html" title="Previous: Question-层面重叠/干扰：为什么在腰椎上有暗带？">Question-层面重叠/干扰：为什么在腰椎上有暗带？</a></li>
+                <li class="next-article"><a href="http://chunshan.github.io/MRI-QA/technique-related-artifacts/wrap-around-artifact.html" title="Next: Question-磁共振伪影：为什么会发生相位卷折伪影？">Question-磁共振伪影：为什么会发生相位卷折伪影？</a> »</li>
             </ul>
             </nav>
             </aside>
@@ -161,16 +122,16 @@
         <section>
         <div class="span2" style="float:right;font-size:0.9em;">
             <h4>Published</h4>
-            <time pubdate="pubdate" datetime="2015-11-24T00:00:00+08:00">十一月 24, 2015</time>
+            <time pubdate="pubdate" datetime="2015-12-20T00:00:00+08:00">十二月 20, 2015</time>
             <h4>Category</h4>
-            <a class="category-link" href="http://chunshan.github.io/MRI-QA/categories.html#tissue-related-artifacts-ref">tissue-related-artifacts</a>
+            <a class="category-link" href="http://chunshan.github.io/MRI-QA/categories.html#technique-related-artifacts-ref">technique-related-artifacts</a>
             <h4>Tags</h4>
             <ul class="list-of-tags tags-in-article">
                 <li><a href="http://chunshan.github.io/MRI-QA/tags.html#mr-artifacts-ref">MR Artifacts
                     <span>33</span>
 </a></li>
-                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#tissue-related-artifacts-ref">tissue related artifacts
-                    <span>10</span>
+                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#technique-related-artifacts-ref">technique related artifacts
+                    <span>15</span>
 </a></li>
             </ul>
 <h4>Stay in Touch</h4>
