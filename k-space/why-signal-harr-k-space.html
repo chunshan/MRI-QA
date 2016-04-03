@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Chunshan" />
+        <meta name="copyright" content="Chunshan" />
+
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary">
+
+<meta name="keywords" content="K-space & Rapid Imaging, K-space (Basic), K-space, " />
+
+<meta property="og:title" content="Question-信号和空间频率：我不明白你如何将数字化磁共振信号简单地直接插入到k空间中。这些点和空间频率是一致的么？ "/>
+<meta property="og:url" content="http://chunshan.github.io/MRI-QA/k-space/why-signal-harr-k-space.html" />
+<meta property="og:description" content="信号和空间频率" />
+<meta property="og:site_name" content="MRI Q&amp;A" />
+<meta property="og:article:author" content="Chunshan" />
+<meta property="og:article:published_time" content="2014-10-07T00:00:00+08:00" />
+<meta name="twitter:title" content="Question-信号和空间频率：我不明白你如何将数字化磁共振信号简单地直接插入到k空间中。这些点和空间频率是一致的么？ ">
+<meta name="twitter:description" content="信号和空间频率">
+
+        <title>Question-信号和空间频率：我不明白你如何将数字化磁共振信号简单地直接插入到k空间中。这些点和空间频率是一致的么？  · MRI Q&amp;A
+</title>
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="http://chunshan.github.io/MRI-QA/theme/css/style.min.css?edf95c30">
+        <link rel="shortcut icon" href="http://chunshan.github.io/MRI-QA/theme/images/favicon.ico" type="image/x-icon" type="image/png" />
+        <link rel="icon" href="http://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-152x152.png" type="image/png" />
+        <link rel="apple-touch-icon" href="http://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon.png"  type="image/png" />
+        <link rel="apple-touch-icon" sizes="57x57" href="http://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-57x57.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="http://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-72x72.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="76x76" href="http://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-76x76.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="http://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-114x114.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="120x120" href="http://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-120x120.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="http://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-144x144.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="152x152" href="http://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-152x152.png" type="image/png" />
+        <link href="http://chunshan.github.io/MRI-QA/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="MRI Q&amp;A - Full Atom Feed" />
+    </head>
+    <body>
+        <div id="content-sans-footer">
+        <div class="navbar navbar-static-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="http://chunshan.github.io/MRI-QA/"><span class=site-name>MRI Q&A</span></a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right top-menu">
+                            <li ><a href="http://chunshan.github.io/MRI-QA">Home</a></li>
+                            <li ><a href="http://chunshan.github.io/MRI-QA/about.html">About</a></li>
+                            <li ><a href="http://chunshan.github.io/MRI-QA/categories.html">Categories</a></li>
+                            <li ><a href="http://chunshan.github.io/MRI-QA/tags.html">Tags</a></li>
+                            <li ><a href="http://chunshan.github.io/MRI-QA/archives.html">Archives</a></li>
+                            <li><form class="navbar-search" action="http://chunshan.github.io/MRI-QA/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span1"></div>
+                <div class="span10">
+<article>
+<div class="row-fluid">
+    <header class="page-header span10 offset2">
+    <h1><a href="http://chunshan.github.io/MRI-QA/k-space/why-signal-harr-k-space.html"> Question-信号和空间频率：我不明白你如何将数字化磁共振信号简单地直接插入到k空间中。这些点和空间频率是一致的么？  </a></h1>
+    </header>
+</div>
+
+<div class="row-fluid">
+        <div class="span8 offset2 article-content">
+
+            
+            <p>原文链接:<a class="reference external" href="http://mriquestions.com/why-signal-harr-k-space.html">I don't understand how you can simply plug the digitized MR signal data directly into k-space. How are these points the same as spatial frequency?</a></p>
+<dl class="docutils">
+<dt><strong>概要</strong></dt>
+<dd><div class="first last figure align-center">
+<img alt="summary" src="http://mriquestions.com/uploads/3/4/5/7/34572113/9635542_orig.png" style="width: 700px;" />
+</div>
+</dd>
+</dl>
+<div class="figure align-right">
+<img alt="Signal and Spatial Frequency" src="http://mriquestions.com/uploads/3/4/5/7/34572113/8323914_orig.gif?433" style="width: 600px;" />
+</div>
+<p>产生MR信号需要施加一个频率编码梯度，回波（或FID，自由感应衰减）中连续采集的数据点反映了逐渐增加的空间频率。这使得从MR信号中采样的原始数据可以直接插入到k空间矩阵中。</p>
+<div class="figure align-left">
+<img alt="The &quot;Miracle&quot; of k-space" src="http://mriquestions.com/uploads/3/4/5/7/34572113/5141013_orig.jpg?121" style="width: 150px;" />
+</div>
+<p>换句话说，MR信号的每一个数据点已经是“傅里叶格式”。我称此令人惊讶的事实为k空间的“奇迹”。为什么会发生此奇迹并不非常直观，需要一些解释。</p>
+<p>下面的图表显示了一个假想的通过上腹部片层的MR FID信号，此FID信号会因为沿水平轴的失相位梯度G(x)的施加而加速衰减，G(x)既可以是频率编码梯度也可以是相位编码梯度，简化起见，我们假设G(x)随位置(x)线性变化，形式为G(x) = G • x，其中G的单位是mT/m或者等价单位。</p>
+<p>当G(x)施加时，给定位置x的总磁场强度为B(x) = Bo + G(x)，此位置相应的共振频率为</p>
+<p>f(x) = γB(x) = γBo + γG(x) = fo + γGx</p>
+<p>其中γ是旋磁比，fo是主磁场(Bo)的拉莫尔频率。在梯度场施加的过程中，共振频率沿图像从左到右增加。一旦梯度场关闭，共振频率恢复到fo。</p>
+<div class="figure align-center">
+<img alt="MR Signal" src="http://mriquestions.com/uploads/3/4/5/7/34572113/934486_orig.gif?618" style="width: 800px;" />
+</div>
+<p>当施加梯度时，磁场更高部分的质子与磁场较低部分的质子相比进动更快，相位增加更多。即使梯度已经关闭，这种相位偏差仍然存在。由于相位 = 频率 x 时间，相位增益与梯度施加时间(t)的长度成正比。相位增益也是位置(x)的函数，表示为：</p>
+<p>ϕ(x,t) = (γGx) • t = (γGt) • x = kx(t) • x</p>
+<p>其中kx(t) = γGt。这儿的kx就是k空间中的kx，表示沿x方向相位在单位距离内的周期数。</p>
+<p>另一种思考k(t)的方法是用旋磁比(γ)乘以梯度(G)曲线在时刻(t)下的面积。虽然像上面简单例子中那样假设线性、矩形的梯度波形沿x轴变化，但是此定义对任意梯度形状和方向(r)也适用。具体而言，</p>
+<div class="figure align-center">
+<img alt="MR signal equation and spatial frequency" src="http://mriquestions.com/uploads/3/4/5/7/34572113/6270015.png?210" style="width: 300px;" />
+</div>
+<p>当t = tearly，kx比较小，整个图像的相位传播比较小，当t = tlate，kx比较大并且图像中含多个相位周期。由此在每一个时间点(t)产生的MR信号反映了增加的空间频率和图像中所有位置相位角的加和。因此MR信号中连续的点反映了连续增高的空间频率，其值可以“奇迹般地”直接用于填充k空间。</p>
+<div class="figure align-left">
+<img alt="Gradient applied to 2 objects" src="http://mriquestions.com/uploads/3/4/5/7/34572113/9888010_orig.gif" style="width: 400px;" />
+<p class="caption">梯度施加于两个物体，一个均匀(蓝色)，一个具有周期性(红色)。如果相位编码匹配红色物体的周期，将产生一个很强的信号。</p>
+</div>
+<p>如果上面的讨论过于数学化，左边的例子可提供额外的视角。这儿有两个物体，其中一个密度比较均匀（蓝色），另一个密度呈周期性（红色，像一个围栏），两个物体置于相同的梯度场中。假设此梯度会引起两个物体中的一组相移（绿色），其空间频率正好可以匹配红色的物体。</p>
+<p>由于均匀物体（蓝色）跨多个相位周期，磁化矢量全部取消，将观测不到任何信号。换句话说，均匀物体中一个相移为φ的像素，很容易找到另一个像素相移为−φ。相反，红色物体在此相位编码中会产生强烈的信号，因为物体固有的空间频率正好可以与梯度产生的空间频率相匹配。</p>
+<dl class="docutils">
+<dt><strong>参考材料</strong></dt>
+<dd><ul class="first last simple">
+<li>Mezrich R. <a class="reference external" href="http://mriquestions.com/uploads/3/4/5/7/34572113/fourier.kspace.mezrich.1995.pdf">A perspective on k-space</a>. Radiology 1995; 195: 297-315. [review].</li>
+<li>Wald L. <a class="reference external" href="http://mriquestions.com/uploads/3/4/5/7/34572113/imageencoding_mit_courseware_wald.pdf">MR image encoding</a>. (From MIT OpenCourseWare <a class="reference external" href="http://ocw.mit.edu/">http://ocw.mit.edu</a>)</li>
+</ul>
+</dd>
+<dt><strong>相关问题</strong></dt>
+<dd><ul class="first last simple">
+<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/k-space/data-for-k-space.html">从哪儿获得数据填充k空间？</a></li>
+</ul>
+</dd>
+</dl>
+
+            
+            
+            <hr/>
+            <aside>
+            <nav>
+            <ul class="articles-timeline">
+                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/k-space/data-for-k-space.html" title="Previous: Question-填充k空间：从哪儿获得数据填充k空间？">Question-填充k空间：从哪儿获得数据填充k空间？</a></li>
+                <li class="next-article"><a href="http://chunshan.github.io/MRI-QA/k-space/spin-warp-imaging.html" title="Next: Question-自旋-卷折成像：什么是自旋-卷折成像？它是不是“常规”MRI？">Question-自旋-卷折成像：什么是自旋-卷折成像？它是不是“常规”MRI？</a> »</li>
+            </ul>
+            </nav>
+            </aside>
+        </div>
+        <section>
+        <div class="span2" style="float:right;font-size:0.9em;">
+            <h4>Published</h4>
+            <time pubdate="pubdate" datetime="2014-10-07T00:00:00+08:00">十月 7, 2014</time>
+            <h4>Category</h4>
+            <a class="category-link" href="http://chunshan.github.io/MRI-QA/categories.html#k-space-ref">K-space</a>
+            <h4>Tags</h4>
+            <ul class="list-of-tags tags-in-article">
+                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#k-space-basic-ref">K-space (Basic)
+                    <span>10</span>
+</a></li>
+                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#k-space-rapid-imaging-ref">K-space & Rapid Imaging
+                    <span>10</span>
+</a></li>
+            </ul>
+<h4>Stay in Touch</h4>
+    <a href="https://github.com/chunshan" title="My GitHub Profile" class="sidebar-social-links" target="_blank">
+    <i class="fa fa-github sidebar-social-links"></i></a>
+    <a href="mailto:shan.c.young@gmail.com" title="My Email Address" class="sidebar-social-links" target="_blank">
+    <i class="fa fa-envelope sidebar-social-links"></i></a>
+<!-- Begin MailChimp Signup Form -->
+<div id="mc-embed-signup">
+<form action="empty" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<h4>Get Monthly Updates</h4>
+<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter your email..." required>
+<div class="clear"><input type="submit" value="Send me Free updates" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+</form>
+</div>
+<!--End mc_embed_signup-->
+        </div>
+        </section>
+</div>
+</article>
+                </div>
+                <div class="span1"></div>
+            </div>
+        </div>
+        <div id="push"></div>
+    </div>
+<footer>
+<div id="footer">
+    <ul class="footer-content">
+        <li class="elegant-power">Powered by <a href="http://getpelican.com/" title="Pelican Home Page">Pelican</a>. Theme: <a href="http://oncrashreboot.com/pelican-elegant" title="Theme Elegant Home Page">Elegant</a> by <a href="http://oncrashreboot.com" title="Talha Mansoor Home Page">Talha Mansoor</a></li>
+    </ul>
+</div>
+</footer>            <script src="http://code.jquery.com/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        <script>
+            function validateForm(query)
+            {
+                return (query.length > 0);
+            }
+        </script>
+
+    
+    </body>
+    <!-- Theme: Elegant built for Pelican
+    License : http://oncrashreboot.com/pelican-elegant -->
+</html>
