@@ -1,7 +1,7 @@
 欢迎来到磁共振知识问答中文版
 ==============================
 
-:date: 2015-10-07
+:date: 2010-10-07
 :authors: Chunshan
 :slug: welcome_to_mri_questions_answers_chinese_version
 
