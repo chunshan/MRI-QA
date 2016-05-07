@@ -10,18 +10,18 @@
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary">
 
-<meta name="keywords" content="K-space & Rapid Imaging, K-space (Basic), K-space, " />
+<meta name="keywords" content="K-space & Rapid Imaging, K-space (Advanced), K-space, " />
 
-<meta property="og:title" content="Question-k空间&#34;地理&#34;：k空间中点与图像中的点并不对应，它们的意义是什么？ "/>
-<meta property="og:url" content="http://chunshan.github.io/MRI-QA/k-space/parts-of-k-space.html" />
-<meta property="og:description" content="k空间中点与图像中的点并不对应，它们的意义是什么" />
+<meta property="og:title" content="Question-读出共轭对称：什么是读出共轭对称（部分回波）成像？为什么仅采样回波的一部分？ "/>
+<meta property="og:url" content="http://chunshan.github.io/MRI-QA/k-space/read-symmetry.html" />
+<meta property="og:description" content="读出共轭对称" />
 <meta property="og:site_name" content="MRI Q&amp;A" />
 <meta property="og:article:author" content="Chunshan" />
-<meta property="og:article:published_time" content="2014-10-02T00:00:00+08:00" />
-<meta name="twitter:title" content="Question-k空间&#34;地理&#34;：k空间中点与图像中的点并不对应，它们的意义是什么？ ">
-<meta name="twitter:description" content="k空间中点与图像中的点并不对应，它们的意义是什么">
+<meta property="og:article:published_time" content="2014-10-21T00:00:00+08:00" />
+<meta name="twitter:title" content="Question-读出共轭对称：什么是读出共轭对称（部分回波）成像？为什么仅采样回波的一部分？ ">
+<meta name="twitter:description" content="读出共轭对称">
 
-        <title>Question-k空间&#34;地理&#34;：k空间中点与图像中的点并不对应，它们的意义是什么？  · MRI Q&amp;A
+        <title>Question-读出共轭对称：什么是读出共轭对称（部分回波）成像？为什么仅采样回波的一部分？  · MRI Q&amp;A
 </title>
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
@@ -69,7 +69,7 @@
 <article>
 <div class="row-fluid">
     <header class="page-header span10 offset2">
-    <h1><a href="http://chunshan.github.io/MRI-QA/k-space/parts-of-k-space.html"> Question-k空间&quot;地理&quot;：k空间中点与图像中的点并不对应，它们的意义是什么？  </a></h1>
+    <h1><a href="http://chunshan.github.io/MRI-QA/k-space/read-symmetry.html"> Question-读出共轭对称：什么是读出共轭对称（部分回波）成像？为什么仅采样回波的一部分？  </a></h1>
     </header>
 </div>
 
@@ -77,28 +77,38 @@
         <div class="span8 offset2 article-content">
 
             
-            <p>原文链接:<a class="reference external" href="http://mriquestions.com/parts-of-k-space.html">If the points in k-space don't correspond to points in the image, what do they mean?</a></p>
+            <p>原文链接:<a class="reference external" href="http://mri-q.com/read-symmetry.html">What is read-conjugate symmetry (fractional echo) imaging? Why would one only want to sample part of an echo?</a></p>
 <dl class="docutils">
 <dt><strong>概要</strong></dt>
 <dd><div class="first last figure align-center">
-<img alt="summary" src="http://mriquestions.com/uploads/3/4/5/7/34572113/8248619_orig.png" style="width: 700px;" />
+<img alt="summary" src="http://mri-q.com/uploads/3/4/5/7/34572113/7563983_orig.png?286" style="width: 700px;" />
 </div>
 </dd>
 </dl>
-<p>虽然k空间中一个数据的位置与图像中一个像素的位置没有直接的联系，k空间中的不同部分确实与MR图像的空间频率有拓扑上的对应。如下图所示，靠近k空间中心的数据与低空间频率（如基本的形状和轮廓）相对应，而外围的数据与高空间频率（如边缘与细节）相对应。</p>
-<div class="figure align-center">
-<img alt="location of information in k-space" src="http://mriquestions.com/uploads/3/4/5/7/34572113/4589468_orig.gif?567" style="width: 800px;" />
+<div class="figure align-right">
+<img alt="Read-conjugate symmetry" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/8058679_orig.gif" style="width: 400px;" />
 </div>
+<p>读出共轭对称是部分傅里叶技术的一种，使用k空间的一半数据合成(预测)另一半数据。与相位共轭对称不同的是，其使用的对称方向是读出方向（频率编码方向）。</p>
+<p>因为图示中的kx轴通常用于表示频率编码，读出对称性可以看做是获取k空间的右半部分，估计左半部分的数据。k空间采样的右半部分来自每一个MR回波的后面部分。</p>
+<p>各厂商对此技术的命名也反映了每个回波只采样一部分。“部分回波（Partial Echo）”（GE, Philips）；“半回波（Half Echo）”（Hitachi）；“不对称回波（Asymmetric Echo）”（Siemens）。与相位共轭对称性不同，全部的相位编码步骤都需要采集，因此不会直接节省时间。</p>
+<p>为什么仅想采样一个回波的一部分？答案是通过仅采样回波的一部分，回波时间（TE）可以短于其他情况下可能的最小值。这对于快速成像技术和平面回波技术特别有用，但也在许多其他的应用中使用如磁共振血管造影和T1加权的自旋回波成像。</p>
+<div class="figure align-left">
+<img alt="Read-conjugate symmetry" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/2396857_orig.gif" style="width: 400px;" />
+</div>
+<p>当回波时间（TE）比较短时，RF脉冲所产生的自由感应衰减（FID）信号会混入回波的早期信号，通过只采样每个回波的后半部分，并且使用读出共轭对称重建前半部分，我们可以使用短TE获取图像，并且FID和回波信号之间干扰小。</p>
+<p>此外，对于给定的回波时间（TE），回波右半部分有充分时间进行采样，因此部分回波技术可产生更好的信噪比（SNR）。由于采样时间更远的地方梯度幅值更小，读出共轭对称技术也可用于给定回波时间时采集更小的FOV，或者斜扫，不使用此技术时是不可能的。最后，读出共轭对称的另一个优势是读出方向上梯度场施加时间减少，减少了频率编码方向上的血流和运动伪影。</p>
 <dl class="docutils">
 <dt><strong>参考材料</strong></dt>
 <dd><ul class="first last simple">
-<li>Mezrich R. <a class="reference external" href="http://mriquestions.com/uploads/3/4/5/7/34572113/fourier.kspace.mezrich.1995.pdf">A perspective on k-space</a>. Radiology 1995; 195: 297-315. [review].</li>
+<li>Feinberg DA, Hale JD, Watts JC et al. <a class="reference external" href="http://mri-q.com/uploads/3/4/5/7/34572113/feinberg_conj_symm_radiology2e1612e22e3763926.pdf">Halving MR imaging time by conjugation: demonstration at 3.5 kG</a>.  Radiology 1986; 161:527-531.</li>
+<li>MacFall JR, Pelc NJ, Vavrek RM. <a class="reference external" href="http://mri-q.com/uploads/3/4/5/7/34572113/mcfall_partial_fourier539236.pdf">Correction of spatially dependent phase shifts for partial Fourier imaging</a>.  Magn Reson Imaging 1988; 6:143-145.</li>
+<li>McGibney G, Smith MR, Nichols ST, Crawley A. <a class="reference external" href="http://mri-q.com/uploads/3/4/5/7/34572113/partial_fourier_methods_2010_pfi.pdf">Quantitative evaluation of several partial Fourier reconstruction algorithms used in MRI</a>. Magn Reson Med 1993;30:51-59</li>
 </ul>
 </dd>
 <dt><strong>相关问题</strong></dt>
 <dd><ul class="first last simple">
-<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/k-space/what-is-k-space.html">k空间是什么？</a></li>
-<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/k-space/spatial-frequencies.html">空间频率是什么意思？</a></li>
+<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/k-space/partial-fourier.html">什么是部分傅里叶成像？</a></li>
+<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/k-space/phase-symmetry.html">相位共轭对称如何工作？为什么会使用这种技术？</a></li>
 </ul>
 </dd>
 </dl>
@@ -109,8 +119,8 @@
             <aside>
             <nav>
             <ul class="articles-timeline">
-                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/k-space/what-is-k-space.html" title="Previous: Question-k空间：k空间是什么？">Question-k空间：k空间是什么？</a></li>
-                <li class="next-article"><a href="http://chunshan.github.io/MRI-QA/k-space/what-does-k-stand-for.html" title="Next: Question-&#34;k&#34;的意义：字母&#34;k&#34;代表什么？">Question-"k"的意义：字母"k"代表什么？</a> »</li>
+                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/k-space/phase-symmetry.html" title="Previous: Question-相位共轭对称：相位共轭对称如何工作？为什么会使用这种技术？">Question-相位共轭对称：相位共轭对称如何工作？为什么会使用这种技术？</a></li>
+                <li class="next-article"><a href="http://chunshan.github.io/MRI-QA/k-space/why-not-use-both.html" title="Next: Question-共轭对称性：为什么读出共轭对称技术和相位共轭对称技术不结合使用？那样的话可以仅采集1/4的k空间数据，大大节省时间。">Question-共轭对称性：为什么读出共轭对称技术和相位共轭对称技术不结合使用？那样的话可以仅采集1/4的k空间数据，大大节省时间。</a> »</li>
             </ul>
             </nav>
             </aside>
@@ -118,13 +128,13 @@
         <section>
         <div class="span2" style="float:right;font-size:0.9em;">
             <h4>Published</h4>
-            <time pubdate="pubdate" datetime="2014-10-02T00:00:00+08:00">十月 2, 2014</time>
+            <time pubdate="pubdate" datetime="2014-10-21T00:00:00+08:00">十月 21, 2014</time>
             <h4>Category</h4>
             <a class="category-link" href="http://chunshan.github.io/MRI-QA/categories.html#k-space-ref">K-space</a>
             <h4>Tags</h4>
             <ul class="list-of-tags tags-in-article">
-                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#k-space-basic-ref">K-space (Basic)
-                    <span>10</span>
+                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#k-space-advanced-ref">K-space (Advanced)
+                    <span>9</span>
 </a></li>
                 <li><a href="http://chunshan.github.io/MRI-QA/tags.html#k-space-rapid-imaging-ref">K-space & Rapid Imaging
                     <span>19</span>

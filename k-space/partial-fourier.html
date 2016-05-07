@@ -10,18 +10,18 @@
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary">
 
-<meta name="keywords" content="K-space & Rapid Imaging, K-space (Basic), K-space, " />
+<meta name="keywords" content="K-space & Rapid Imaging, K-space (Advanced), K-space, " />
 
-<meta property="og:title" content="Question-k空间&#34;地理&#34;：k空间中点与图像中的点并不对应，它们的意义是什么？ "/>
-<meta property="og:url" content="http://chunshan.github.io/MRI-QA/k-space/parts-of-k-space.html" />
-<meta property="og:description" content="k空间中点与图像中的点并不对应，它们的意义是什么" />
+<meta property="og:title" content="Question-部分傅里叶技术：什么是部分傅里叶成像？ "/>
+<meta property="og:url" content="http://chunshan.github.io/MRI-QA/k-space/partial-fourier.html" />
+<meta property="og:description" content="部分傅里叶成像" />
 <meta property="og:site_name" content="MRI Q&amp;A" />
 <meta property="og:article:author" content="Chunshan" />
-<meta property="og:article:published_time" content="2014-10-02T00:00:00+08:00" />
-<meta name="twitter:title" content="Question-k空间&#34;地理&#34;：k空间中点与图像中的点并不对应，它们的意义是什么？ ">
-<meta name="twitter:description" content="k空间中点与图像中的点并不对应，它们的意义是什么">
+<meta property="og:article:published_time" content="2014-10-19T00:00:00+08:00" />
+<meta name="twitter:title" content="Question-部分傅里叶技术：什么是部分傅里叶成像？ ">
+<meta name="twitter:description" content="部分傅里叶成像">
 
-        <title>Question-k空间&#34;地理&#34;：k空间中点与图像中的点并不对应，它们的意义是什么？  · MRI Q&amp;A
+        <title>Question-部分傅里叶技术：什么是部分傅里叶成像？  · MRI Q&amp;A
 </title>
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
@@ -69,7 +69,7 @@
 <article>
 <div class="row-fluid">
     <header class="page-header span10 offset2">
-    <h1><a href="http://chunshan.github.io/MRI-QA/k-space/parts-of-k-space.html"> Question-k空间&quot;地理&quot;：k空间中点与图像中的点并不对应，它们的意义是什么？  </a></h1>
+    <h1><a href="http://chunshan.github.io/MRI-QA/k-space/partial-fourier.html"> Question-部分傅里叶技术：什么是部分傅里叶成像？  </a></h1>
     </header>
 </div>
 
@@ -77,28 +77,45 @@
         <div class="span8 offset2 article-content">
 
             
-            <p>原文链接:<a class="reference external" href="http://mriquestions.com/parts-of-k-space.html">If the points in k-space don't correspond to points in the image, what do they mean?</a></p>
+            <p>原文链接:<a class="reference external" href="http://mri-q.com/partial-fourier.html">What is partial Fourier imaging?</a></p>
 <dl class="docutils">
 <dt><strong>概要</strong></dt>
 <dd><div class="first last figure align-center">
-<img alt="summary" src="http://mriquestions.com/uploads/3/4/5/7/34572113/8248619_orig.png" style="width: 700px;" />
+<img alt="summary" src="http://mri-q.com/uploads/3/4/5/7/34572113/2100257_orig.png?270" style="width: 700px;" />
 </div>
 </dd>
 </dl>
-<p>虽然k空间中一个数据的位置与图像中一个像素的位置没有直接的联系，k空间中的不同部分确实与MR图像的空间频率有拓扑上的对应。如下图所示，靠近k空间中心的数据与低空间频率（如基本的形状和轮廓）相对应，而外围的数据与高空间频率（如边缘与细节）相对应。</p>
-<div class="figure align-center">
-<img alt="location of information in k-space" src="http://mriquestions.com/uploads/3/4/5/7/34572113/4589468_orig.gif?567" style="width: 800px;" />
+<p>部分傅里叶成像技术是仅使用一半k空间数据产生完整MR图像的重建方法。怎样才能做到？</p>
+<div class="figure align-right">
+<img alt="Conjugate symmetry of k-space" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/3449851_orig.jpg" style="width: 400px;" />
+<p class="caption">P和Q的共轭对称性。如果已知其中一个点的值，另一个可以计算出来</p>
 </div>
+<p>这个有些惊奇的结果来源于这样一个事实，k空间中的一些信息是多余的。假设在数据采集过程中没有相位错误发生，k空间具有独特的镜像属性称为共轭（Hermitian）对称性。</p>
+<p>一对点如P和Q的共轭对称性指的是它们关于k空间原点对称，如果P点的值为复数[a+bi]，那么Q点的值就是P点的共轭复数，[a-bi]。</p>
+<p>对任何实数函数进行傅里叶变换，结果都有共轭对称性，这是一个高级但直接的结论。对于2D MR成像这个更具体的例子，共轭对称点代表两个相反相位编码步骤获得的回波中相呼应的两个上升和下降点。换句话说，一个使用正相位编码步骤获得的回波上升部分数据点的信号强度是另一个使用对应的负相位编码步骤获得的回波下降部分数据点信号强度的共轭复数。</p>
+<div class="figure align-center">
+<img alt="Conjugate (Hermitian) symmetry of k-space." src="http://www.mri-q.com/uploads/3/2/7/4/3274160/2172345_orig.gif?541" style="width: 800px;" />
+<p class="caption">k空间的共轭（Hermitian）对称性。k空间关于原点对称的镜像位置，实部相同但是虚部符号相反</p>
+</div>
+<p>理论上，共轭对称性造成的结果是只需采集k空间一半儿的数据，另一半儿可以计算出来。这可以减少成像时间，减少最小回波时间，或者两者同时减少。</p>
+<p>所有图像数据集都会包含一些相位错误，因此使用共轭对称性进行近似并不完美。相位错误的根源包含那些常见的“嫌疑人”：B0不均匀性，磁敏感效应，涡电流，生理运动，射频不均匀性造成的空间变化或表面线圈敏感性。所以部分傅里叶技术的商业实现需要比k空间的一半儿稍微多采集一些（通常常规成像的60%，平面回波成像比例会更高）。这些多余的线用于产生k空间的相位校正图，可以对缺失的值进行更准确的预测。</p>
+<p>日常使用中有两种类型的部分傅里叶成像技术，并且在多数主流扫描仪中都提供了这两种方法，这两种方法通常分别称为“读出共轭对称（read conjugate symmetry）”和“相位共轭对称（phase conjugate symmetry）”，后面两个Q&amp;A分别详述这两个技术。</p>
+<p><strong>高级讨论</strong></p>
+<p>目前用于部分傅里叶估计的流行方法是零差重建。这个技术需对已获取的k空间数据使用两个串行的滤波器。第一个滤波器（高通滤波）将数据的幅值翻倍，然后丢弃傅里叶变换后的图像的虚部。第二个零差滤波器（低通滤波）根据已获取数据的一小部分，利用关于k空间中心的对称性创建一幅“校正图像”。在丢弃图像的虚部之前，从图像经过第一个滤波器（高通）的相位中减去“校正图像”的相位。</p>
+<p>在平面回波成像（EPI）中，射频激发脉冲晚期获得的回波与早期获得的回波有不同的相位。这是相位误差额外的来源，使得相位估计更加困难。对EPI而言，部分傅里叶技术通常需采样k空间的6/8或7/8，才能准确估计剩余的部分。</p>
 <dl class="docutils">
 <dt><strong>参考材料</strong></dt>
 <dd><ul class="first last simple">
-<li>Mezrich R. <a class="reference external" href="http://mriquestions.com/uploads/3/4/5/7/34572113/fourier.kspace.mezrich.1995.pdf">A perspective on k-space</a>. Radiology 1995; 195: 297-315. [review].</li>
+<li>Feinberg DA, Hale JD, Watts JC et al. <a class="reference external" href="http://mri-q.com/uploads/3/4/5/7/34572113/feinberg_conj_symm_radiology2e1612e22e3763926.pdf">Halving MR imaging time by conjugation: demonstration at 3.5 kG</a>.  Radiology 1986; 161:527-531.</li>
+<li>MacFall JR, Pelc NJ, Vavrek RM. <a class="reference external" href="http://mri-q.com/uploads/3/4/5/7/34572113/mcfall_partial_fourier539236.pdf">Correction of spatially dependent phase shifts for partial Fourier imaging</a>.  Magn Reson Imaging 1988; 6:143-145.</li>
+<li>McGibney G, Smith MR, Nichols ST, Crawley A. <a class="reference external" href="http://mri-q.com/uploads/3/4/5/7/34572113/partial_fourier_methods_2010_pfi.pdf">Quantitative evaluation of several partial Fourier reconstruction algorithms used in MRI</a>. Magn Reson Med 1993;30:51-59</li>
+<li>Williams LR. <a class="reference external" href="http://mri-q.com/uploads/3/4/5/7/34572113/symmetry.pdf">Symmetry</a>. Lecture Notes for Computer Science 530, University of New Mexico, 2011. Available at <a class="reference external" href="http://www.cs.unm.edu/~williams/cs530/symmetry.pdf">http://www.cs.unm.edu/~williams/cs530/symmetry.pdf</a></li>
 </ul>
 </dd>
 <dt><strong>相关问题</strong></dt>
 <dd><ul class="first last simple">
-<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/k-space/what-is-k-space.html">k空间是什么？</a></li>
-<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/k-space/spatial-frequencies.html">空间频率是什么意思？</a></li>
+<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/k-space/phase-symmetry.html">相位共轭对称如何工作？为什么会使用这种技术？</a></li>
+<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/k-space/read-symmetry.html">什么是读出共轭对称（部分回波）成像？为什么仅采样回波的一部分？</a></li>
 </ul>
 </dd>
 </dl>
@@ -109,8 +126,8 @@
             <aside>
             <nav>
             <ul class="articles-timeline">
-                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/k-space/what-is-k-space.html" title="Previous: Question-k空间：k空间是什么？">Question-k空间：k空间是什么？</a></li>
-                <li class="next-article"><a href="http://chunshan.github.io/MRI-QA/k-space/what-does-k-stand-for.html" title="Next: Question-&#34;k&#34;的意义：字母&#34;k&#34;代表什么？">Question-"k"的意义：字母"k"代表什么？</a> »</li>
+                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/k-space/rectangular-fov.html" title="Previous: Question-矩形FOV：如何获得矩形FOV？我们为什么要使用这样的FOV？">Question-矩形FOV：如何获得矩形FOV？我们为什么要使用这样的FOV？</a></li>
+                <li class="next-article"><a href="http://chunshan.github.io/MRI-QA/k-space/phase-symmetry.html" title="Next: Question-相位共轭对称：相位共轭对称如何工作？为什么会使用这种技术？">Question-相位共轭对称：相位共轭对称如何工作？为什么会使用这种技术？</a> »</li>
             </ul>
             </nav>
             </aside>
@@ -118,13 +135,13 @@
         <section>
         <div class="span2" style="float:right;font-size:0.9em;">
             <h4>Published</h4>
-            <time pubdate="pubdate" datetime="2014-10-02T00:00:00+08:00">十月 2, 2014</time>
+            <time pubdate="pubdate" datetime="2014-10-19T00:00:00+08:00">十月 19, 2014</time>
             <h4>Category</h4>
             <a class="category-link" href="http://chunshan.github.io/MRI-QA/categories.html#k-space-ref">K-space</a>
             <h4>Tags</h4>
             <ul class="list-of-tags tags-in-article">
-                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#k-space-basic-ref">K-space (Basic)
-                    <span>10</span>
+                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#k-space-advanced-ref">K-space (Advanced)
+                    <span>9</span>
 </a></li>
                 <li><a href="http://chunshan.github.io/MRI-QA/tags.html#k-space-rapid-imaging-ref">K-space & Rapid Imaging
                     <span>19</span>

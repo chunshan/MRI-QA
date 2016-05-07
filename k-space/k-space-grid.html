@@ -10,18 +10,18 @@
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary">
 
-<meta name="keywords" content="K-space & Rapid Imaging, K-space (Basic), K-space, " />
+<meta name="keywords" content="K-space & Rapid Imaging, K-space (Advanced), K-space, " />
 
-<meta property="og:title" content="Question-k空间&#34;地理&#34;：k空间中点与图像中的点并不对应，它们的意义是什么？ "/>
-<meta property="og:url" content="http://chunshan.github.io/MRI-QA/k-space/parts-of-k-space.html" />
-<meta property="og:description" content="k空间中点与图像中的点并不对应，它们的意义是什么" />
+<meta property="og:title" content="Question-k空间&#34;网格&#34;：为什么k空间被画为网格状？k空间的轴意味着什么？ "/>
+<meta property="og:url" content="http://chunshan.github.io/MRI-QA/k-space/k-space-grid.html" />
+<meta property="og:description" content="k空间网格及k空间的轴" />
 <meta property="og:site_name" content="MRI Q&amp;A" />
 <meta property="og:article:author" content="Chunshan" />
-<meta property="og:article:published_time" content="2014-10-02T00:00:00+08:00" />
-<meta name="twitter:title" content="Question-k空间&#34;地理&#34;：k空间中点与图像中的点并不对应，它们的意义是什么？ ">
-<meta name="twitter:description" content="k空间中点与图像中的点并不对应，它们的意义是什么">
+<meta property="og:article:published_time" content="2014-10-15T00:00:00+08:00" />
+<meta name="twitter:title" content="Question-k空间&#34;网格&#34;：为什么k空间被画为网格状？k空间的轴意味着什么？ ">
+<meta name="twitter:description" content="k空间网格及k空间的轴">
 
-        <title>Question-k空间&#34;地理&#34;：k空间中点与图像中的点并不对应，它们的意义是什么？  · MRI Q&amp;A
+        <title>Question-k空间&#34;网格&#34;：为什么k空间被画为网格状？k空间的轴意味着什么？  · MRI Q&amp;A
 </title>
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
@@ -69,7 +69,7 @@
 <article>
 <div class="row-fluid">
     <header class="page-header span10 offset2">
-    <h1><a href="http://chunshan.github.io/MRI-QA/k-space/parts-of-k-space.html"> Question-k空间&quot;地理&quot;：k空间中点与图像中的点并不对应，它们的意义是什么？  </a></h1>
+    <h1><a href="http://chunshan.github.io/MRI-QA/k-space/k-space-grid.html"> Question-k空间&quot;网格&quot;：为什么k空间被画为网格状？k空间的轴意味着什么？  </a></h1>
     </header>
 </div>
 
@@ -77,28 +77,37 @@
         <div class="span8 offset2 article-content">
 
             
-            <p>原文链接:<a class="reference external" href="http://mriquestions.com/parts-of-k-space.html">If the points in k-space don't correspond to points in the image, what do they mean?</a></p>
+            <p>原文链接:<a class="reference external" href="http://mri-q.com/k-space-grid.html">Why is k-space drawn as a grid? What do the axes in k-space mean?</a></p>
 <dl class="docutils">
 <dt><strong>概要</strong></dt>
 <dd><div class="first last figure align-center">
-<img alt="summary" src="http://mriquestions.com/uploads/3/4/5/7/34572113/8248619_orig.png" style="width: 700px;" />
+<img alt="summary" src="http://mri-q.com/uploads/3/4/5/7/34572113/7985058_orig.png" style="width: 700px;" />
 </div>
 </dd>
 </dl>
-<p>虽然k空间中一个数据的位置与图像中一个像素的位置没有直接的联系，k空间中的不同部分确实与MR图像的空间频率有拓扑上的对应。如下图所示，靠近k空间中心的数据与低空间频率（如基本的形状和轮廓）相对应，而外围的数据与高空间频率（如边缘与细节）相对应。</p>
-<div class="figure align-center">
-<img alt="location of information in k-space" src="http://mriquestions.com/uploads/3/4/5/7/34572113/4589468_orig.gif?567" style="width: 800px;" />
+<p>像宇宙外太空一样，k空间也是没有边界的，包含无限多的数据点。为了完美的表示一个物体，需要测量所有的空间频率，要求MR信号的采样有无限的精度，这显然是一个不可能完成的任务。</p>
+<p>相反，用于填充k空间的MR信号都被离散采样，然后将这些数据点放置到有限的k空间“网格”（矩阵）中，网格中通常有几千到几十万个单元。每一个数据点(kx, ky)表示一个特定空间频率对图像的贡献。主轴线kx和ky上的点表示图像在x和y方向上的空间频率。不正好在轴上的点表示不同角度上空间频率的贡献。</p>
+<div class="figure align-left">
+<img alt="k-space" src="http://mriquestions.com/uploads/3/4/5/7/34572113/1014165_orig.jpg?295" style="width: 400px;" />
 </div>
+<p>k空间网格通常是正方形的，并且间隔是均匀的，但这并不是必须的。规则的间隔会使得数据采集和处理更容易，更快，更高效。</p>
+<p>相邻行或列的距离表示为Δk，k空间中心点到一条边的距离称为kmax。Δk和kmax共同决定最终图像上的像素尺寸和视野（FOV， field-of-view）。这两个参数如何影响图像属性是<a class="reference external" href="http://mri-q.com/field-of-view-fov.html">后续Q&amp;A</a>的主题。</p>
+<p><strong>高级讨论</strong></p>
+<p>理论上，使用恒定振幅的相位和频率编码梯度对MR信号进行规则采样会将数据放置在规则的正方形矩阵中，如上图所示。但是，数据采样，特别是快速回波或平面回波序列，会在梯度的上升或下降沿时进行。这种情况下，时间上的均匀采样不会产生空间频率上的均匀采样，造成k空间数据被挤到边缘。</p>
+<p>出于类似的原因，如果梯度在采集过程中不是恒定的，k空间数据的间隔将是不均匀的。几乎所有的非笛卡尔方法（螺旋，径向，PROPELLER）使用正弦变化的梯度，都会遇到这样的问题。</p>
+<p>为了有效地处理非均匀采集的数据，已经开发了许多方法将这些数据做一些“变形”放置到长方形矩阵或“网格”中。这种迭代的过程称为“网格化”。</p>
+<p>尽管存在不同的方法，典型的网格化算法首先将原始数据和一组密度补偿量相乘，并与一个网格化核函数卷积，然后对结果数据进行插值，放置到均匀间隔的矩阵（“网格”）中，然后做离散傅里叶变换，最后，对视野进行裁剪，并使用变迹校正函数与变换后的数据相乘。</p>
+<p>感兴趣的读者如果想了解更多细节，可以阅读下面参考文献中列出的John Pauly的文章。</p>
 <dl class="docutils">
 <dt><strong>参考材料</strong></dt>
 <dd><ul class="first last simple">
-<li>Mezrich R. <a class="reference external" href="http://mriquestions.com/uploads/3/4/5/7/34572113/fourier.kspace.mezrich.1995.pdf">A perspective on k-space</a>. Radiology 1995; 195: 297-315. [review].</li>
+<li><a class="reference external" href="https://en.wikipedia.org/wiki/Discrete_Fourier_transform">&quot;Discrete Fourier Transform&quot;</a>. Wikipedia, the Free Encyclopedia.</li>
+<li>Pauly J. <a class="reference external" href="http://mriquestions.com/uploads/3/4/5/7/34572113/pauly-non-cartesian_recon.pdf">Non-Cartesian reconstruction</a>. 2005. Available from ee-classes.usc.edu.</li>
 </ul>
 </dd>
 <dt><strong>相关问题</strong></dt>
 <dd><ul class="first last simple">
 <li><a class="reference external" href="http://chunshan.github.io/MRI-QA/k-space/what-is-k-space.html">k空间是什么？</a></li>
-<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/k-space/spatial-frequencies.html">空间频率是什么意思？</a></li>
 </ul>
 </dd>
 </dl>
@@ -109,8 +118,8 @@
             <aside>
             <nav>
             <ul class="articles-timeline">
-                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/k-space/what-is-k-space.html" title="Previous: Question-k空间：k空间是什么？">Question-k空间：k空间是什么？</a></li>
-                <li class="next-article"><a href="http://chunshan.github.io/MRI-QA/k-space/what-does-k-stand-for.html" title="Next: Question-&#34;k&#34;的意义：字母&#34;k&#34;代表什么？">Question-"k"的意义：字母"k"代表什么？</a> »</li>
+                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/k-space/k-space-trajectories.html" title="Previous: Question-填充k空间的方法：你提到的用不同轨迹填充K空间。它们是什么？">Question-填充k空间的方法：你提到的用不同轨迹填充K空间。它们是什么？</a></li>
+                <li class="next-article"><a href="http://chunshan.github.io/MRI-QA/k-space/negative-frequencies.html" title="Next: Question-负频率：负频率的意思是什么？我不能理解kx和ky怎么会有负频率？">Question-负频率：负频率的意思是什么？我不能理解kx和ky怎么会有负频率？</a> »</li>
             </ul>
             </nav>
             </aside>
@@ -118,13 +127,13 @@
         <section>
         <div class="span2" style="float:right;font-size:0.9em;">
             <h4>Published</h4>
-            <time pubdate="pubdate" datetime="2014-10-02T00:00:00+08:00">十月 2, 2014</time>
+            <time pubdate="pubdate" datetime="2014-10-15T00:00:00+08:00">十月 15, 2014</time>
             <h4>Category</h4>
             <a class="category-link" href="http://chunshan.github.io/MRI-QA/categories.html#k-space-ref">K-space</a>
             <h4>Tags</h4>
             <ul class="list-of-tags tags-in-article">
-                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#k-space-basic-ref">K-space (Basic)
-                    <span>10</span>
+                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#k-space-advanced-ref">K-space (Advanced)
+                    <span>9</span>
 </a></li>
                 <li><a href="http://chunshan.github.io/MRI-QA/tags.html#k-space-rapid-imaging-ref">K-space & Rapid Imaging
                     <span>19</span>

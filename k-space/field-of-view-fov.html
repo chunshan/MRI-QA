@@ -10,18 +10,18 @@
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary">
 
-<meta name="keywords" content="K-space & Rapid Imaging, K-space (Basic), K-space, " />
+<meta name="keywords" content="K-space & Rapid Imaging, K-space (Advanced), K-space, " />
 
-<meta property="og:title" content="Question-k空间&#34;地理&#34;：k空间中点与图像中的点并不对应，它们的意义是什么？ "/>
-<meta property="og:url" content="http://chunshan.github.io/MRI-QA/k-space/parts-of-k-space.html" />
-<meta property="og:description" content="k空间中点与图像中的点并不对应，它们的意义是什么" />
+<meta property="og:title" content="Question-视野与k空间：k空间与视野（FOV）和像素宽度的关系是什么？ "/>
+<meta property="og:url" content="http://chunshan.github.io/MRI-QA/k-space/field-of-view-fov.html" />
+<meta property="og:description" content="k空间与视野（FOV）和像素宽度的关系" />
 <meta property="og:site_name" content="MRI Q&amp;A" />
 <meta property="og:article:author" content="Chunshan" />
-<meta property="og:article:published_time" content="2014-10-02T00:00:00+08:00" />
-<meta name="twitter:title" content="Question-k空间&#34;地理&#34;：k空间中点与图像中的点并不对应，它们的意义是什么？ ">
-<meta name="twitter:description" content="k空间中点与图像中的点并不对应，它们的意义是什么">
+<meta property="og:article:published_time" content="2014-10-17T00:00:00+08:00" />
+<meta name="twitter:title" content="Question-视野与k空间：k空间与视野（FOV）和像素宽度的关系是什么？ ">
+<meta name="twitter:description" content="k空间与视野（FOV）和像素宽度的关系">
 
-        <title>Question-k空间&#34;地理&#34;：k空间中点与图像中的点并不对应，它们的意义是什么？  · MRI Q&amp;A
+        <title>Question-视野与k空间：k空间与视野（FOV）和像素宽度的关系是什么？  · MRI Q&amp;A
 </title>
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
@@ -69,7 +69,7 @@
 <article>
 <div class="row-fluid">
     <header class="page-header span10 offset2">
-    <h1><a href="http://chunshan.github.io/MRI-QA/k-space/parts-of-k-space.html"> Question-k空间&quot;地理&quot;：k空间中点与图像中的点并不对应，它们的意义是什么？  </a></h1>
+    <h1><a href="http://chunshan.github.io/MRI-QA/k-space/field-of-view-fov.html"> Question-视野与k空间：k空间与视野（FOV）和像素宽度的关系是什么？  </a></h1>
     </header>
 </div>
 
@@ -77,28 +77,53 @@
         <div class="span8 offset2 article-content">
 
             
-            <p>原文链接:<a class="reference external" href="http://mriquestions.com/parts-of-k-space.html">If the points in k-space don't correspond to points in the image, what do they mean?</a></p>
+            <p>原文链接:<a class="reference external" href="http://mri-q.com/field-of-view-fov.html">How does k-space relate to field-of-view (FOV) and pixel width?</a></p>
 <dl class="docutils">
 <dt><strong>概要</strong></dt>
 <dd><div class="first last figure align-center">
-<img alt="summary" src="http://mriquestions.com/uploads/3/4/5/7/34572113/8248619_orig.png" style="width: 700px;" />
+<img alt="summary" src="http://mri-q.com/uploads/3/4/5/7/34572113/9239262_orig.png?297" style="width: 700px;" />
 </div>
 </dd>
 </dl>
-<p>虽然k空间中一个数据的位置与图像中一个像素的位置没有直接的联系，k空间中的不同部分确实与MR图像的空间频率有拓扑上的对应。如下图所示，靠近k空间中心的数据与低空间频率（如基本的形状和轮廓）相对应，而外围的数据与高空间频率（如边缘与细节）相对应。</p>
+<p>视野（Field-of-view，FOV）指的是MR图像采集或显示时的距离（用cm或mm表示）。FOV一般被分为几百个图像元素（像素），每一个的尺寸大约为1mm²。虽然不同方向上FOV和像素尺寸可以不同，为了能够解释地更清楚，我们仅考虑对称的情况，二维的情况下，FOVx = FOVy = FOV 并且 Δx = Δy = Δw。</p>
+<p>定义好了视野（FOV）和像素宽度（Δw）就决定了k空间中数字化采样的数目，必须采集够这些数目，才能重建出所需分辨率的图像。像下表所示，FOV反比于k空间中采样之间的间距，具体来说，Δk = 1/FOV。</p>
+<p>从对称性上考虑，像素宽度（Δw）和k空间中空间频率最大的正值（+kmax）和负值（−kmax）之间的范围也成反比。假设定义kFOV = (+kmax) − (−kmax) = 2kmax，Δw和kFOV之间的关系为Δw = 1/kFOV。</p>
 <div class="figure align-center">
-<img alt="location of information in k-space" src="http://mriquestions.com/uploads/3/4/5/7/34572113/4589468_orig.gif?567" style="width: 800px;" />
+<img alt="relation between k-space and field-of-view and pixel width" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/1157917_orig.gif?546" style="width: 800px;" />
 </div>
+<p>对大多数人而言，Δk = 1/FOV 或者 Δw = 1/kFOV这样的关系并不是显而易见的，反而因此增加了混乱。希望下面的讨论能够让你对这些重要的结果感觉比较舒服一些。首先我们考虑为什么Δk = 1/FOV。</p>
+<div class="figure align-right">
+<img alt="Δk and FOV" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/6816238_orig.gif?345" style="width: 400px;" />
+</div>
+<p>回忆前面一个Q&amp;A中讲到傅里叶分析会将一个简单的信号分解为一系列不同谐波频率（ω, 2ω, 3ω等）的正弦波的和。</p>
+<p>在k空间中成像物体空间频率的傅里叶投影也遵循傅里叶分析中简单的模式，只是复指数(cos nωt + i sin nωt)代替了简单的正弦波，但振荡频率仍然是ω（1/FOV）的整数倍。k空间中连续的两条采样线相差1/FOV。例如，线kn+1和kn之间的空间频率差异（Δk = kn+1 − kn）为Δk = (n+1)/FOV − n/FOV = 1/FOV。</p>
+<p>与表达式Δk = 1/FOV一样，方程Δw = 1/kFOV也不是一眼就能看出来的。这种情况下，我们要考虑需要k空间中的多少相位周期来近似表征最小所需尺寸（Δw）的图像。</p>
+<p>如下图所示，答案是至少需要一个完整的相位周期以唯一区分每个像素。如果视野FOV内有宽为Δw的N个像素，那么需要N个相位周期。我们前面定义kFOV = 2kmax对应于此要求的空间频率。由于空间频率(k)为[周期/距离]，我们可以将kFOV表示为kFOV = N /FOV。但是像素宽度（Δw）等于FOV / N。所以直接有kFOV = 1 /Δw。</p>
+<div class="figure align-center">
+<img alt="Δw and kFOV" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/8126576_orig.gif?511" style="width: 800px;" />
+</div>
+<p>这两个成对儿的方程之所以重要是因为它们揭示了k空间中的间距或者采样的位置如何影响FOV和像素宽度。</p>
+<div class="figure align-right">
+<img alt="Inverse relationship between spacing of data samples (Δk) and image field-of-view" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/6578634_orig.png" style="width: 500px;" />
+<p class="caption">数据采样间隔(Δk)和图像FOV之间的反比关系</p>
+</div>
+<p>第一个例子演示了数据间隔和图像FOV之间的反比关系。左边，k空间数据采样率对应于FOV为30cm的图像。右边，数据点之间的间隔（Δk）翻倍了，结果是图像的像素尺寸不变但是FOV仅有原来的一半（15cm）。在此小FOV外部的脑的外缘“卷折”到重建图像的对侧，这种现象称为混叠。</p>
+<div class="figure align-right">
+<img alt="Inverse relationship between pixel width (Δw) and range of sampled k-space frequencies" src="http://www.mri-q.com/uploads/3/2/7/4/3274160/4613719_orig.png" style="width: 500px;" />
+<p class="caption">像素宽度（Δw）和k空间频率的采样范围（kFOV）之间的反比关系</p>
+</div>
+<p>第二个例子中，我们保持数据采样率和间隔（Δk）不变，但是我们仅取k空间中间三分之一的采样数据，也就是将kFOV减少为原来的1/3。对k空间进行这种操作后，FOV保持不变，但是像素宽度（Δw）翻了三倍，从1mm变为3mm。变大的像素尺寸意味着平面内的空间分辨率下降了，这个结果在意料之中，因为只有k空间中间低频率的点被采样了。</p>
+<p>如果你仍然感到困惑，不要担心，毕竟这个话题属于“k空间高级话题”。对于更想从数学上一窥究竟的好学者，下面由Eric Wong给的YouTube视频可以提供更进一步的视角。</p>
 <dl class="docutils">
 <dt><strong>参考材料</strong></dt>
 <dd><ul class="first last simple">
 <li>Mezrich R. <a class="reference external" href="http://mriquestions.com/uploads/3/4/5/7/34572113/fourier.kspace.mezrich.1995.pdf">A perspective on k-space</a>. Radiology 1995; 195: 297-315. [review].</li>
+<li>Miller K. <a class="reference external" href="http://mriquestions.com/uploads/3/4/5/7/34572113/miler-image_formation.ppt">MRI image formation (ppt)</a>. On-line lecture notes available at <a class="reference external" href="http://users.fmrib.ox.ac.uk/~karla/teaching/image_formation.ppt">users.fmrib.ox.ac.uk/~karla/teaching/image_formation.ppt</a></li>
 </ul>
 </dd>
 <dt><strong>相关问题</strong></dt>
 <dd><ul class="first last simple">
-<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/k-space/what-is-k-space.html">k空间是什么？</a></li>
-<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/k-space/spatial-frequencies.html">空间频率是什么意思？</a></li>
+<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/k-space/k-space-grid.html">How does one obtain a rectangular field of view? Why would you want to use it?</a></li>
 </ul>
 </dd>
 </dl>
@@ -109,8 +134,8 @@
             <aside>
             <nav>
             <ul class="articles-timeline">
-                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/k-space/what-is-k-space.html" title="Previous: Question-k空间：k空间是什么？">Question-k空间：k空间是什么？</a></li>
-                <li class="next-article"><a href="http://chunshan.github.io/MRI-QA/k-space/what-does-k-stand-for.html" title="Next: Question-&#34;k&#34;的意义：字母&#34;k&#34;代表什么？">Question-"k"的意义：字母"k"代表什么？</a> »</li>
+                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/k-space/negative-frequencies.html" title="Previous: Question-负频率：负频率的意思是什么？我不能理解kx和ky怎么会有负频率？">Question-负频率：负频率的意思是什么？我不能理解kx和ky怎么会有负频率？</a></li>
+                <li class="next-article"><a href="http://chunshan.github.io/MRI-QA/k-space/rectangular-fov.html" title="Next: Question-矩形FOV：如何获得矩形FOV？我们为什么要使用这样的FOV？">Question-矩形FOV：如何获得矩形FOV？我们为什么要使用这样的FOV？</a> »</li>
             </ul>
             </nav>
             </aside>
@@ -118,13 +143,13 @@
         <section>
         <div class="span2" style="float:right;font-size:0.9em;">
             <h4>Published</h4>
-            <time pubdate="pubdate" datetime="2014-10-02T00:00:00+08:00">十月 2, 2014</time>
+            <time pubdate="pubdate" datetime="2014-10-17T00:00:00+08:00">十月 17, 2014</time>
             <h4>Category</h4>
             <a class="category-link" href="http://chunshan.github.io/MRI-QA/categories.html#k-space-ref">K-space</a>
             <h4>Tags</h4>
             <ul class="list-of-tags tags-in-article">
-                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#k-space-basic-ref">K-space (Basic)
-                    <span>10</span>
+                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#k-space-advanced-ref">K-space (Advanced)
+                    <span>9</span>
 </a></li>
                 <li><a href="http://chunshan.github.io/MRI-QA/tags.html#k-space-rapid-imaging-ref">K-space & Rapid Imaging
                     <span>19</span>

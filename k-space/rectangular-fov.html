@@ -10,18 +10,18 @@
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary">
 
-<meta name="keywords" content="K-space & Rapid Imaging, K-space (Basic), K-space, " />
+<meta name="keywords" content="K-space & Rapid Imaging, K-space (Advanced), K-space, " />
 
-<meta property="og:title" content="Question-k空间&#34;地理&#34;：k空间中点与图像中的点并不对应，它们的意义是什么？ "/>
-<meta property="og:url" content="http://chunshan.github.io/MRI-QA/k-space/parts-of-k-space.html" />
-<meta property="og:description" content="k空间中点与图像中的点并不对应，它们的意义是什么" />
+<meta property="og:title" content="Question-矩形FOV：如何获得矩形FOV？我们为什么要使用这样的FOV？ "/>
+<meta property="og:url" content="http://chunshan.github.io/MRI-QA/k-space/rectangular-fov.html" />
+<meta property="og:description" content="矩形FOV" />
 <meta property="og:site_name" content="MRI Q&amp;A" />
 <meta property="og:article:author" content="Chunshan" />
-<meta property="og:article:published_time" content="2014-10-02T00:00:00+08:00" />
-<meta name="twitter:title" content="Question-k空间&#34;地理&#34;：k空间中点与图像中的点并不对应，它们的意义是什么？ ">
-<meta name="twitter:description" content="k空间中点与图像中的点并不对应，它们的意义是什么">
+<meta property="og:article:published_time" content="2014-10-18T00:00:00+08:00" />
+<meta name="twitter:title" content="Question-矩形FOV：如何获得矩形FOV？我们为什么要使用这样的FOV？ ">
+<meta name="twitter:description" content="矩形FOV">
 
-        <title>Question-k空间&#34;地理&#34;：k空间中点与图像中的点并不对应，它们的意义是什么？  · MRI Q&amp;A
+        <title>Question-矩形FOV：如何获得矩形FOV？我们为什么要使用这样的FOV？  · MRI Q&amp;A
 </title>
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
@@ -69,7 +69,7 @@
 <article>
 <div class="row-fluid">
     <header class="page-header span10 offset2">
-    <h1><a href="http://chunshan.github.io/MRI-QA/k-space/parts-of-k-space.html"> Question-k空间&quot;地理&quot;：k空间中点与图像中的点并不对应，它们的意义是什么？  </a></h1>
+    <h1><a href="http://chunshan.github.io/MRI-QA/k-space/rectangular-fov.html"> Question-矩形FOV：如何获得矩形FOV？我们为什么要使用这样的FOV？  </a></h1>
     </header>
 </div>
 
@@ -77,28 +77,43 @@
         <div class="span8 offset2 article-content">
 
             
-            <p>原文链接:<a class="reference external" href="http://mriquestions.com/parts-of-k-space.html">If the points in k-space don't correspond to points in the image, what do they mean?</a></p>
+            <p>原文链接:<a class="reference external" href="http://mri-q.com/rectangular-fov.html">How does one obtain a rectangular field of view? Why would you want to use it?</a></p>
 <dl class="docutils">
 <dt><strong>概要</strong></dt>
 <dd><div class="first last figure align-center">
-<img alt="summary" src="http://mriquestions.com/uploads/3/4/5/7/34572113/8248619_orig.png" style="width: 700px;" />
+<img alt="summary" src="http://mri-q.com/uploads/3/4/5/7/34572113/6819383_orig.png" style="width: 700px;" />
 </div>
 </dd>
 </dl>
-<p>虽然k空间中一个数据的位置与图像中一个像素的位置没有直接的联系，k空间中的不同部分确实与MR图像的空间频率有拓扑上的对应。如下图所示，靠近k空间中心的数据与低空间频率（如基本的形状和轮廓）相对应，而外围的数据与高空间频率（如边缘与细节）相对应。</p>
-<div class="figure align-center">
-<img alt="location of information in k-space" src="http://mriquestions.com/uploads/3/4/5/7/34572113/4589468_orig.gif?567" style="width: 800px;" />
+<div class="figure align-right">
+<img alt="Rectangular (1:2) FOV obtained by sampling every other line" src="http://mri-q.com/uploads/3/4/5/7/34572113/8388995_orig.gif?393" style="width: 500px;" />
+<p class="caption">在相位编码方向隔行采样得到的矩形FOV（1:2）</p>
 </div>
+<p>在<a class="reference external" href="http://chunshan.github.io/MRI-QA/k-space/field-of-view-fov.html">前一个Q&amp;A</a>中，我们说明了FOV与k空间中采样之间的间隔（Δk）成反比。为了简化说明，我们考虑正方形的像素，而且在每一个方向上有相同的FOV。然而，通过改变频率和相位轴上的采样率，独立地更改每一个图像维度的FOV也是可能的。
+FOVf = 1 / Δkf
+FOVp = 1 / Δkp</p>
+<p>对于二维自旋卷折成像，获取比例为1:2的矩形FOV需要交替采样k空间中的相位编码线，但是保留最大和最小相位编码梯度的幅值不变。这个过程使得相位编码步骤（Np）只有原来的一半，但是相邻两个步骤之间的增量翻倍。</p>
+<p>因此在频率编码方向上的FOV（FOVf）和采样率不受影响，此外，由于FOVp和Np都减少一半，相位编码方向上的像素尺寸（FOVp/Np）和图像总体的空间分辨率也不变。</p>
+<!-- figure::http://www.mri-q.com/uploads/3/2/7/4/3274160/2989454_orig.jpg
+:alt: Rectangular FOV with wrap-around (aliasing) artifact from chin (red arrow)
+:align: right
+:width: 250
+
+矩形FOV中下巴（红色箭头）导致的卷折（混淆）伪影 -->
+<p>所有的MR厂商都提供矩形FOV作为适用于大多数脉冲序列的标准选择，但是名称略有不同：“矩形FOV（Rectangular FOV）”（Philips, Hitachi, Toshiba），“相位FOV（Phase FOV）”（Siemens），“部分FOV（Partial FOV）”（GE）。</p>
+<p>选择矩形FOV在扫描脊柱和四肢时特别有用，因为这些场景中一个解剖方向上的尺寸比其他方向长很多。大多数扫描仪允许在一个大范围内调整相位采样率，因此，矩形FOV的尺寸和形状可调整的自由度还比较大。</p>
+<p>但是，矩形FOV技术有两个主要的缺点。首先，因为采集的相位编码步数变少，信噪比（SNR）与整FOV成像相比会降低。其次，如果成像物体的尺寸超过了定义的FOVp（相位编码方向上的FOV），卷折（混淆）就会发生。要想消除这些伪影，需要对病人仔细摆位，并且使用饱和带。</p>
 <dl class="docutils">
 <dt><strong>参考材料</strong></dt>
 <dd><ul class="first last simple">
 <li>Mezrich R. <a class="reference external" href="http://mriquestions.com/uploads/3/4/5/7/34572113/fourier.kspace.mezrich.1995.pdf">A perspective on k-space</a>. Radiology 1995; 195: 297-315. [review].</li>
+<li>Miller K. <a class="reference external" href="http://mriquestions.com/uploads/3/4/5/7/34572113/miler-image_formation.ppt">MRI image formation (ppt)</a>. On-line lecture notes available at <a class="reference external" href="http://users.fmrib.ox.ac.uk/~karla/teaching/image_formation.ppt">users.fmrib.ox.ac.uk/~karla/teaching/image_formation.ppt</a></li>
 </ul>
 </dd>
 <dt><strong>相关问题</strong></dt>
 <dd><ul class="first last simple">
-<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/k-space/what-is-k-space.html">k空间是什么？</a></li>
-<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/k-space/spatial-frequencies.html">空间频率是什么意思？</a></li>
+<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/k-space/field-of-view-fov.html">k空间与视野（FOV）和像素宽度的关系是什么？</a></li>
+<li><a class="reference external" href="http://mri-q.com/wrap-around-artifact.html">Why does phase wrap-around occur?</a></li>
 </ul>
 </dd>
 </dl>
@@ -109,8 +124,8 @@
             <aside>
             <nav>
             <ul class="articles-timeline">
-                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/k-space/what-is-k-space.html" title="Previous: Question-k空间：k空间是什么？">Question-k空间：k空间是什么？</a></li>
-                <li class="next-article"><a href="http://chunshan.github.io/MRI-QA/k-space/what-does-k-stand-for.html" title="Next: Question-&#34;k&#34;的意义：字母&#34;k&#34;代表什么？">Question-"k"的意义：字母"k"代表什么？</a> »</li>
+                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/k-space/field-of-view-fov.html" title="Previous: Question-视野与k空间：k空间与视野（FOV）和像素宽度的关系是什么？">Question-视野与k空间：k空间与视野（FOV）和像素宽度的关系是什么？</a></li>
+                <li class="next-article"><a href="http://chunshan.github.io/MRI-QA/k-space/partial-fourier.html" title="Next: Question-部分傅里叶技术：什么是部分傅里叶成像？">Question-部分傅里叶技术：什么是部分傅里叶成像？</a> »</li>
             </ul>
             </nav>
             </aside>
@@ -118,13 +133,13 @@
         <section>
         <div class="span2" style="float:right;font-size:0.9em;">
             <h4>Published</h4>
-            <time pubdate="pubdate" datetime="2014-10-02T00:00:00+08:00">十月 2, 2014</time>
+            <time pubdate="pubdate" datetime="2014-10-18T00:00:00+08:00">十月 18, 2014</time>
             <h4>Category</h4>
             <a class="category-link" href="http://chunshan.github.io/MRI-QA/categories.html#k-space-ref">K-space</a>
             <h4>Tags</h4>
             <ul class="list-of-tags tags-in-article">
-                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#k-space-basic-ref">K-space (Basic)
-                    <span>10</span>
+                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#k-space-advanced-ref">K-space (Advanced)
+                    <span>9</span>
 </a></li>
                 <li><a href="http://chunshan.github.io/MRI-QA/tags.html#k-space-rapid-imaging-ref">K-space & Rapid Imaging
                     <span>19</span>

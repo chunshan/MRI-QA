@@ -10,18 +10,18 @@
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary">
 
-<meta name="keywords" content="K-space & Rapid Imaging, K-space (Basic), K-space, " />
+<meta name="keywords" content="K-space & Rapid Imaging, K-space (Advanced), K-space, " />
 
-<meta property="og:title" content="Question-k空间&#34;地理&#34;：k空间中点与图像中的点并不对应，它们的意义是什么？ "/>
-<meta property="og:url" content="http://chunshan.github.io/MRI-QA/k-space/parts-of-k-space.html" />
-<meta property="og:description" content="k空间中点与图像中的点并不对应，它们的意义是什么" />
+<meta property="og:title" content="Question-负频率：负频率的意思是什么？我不能理解kx和ky怎么会有负频率？ "/>
+<meta property="og:url" content="http://chunshan.github.io/MRI-QA/k-space/negative-frequencies.html" />
+<meta property="og:description" content="k空间中的负频率" />
 <meta property="og:site_name" content="MRI Q&amp;A" />
 <meta property="og:article:author" content="Chunshan" />
-<meta property="og:article:published_time" content="2014-10-02T00:00:00+08:00" />
-<meta name="twitter:title" content="Question-k空间&#34;地理&#34;：k空间中点与图像中的点并不对应，它们的意义是什么？ ">
-<meta name="twitter:description" content="k空间中点与图像中的点并不对应，它们的意义是什么">
+<meta property="og:article:published_time" content="2014-10-16T00:00:00+08:00" />
+<meta name="twitter:title" content="Question-负频率：负频率的意思是什么？我不能理解kx和ky怎么会有负频率？ ">
+<meta name="twitter:description" content="k空间中的负频率">
 
-        <title>Question-k空间&#34;地理&#34;：k空间中点与图像中的点并不对应，它们的意义是什么？  · MRI Q&amp;A
+        <title>Question-负频率：负频率的意思是什么？我不能理解kx和ky怎么会有负频率？  · MRI Q&amp;A
 </title>
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
@@ -69,7 +69,7 @@
 <article>
 <div class="row-fluid">
     <header class="page-header span10 offset2">
-    <h1><a href="http://chunshan.github.io/MRI-QA/k-space/parts-of-k-space.html"> Question-k空间&quot;地理&quot;：k空间中点与图像中的点并不对应，它们的意义是什么？  </a></h1>
+    <h1><a href="http://chunshan.github.io/MRI-QA/k-space/negative-frequencies.html"> Question-负频率：负频率的意思是什么？我不能理解kx和ky怎么会有负频率？  </a></h1>
     </header>
 </div>
 
@@ -77,28 +77,51 @@
         <div class="span8 offset2 article-content">
 
             
-            <p>原文链接:<a class="reference external" href="http://mriquestions.com/parts-of-k-space.html">If the points in k-space don't correspond to points in the image, what do they mean?</a></p>
+            <p>原文链接:<a class="reference external" href="http://mriquestions.com/negative-frequencies.html">What is the meaning of negative frequencies? I don't understand how kx and ky can have negative values.</a></p>
 <dl class="docutils">
 <dt><strong>概要</strong></dt>
 <dd><div class="first last figure align-center">
-<img alt="summary" src="http://mriquestions.com/uploads/3/4/5/7/34572113/8248619_orig.png" style="width: 700px;" />
+<img alt="summary" src="http://mriquestions.com/uploads/3/4/5/7/34572113/1622572_orig.png" style="width: 700px;" />
 </div>
 </dd>
 </dl>
-<p>虽然k空间中一个数据的位置与图像中一个像素的位置没有直接的联系，k空间中的不同部分确实与MR图像的空间频率有拓扑上的对应。如下图所示，靠近k空间中心的数据与低空间频率（如基本的形状和轮廓）相对应，而外围的数据与高空间频率（如边缘与细节）相对应。</p>
-<div class="figure align-center">
-<img alt="location of information in k-space" src="http://mriquestions.com/uploads/3/4/5/7/34572113/4589468_orig.gif?567" style="width: 800px;" />
+<p>普通的物理现象如声波一般没有必要使用负频率描述。比如，“中央C调”的频率为261.63Hz或者电源插座中的电压在60Hz震荡，这样的描述是完全足够的。在这样的场景中，我们将频率考虑为是一个没有符号的标量，有时也称之为时间频率。</p>
+<div class="figure align-right">
+<img alt="positive frequency" src="http://mriquestions.com/uploads/3/4/5/7/34572113/7550315_orig.gif" style="width: 100px;" />
+</div>
+<div class="figure align-right">
+<img alt="positive frequency" src="http://mriquestions.com/uploads/3/4/5/7/34572113/6638441_orig.gif" style="width: 100px;" />
+</div>
+<p>在其他情况下，将频率考虑为既有幅度又有方向的矢量更合适。假设有两个轮子，以相同的转速（rpm revolution per minutes，rpm）旋转但是方向不同。这种场景中，对角频率指定正和负（+ω and −ω）以区分顺时针和逆时针方向的运动会更加合理。</p>
+<p>傅里叶分析中区分正负频率也很重要，原因是傅里叶变换并不是将一个信号分解为简单的正弦波，实际上，傅里叶变换会将信号分解为复指数函数，可以认为是在两个方向旋转的正弦波和余弦波。</p>
+<p>另一个视角看正负频率，回忆一下，频率（ω）即相位（ϕ）随时间（t）的变化速率。在微积分中表示为ω = dϕ/dt（这是有道理的，因为频率的单位可以表示为周期，度或弧度每秒）。</p>
+<p>因此正频率（+ω）意味着相位随时间增加，而负频率（−ω）意味着相位随时间减小。</p>
+<div class="figure align-left">
+<img alt="negative frequency" src="http://mriquestions.com/uploads/3/4/5/7/34572113/8661171_orig.jpg?482" style="width: 500px;" />
+</div>
+<p>因此−kx和−ky轴对应于负空间频率，也就是累积相位减小。一般情况下，负极性梯度叶会将空间频率和相位“吹向”图表的左侧或下侧（依赖于沿哪个轴施加），相反，一个正极性梯度叶将空间频率和相位“吹向”上方或右方。</p>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
 </div>
 <dl class="docutils">
 <dt><strong>参考材料</strong></dt>
 <dd><ul class="first last simple">
-<li>Mezrich R. <a class="reference external" href="http://mriquestions.com/uploads/3/4/5/7/34572113/fourier.kspace.mezrich.1995.pdf">A perspective on k-space</a>. Radiology 1995; 195: 297-315. [review].</li>
+<li>Johnson, D. <a class="reference external" href="http://mriquestions.com/uploads/3/4/5/7/34572113/elemental_signals_m0004-2.29.pdf">Elemental Signals</a>. OpenStax-CNX Web site. <a class="reference external" href="http://cnx.org/content/m0004/2.29/">http://cnx.org/content/m0004/2.29/</a>, Jul 6, 2009.</li>
+<li>Lyons R. <a class="reference external" href="http://mriquestions.com/uploads/3/4/5/7/34572113/quad_signals_tutorial-lyons.pdf">A Quadrature Signals Tutorial: Complex, But Not Complicated</a>. Available at <a class="reference external" href="http://www.dsprelated.com/showarticle/192.php">http://www.dsprelated.com/showarticle/192.php</a></li>
+<li><a class="reference external" href="https://en.wikipedia.org/wiki/Negative_frequency">Negative Frequency</a>. Wikipedia, the Free Encyclopedia.</li>
+<li>Signal Processing Stack Exchange. <a class="reference external" href="http://mriquestions.com/uploads/3/4/5/7/34572113/frequency_-_what_is_the_physical_significance_of_negative_frequencies__-_signal_processing_stack_exchange.pdf">What is the physical significance of negative frequencies?</a> Available at <a class="reference external" href="http://dsp.stackexchange.com/">http://dsp.stackexchange.com/</a></li>
 </ul>
 </dd>
 <dt><strong>相关问题</strong></dt>
 <dd><ul class="first last simple">
-<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/k-space/what-is-k-space.html">k空间是什么？</a></li>
-<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/k-space/spatial-frequencies.html">空间频率是什么意思？</a></li>
+<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/k-space/k-space-grid.html">为什么k空间被画为网格状？k空间的轴意味着什么？</a></li>
 </ul>
 </dd>
 </dl>
@@ -109,8 +132,8 @@
             <aside>
             <nav>
             <ul class="articles-timeline">
-                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/k-space/what-is-k-space.html" title="Previous: Question-k空间：k空间是什么？">Question-k空间：k空间是什么？</a></li>
-                <li class="next-article"><a href="http://chunshan.github.io/MRI-QA/k-space/what-does-k-stand-for.html" title="Next: Question-&#34;k&#34;的意义：字母&#34;k&#34;代表什么？">Question-"k"的意义：字母"k"代表什么？</a> »</li>
+                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/k-space/k-space-grid.html" title="Previous: Question-k空间&#34;网格&#34;：为什么k空间被画为网格状？k空间的轴意味着什么？">Question-k空间"网格"：为什么k空间被画为网格状？k空间的轴意味着什么？</a></li>
+                <li class="next-article"><a href="http://chunshan.github.io/MRI-QA/k-space/field-of-view-fov.html" title="Next: Question-视野与k空间：k空间与视野（FOV）和像素宽度的关系是什么？">Question-视野与k空间：k空间与视野（FOV）和像素宽度的关系是什么？</a> »</li>
             </ul>
             </nav>
             </aside>
@@ -118,13 +141,13 @@
         <section>
         <div class="span2" style="float:right;font-size:0.9em;">
             <h4>Published</h4>
-            <time pubdate="pubdate" datetime="2014-10-02T00:00:00+08:00">十月 2, 2014</time>
+            <time pubdate="pubdate" datetime="2014-10-16T00:00:00+08:00">十月 16, 2014</time>
             <h4>Category</h4>
             <a class="category-link" href="http://chunshan.github.io/MRI-QA/categories.html#k-space-ref">K-space</a>
             <h4>Tags</h4>
             <ul class="list-of-tags tags-in-article">
-                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#k-space-basic-ref">K-space (Basic)
-                    <span>10</span>
+                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#k-space-advanced-ref">K-space (Advanced)
+                    <span>9</span>
 </a></li>
                 <li><a href="http://chunshan.github.io/MRI-QA/tags.html#k-space-rapid-imaging-ref">K-space & Rapid Imaging
                     <span>19</span>
