@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Chunshan" />
+        <meta name="copyright" content="Chunshan" />
+
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary">
+
+<meta name="keywords" content="BOLD, BOLD, " />
+
+<meta property="og:title" content="Question-fMRI模式设计：如何设计一个BOLD/fMRI检查？ "/>
+<meta property="og:url" content="http://chunshan.github.io/MRI-QA/bold/fmri-paradigm-design.html" />
+<meta property="og:description" content="fMRI模式设计" />
+<meta property="og:site_name" content="MRI Q&amp;A" />
+<meta property="og:article:author" content="Chunshan" />
+<meta property="og:article:published_time" content="2016-03-07T00:00:00+08:00" />
+<meta name="twitter:title" content="Question-fMRI模式设计：如何设计一个BOLD/fMRI检查？ ">
+<meta name="twitter:description" content="fMRI模式设计">
+
+        <title>Question-fMRI模式设计：如何设计一个BOLD/fMRI检查？  · MRI Q&amp;A
+</title>
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="http://chunshan.github.io/MRI-QA/theme/css/style.min.css?edf95c30">
+        <link rel="shortcut icon" href="http://chunshan.github.io/MRI-QA/theme/images/favicon.ico" type="image/x-icon" type="image/png" />
+        <link rel="icon" href="http://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-152x152.png" type="image/png" />
+        <link rel="apple-touch-icon" href="http://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon.png"  type="image/png" />
+        <link rel="apple-touch-icon" sizes="57x57" href="http://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-57x57.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="http://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-72x72.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="76x76" href="http://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-76x76.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="http://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-114x114.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="120x120" href="http://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-120x120.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="http://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-144x144.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="152x152" href="http://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-152x152.png" type="image/png" />
+        <link href="http://chunshan.github.io/MRI-QA/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="MRI Q&amp;A - Full Atom Feed" />
+    </head>
+    <body>
+        <div id="content-sans-footer">
+        <div class="navbar navbar-static-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="http://chunshan.github.io/MRI-QA/"><span class=site-name>MRI Q&A</span></a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right top-menu">
+                            <li ><a href="http://chunshan.github.io/MRI-QA">Home</a></li>
+                            <li ><a href="http://chunshan.github.io/MRI-QA/about.html">About</a></li>
+                            <li ><a href="http://chunshan.github.io/MRI-QA/categories.html">Categories</a></li>
+                            <li ><a href="http://chunshan.github.io/MRI-QA/tags.html">Tags</a></li>
+                            <li ><a href="http://chunshan.github.io/MRI-QA/archives.html">Archives</a></li>
+                            <li><form class="navbar-search" action="http://chunshan.github.io/MRI-QA/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span1"></div>
+                <div class="span10">
+<article>
+<div class="row-fluid">
+    <header class="page-header span10 offset2">
+    <h1><a href="http://chunshan.github.io/MRI-QA/bold/fmri-paradigm-design.html"> Question-fMRI模式设计：如何设计一个BOLD/fMRI检查？  </a></h1>
+    </header>
+</div>
+
+<div class="row-fluid">
+        <div class="span8 offset2 article-content">
+
+            
+            <p>原文链接:<a class="reference external" href="http://mriquestions.com/fmri-paradigm-design.html">How do you design a BOLD/fMRI study?</a></p>
+<dl class="docutils">
+<dt><strong>概要</strong></dt>
+<dd><div class="first last figure align-center">
+<img alt="summary" src="http://mriquestions.com/uploads/3/4/5/7/34572113/4971479_orig.png?319" style="width: 700px;" />
+</div>
+</dd>
+</dl>
+<p>BOLD/fMRI检查的实验设计可以分成三种基本类型：1）组块，2）事件相关，3）混合式。</p>
+<div class="figure align-right">
+<img alt="Three designs of BOLD/fMRI experiments" src="http://mriquestions.com/uploads/3/4/5/7/34572113/1081253_orig.png" style="width: 400px;" />
+<p class="caption">三种BOLD/fMRI实验的设计</p>
+</div>
+<p><strong>组块设计</strong></p>
+<p>组块设计是最古老的功能成像模式，在fMRI发明之前就广泛用于PET检查。组块模式中任务时间（也被称为epochs）与休息时间交替进行。任务状态较高的BOLD信号“减去”休息状态时较低的BOLD信号就可以揭示大脑皮质激活的焦点区域。</p>
+<p>组块设计是最简单最直接的fMRI实验实现模式。这种模式广泛用于临床fMRI检查中，这些检查的目的是在手术前识别功能区。在经典的“手指敲击”实验中（左图所示，在一个单独的Q&amp;A中详细描述），患者敲击手指15秒钟，然后休息同样长度的时间。对噪声和空间畸变校正后，净BOLD信号超出一定统计阈值的区域就称为“激活”。</p>
+<div class="figure align-left">
+<img alt="Finger tapping fMRI study" src="http://mriquestions.com/uploads/3/4/5/7/34572113/1727460_orig.gif?250" style="width: 400px;" />
+<p class="caption">使用简单组块设计的手指敲击fRMI检查，<br />比较信号在活动和休息期间的差异。因为激活<br />的“开关”模式像一列通过的火车，<br />因此组块设计也常称为“厢式车（boxcar）”设计</p>
+</div>
+<p>与其他的fMRI模式相比，组块设计具有最高的信噪比，最高的统计功率和最大的时间效率。除了上面描述的简单“开关（on-off）”式组块设计，也有更复杂的组块设计，比如，在每个休息阶段之后两种或更多种活动交替进行。</p>
+<p>尽管有这些优点，组块设计在更复杂的神经生理学中实用性有限，特别是涉及非二进制的任务。使用简单的任务，被试可以预测简单组块（任务/休息）的顺序或持续时间，从而引入干扰变量。最后，由于组块设计需要在相对长的时间（10-20秒）中测量，血流动力学响应和fMRI信号出现时机的信息很难衡量。</p>
+<p><strong>事件相关设计</strong></p>
+<p>事件相关设计会在短而可变的时间间隔中进行一个或多个任务/刺激。这种模式提供了复杂的神经生理学实验所需的高度灵活性。事件可以是随机的，也可以混合使用不同类型的事件。被试不能预测何时将发生什么，可能会有惊喜/惊讶。事件相关设计有更好的时间分辨率，可以更好地估计血流动力学响应函数（HRF）的时间过程，使得在实验中评估“学习曲线”和实践效果，包括评估刺激时间间隔的影响成为可能。</p>
+<p>事件相关设计的缺点有较低的信噪比，较低的统计效能，对每个被试需更长的成像时间和更多的试验。数据分析更加复杂，也更依赖于对HRF的准确建模。同时，事后分析可以在检查后对事件重新排序和重新分类，比如，可以将正确和不正确的响应分开独立进行分析。</p>
+<p><strong>混合设计</strong></p>
+<p>混合模式兼具组块设计和事件相关设计的特征，这种模式中，休息块与组块设计中的休息块相同，但任务块时事件是半随机的。混合模式倾向于保留组块设计中良好的信噪比特征，兼有事件相关设计中的灵活性。</p>
+<dl class="docutils">
+<dt><strong>参考材料</strong></dt>
+<dd><ul class="first last simple">
+<li>Amaro E Jr, Barker GJ. <a class="reference external" href="http://mriquestions.com/uploads/3/4/5/7/34572113/amaro_study_design_542057.pdf">Study design in fMRI: basic principles</a>. Brain Cognition 2006; 60:220-232.</li>
+<li>Blamire AM, Ogawa S, Ugurbil K, et al. <a class="reference external" href="http://mriquestions.com/uploads/3/4/5/7/34572113/pnas-1992-blamire-11069-73.pdf">Dynamic mapping of the human visual cortex by high-speed magnetic resonance imaging</a>. Proc Natl Acad Sci USA 1992; 89:11069–11073. (first demonstration of difference between long-duration/block and short-duration/event-related brain responses)</li>
+<li>Buckner RL. <a class="reference external" href="http://mriquestions.com/uploads/3/4/5/7/34572113/bruckner_1998_10.1.1.481.2946.pdf">Event-related fMRI and the hemodynamic response</a>. Human Brain Mapping. 1998; 6:373–377. (shows linear response to multiple short-term stimuli)</li>
+<li>Dale AM. <a class="reference external" href="http://mriquestions.com/uploads/3/4/5/7/34572113/dale-event.pdf">Optimal experimental design for event-related fMRI</a>. Human Brain Mapping 1999; 8:109-114.</li>
+<li>Huettel SA. <a class="reference external" href="http://mriquestions.com/uploads/3/4/5/7/34572113/event_v_blocked_huttell_nihms333191.pdf">Event-related fMRI in cognition</a>. NeuroImage 2012; 62:1152–1156. (good review)</li>
+<li>Liu TT, Frank LR, Wong EC, Buxton RB. <a class="reference external" href="http://mriquestions.com/uploads/3/4/5/7/34572113/liu-event.pdf">Detection power, estimation efficiency, and predicability in event-related fMRI</a>. NeuroImage 2001; 13:759-773.</li>
+<li>Maus B, Van Breukelen GJP, Goebel R, Berger MPF. <a class="reference external" href="http://mriquestions.com/uploads/3/4/5/7/34572113/maus_blocked_design_art_3a10.1007_2fs11336-010-9159-3.pdf">Optimization of blocked designs in fMRI studies</a>. Psychometrika 2010; 75:373-390.</li>
+<li>Price CJ, Veltman DJ, Ashburner J, Josephs O, Friston KJ. <a class="reference external" href="http://mriquestions.com/uploads/3/4/5/7/34572113/pricewk7price99.pdf">The critical relationship between the timing of stimulus presentation and data acquisition in blocked designs with fMRI</a>. NeuroImage 1999; 10:36-44.</li>
+</ul>
+</dd>
+<dt><strong>相关问题</strong></dt>
+<dd><ul class="first last simple">
+<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/bold/motor-paradigms.html">使用fMRI识别运动皮层的最佳方法是什么？</a></li>
+<li><a class="reference external" href="http://chunshan.github.io/MRI-QA/bold/why-on-off-comparison.html">为什么要做“开关”BOLD信号的比较？为什么不能直接测量BOLD信号绝对值？</a></li>
+</ul>
+</dd>
+</dl>
+
+            
+            
+            <hr/>
+            <aside>
+            <nav>
+            <ul class="articles-timeline">
+                <li class="previous-article">« <a href="http://chunshan.github.io/MRI-QA/bold/bold-pulse-sequences.html" title="Previous: Question-BOLD脉冲序列：用于BOLD fMRI的最佳脉冲序列是什么？">Question-BOLD脉冲序列：用于BOLD fMRI的最佳脉冲序列是什么？</a></li>
+                <li class="next-article"><a href="http://chunshan.github.io/MRI-QA/bold/why-on-off-comparison.html" title="Next: Question-开关模式：为什么要做“开关”BOLD信号的比较？为什么不能直接测量BOLD信号绝对值？">Question-开关模式：为什么要做“开关”BOLD信号的比较？为什么不能直接测量BOLD信号绝对值？</a> »</li>
+            </ul>
+            </nav>
+            </aside>
+        </div>
+        <section>
+        <div class="span2" style="float:right;font-size:0.9em;">
+            <h4>Published</h4>
+            <time pubdate="pubdate" datetime="2016-03-07T00:00:00+08:00">三月 7, 2016</time>
+            <h4>Category</h4>
+            <a class="category-link" href="http://chunshan.github.io/MRI-QA/categories.html#bold-ref">BOLD</a>
+            <h4>Tags</h4>
+            <ul class="list-of-tags tags-in-article">
+                <li><a href="http://chunshan.github.io/MRI-QA/tags.html#bold-ref">BOLD
+                    <span>11</span>
+</a></li>
+            </ul>
+<h4>Stay in Touch</h4>
+    <a href="https://github.com/chunshan" title="My GitHub Profile" class="sidebar-social-links" target="_blank">
+    <i class="fa fa-github sidebar-social-links"></i></a>
+    <a href="mailto:shan.c.young@gmail.com" title="My Email Address" class="sidebar-social-links" target="_blank">
+    <i class="fa fa-envelope sidebar-social-links"></i></a>
+<!-- Begin MailChimp Signup Form -->
+<div id="mc-embed-signup">
+<form action="empty" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<h4>Get Monthly Updates</h4>
+<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter your email..." required>
+<div class="clear"><input type="submit" value="Send me Free updates" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+</form>
+</div>
+<!--End mc_embed_signup-->
+        </div>
+        </section>
+</div>
+</article>
+                </div>
+                <div class="span1"></div>
+            </div>
+        </div>
+        <div id="push"></div>
+    </div>
+<footer>
+<div id="footer">
+    <ul class="footer-content">
+        <li class="elegant-power">Powered by <a href="http://getpelican.com/" title="Pelican Home Page">Pelican</a>. Theme: <a href="http://oncrashreboot.com/pelican-elegant" title="Theme Elegant Home Page">Elegant</a> by <a href="http://oncrashreboot.com" title="Talha Mansoor Home Page">Talha Mansoor</a></li>
+    </ul>
+</div>
+</footer>            <script src="http://code.jquery.com/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        <script>
+            function validateForm(query)
+            {
+                return (query.length > 0);
+            }
+        </script>
+
+    
+    </body>
+    <!-- Theme: Elegant built for Pelican
+    License : http://oncrashreboot.com/pelican-elegant -->
+</html>
