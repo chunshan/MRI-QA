@@ -52,4 +52,4 @@ MRI中的ZIP与文件压缩中的*.zip技术毫无关系，与邮政编码也毫
      * Ebel A, Dreher W, Leibfritz D. `Effects of zero-filling and apodization on spectral integrals in discrete Fourier-transform spectroscopy of noisy data <http://mri-q.com/uploads/3/4/5/7/34572113/zip_ac.els-cdn.com_s1090780706001911_1-s2.0-s1090780706001911-main.pdf>`_. J Magn Reson 2006;182:330-338.
 
 **相关问题**
-	* `为什么k空间被画为网格状？k空间的轴意味着什么？ <http://chunshan.github.io/MRI-QA/k-space-grid.html>`_
+	* `为什么k空间被画为网格状？k空间的轴意味着什么？ <http://chunshan.github.io/MRI-QA/k-space/k-space-grid.html>`_
