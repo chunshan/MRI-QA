@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Chunshan" />
+        <meta name="copyright" content="Chunshan" />
+
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary">
+
+<meta name="keywords" content="K-space & Rapid Imaging, Rapid Imaging(FSE&EPI), Rapid-Imaging, " />
+
+<meta property="og:title" content="Question-FSE参数：你如何选择快速自选回波的成像参数？有几个新参数需要设置。 "/>
+<meta property="og:url" content="https://chunshan.github.io/MRI-QA/rapid-imaging/fse-parameters.html" />
+<meta property="og:description" content="如何选择快速自选回波的成像参数" />
+<meta property="og:site_name" content="MRI Q&amp;A" />
+<meta property="og:article:author" content="Chunshan" />
+<meta property="og:article:published_time" content="2014-10-26T00:00:00+08:00" />
+<meta name="twitter:title" content="Question-FSE参数：你如何选择快速自选回波的成像参数？有几个新参数需要设置。 ">
+<meta name="twitter:description" content="如何选择快速自选回波的成像参数">
+
+        <title>Question-FSE参数：你如何选择快速自选回波的成像参数？有几个新参数需要设置。  · MRI Q&amp;A
+</title>
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="https://chunshan.github.io/MRI-QA/theme/css/style.min.css?edf95c30">
+        <link rel="shortcut icon" href="https://chunshan.github.io/MRI-QA/theme/images/favicon.ico" type="image/x-icon" type="image/png" />
+        <link rel="icon" href="https://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-152x152.png" type="image/png" />
+        <link rel="apple-touch-icon" href="https://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon.png"  type="image/png" />
+        <link rel="apple-touch-icon" sizes="57x57" href="https://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-57x57.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="https://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-72x72.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="76x76" href="https://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-76x76.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="https://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-114x114.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="120x120" href="https://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-120x120.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="https://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-144x144.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="152x152" href="https://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-152x152.png" type="image/png" />
+        <link href="https://chunshan.github.io/MRI-QA/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="MRI Q&amp;A - Full Atom Feed" />
+    </head>
+    <body>
+        <div id="content-sans-footer">
+        <div class="navbar navbar-static-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="https://chunshan.github.io/MRI-QA/"><span class=site-name>MRI Q&A</span></a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right top-menu">
+                            <li ><a href="https://chunshan.github.io/MRI-QA">Home</a></li>
+                            <li ><a href="https://chunshan.github.io/MRI-QA/about.html">About</a></li>
+                            <li ><a href="https://chunshan.github.io/MRI-QA/categories.html">Categories</a></li>
+                            <li ><a href="https://chunshan.github.io/MRI-QA/tags.html">Tags</a></li>
+                            <li ><a href="https://chunshan.github.io/MRI-QA/archives.html">Archives</a></li>
+                            <li><form class="navbar-search" action="https://chunshan.github.io/MRI-QA/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span1"></div>
+                <div class="span10">
+<article>
+<div class="row-fluid">
+    <header class="page-header span10 offset2">
+    <h1><a href="https://chunshan.github.io/MRI-QA/rapid-imaging/fse-parameters.html"> Question-FSE参数：你如何选择快速自选回波的成像参数？有几个新参数需要设置。  </a></h1>
+    </header>
+</div>
+
+<div class="row-fluid">
+        <div class="span8 offset2 article-content">
+
+            
+            <p>原文链接:<a class="reference external" href="http://www.mri-q.com/fse-parameters.html">How do you select parameters for fast spin echo imaging? There are several new ones to set.</a></p>
+<dl class="docutils">
+<dt><strong>概要</strong></dt>
+<dd><div class="first last figure align-center">
+<img alt="summary" src="http://www.mri-q.com/uploads/3/4/5/7/34572113/2432613_orig.png?307" style="width: 700px;" />
+</div>
+</dd>
+</dl>
+<div class="figure align-center">
+<img alt="fse" src="http://www.mri-q.com/uploads/3/4/5/7/34572113/3316708_orig.gif" style="width: 800px;" />
+</div>
+<p>传统自旋回波成像（Conventional Spin-Echo，CSE）中，仅需指定两个基本的时间参数，重复时间（TR）和回波时间（TE）。在快速自选回波（Fast/Turbo Spin-Echo，FSE/TSE）成像中，简单TE被有效回波时间（TEeff）代替，有效回波时间是填充k空间中中心线的时间。因此需要两个额外的新参数：
+* 回波数量 -- GE和Toshiba称之为回波链长度（ETL），Siemens和Philips称之为Turbo因子，Hitachi称为Shot因子；
+* 回波之间的时间 -- GE，Philips，Siemens和Toshiba称为Echo Spacing（ESP），Hitachi称之为Inter Echo Time（ITE）。</p>
+<div class="figure align-left">
+<img alt="Increased T2 weighting with increasing ETL" src="http://www.mri-q.com/uploads/3/4/5/7/34572113/6809133_orig.jpg?360" style="width: 500px;" />
+<p class="caption">随着ETL增加T2权重增加。所有图像TR=4000并且其它参数一致。</p>
+</div>
+<p>回波链长度（ETL，Echo Train Length）是最重要的一个参数。一般来说，图像采集时间与ETL成反比。换句话说，固定TR/TE/空间分辨率，如果一个传统自旋回波序列采集时间需要8分钟，ETL=8的快速自选回波序列只需要1分钟。</p>
+<p>ETL还对图像质量有重要影响，ETL越长，T2加权效应越明显，因为TE越长，会有更多后期的回波对整体信号产生贡献。</p>
+<p>ETL越长还会导致整体信噪比（SNR，Signal-to-Noise Ratio）和对比度噪声比（CNR，Contrast-to-Noise Ratio）下降，因为后期的回波较弱。</p>
+<p>TE非常长的情况下，后期产生的回波会带来更多的空间模糊。空间模糊效应来自于晚期回波上T2相关的信号损失。这些回波是在高阶相位编码情况下采集的，高阶相位编码对应于图像中的高空间频率和细节。</p>
+<p>给定TR间隔内采集覆盖一个解剖区域所需的层数也是ETL选择时需考虑的一个因素。回忆一下传统的二维傅里叶变换（2D FT）自旋回波成像中，每一个TR间隔末期的“死时间”并没有浪费，在多层采集中，这段时间被用于激发其它片层（如果需要温习一下，可以看一下 <a class="reference external" href="http://www.mri-q.com/simultaneous-slices.html">之前的Q&amp;A</a>）。FSE成像中，对于一个给定的TR，需要权衡ETL和能够采集的片层数。如果ETL太大，可能需要两次单独的FSE采集（双倍的成像时间）才能包含所需的层数。</p>
+<p>增加回波间隔（ESP，Echo Spacing）使得TE更长，但是给SNR和CNR带来不利的影响，运动，磁敏感性和边缘相关的伪影增加。一般来说，增加ESP主要是给图像质量带来有害的后果，在大多数应用中应该选择所允许的最短的ESP。</p>
+<p>如果将FSE的图像对比度与传统的自旋回波技术相类比，可以使用期望的TE值，将传统自旋回波在低阶相位编码采集的数据聚合在一起。这种对比是行得通的，因为图像的全局对比度主要是由k空间中心处低阶相位编码采集的信号决定（高阶相位编码步骤主要对边缘有贡献）。因此，尽管回波链中的每个回波用不同的TE采集，有效TE（决定图像整体对比度）是由进行低阶相位编码时的TE决定，一般选择在回波链的中间，但是在特殊的应用中也会往前移或者往后移。</p>
+<dl class="docutils">
+<dt><strong>参考材料</strong></dt>
+<dd><ul class="first last simple">
+<li>Constable RT, Smith RC, Gore JC. <a class="reference external" href="http://www.mri-q.com/uploads/3/4/5/7/34572113/signal_to_noise_and_contrast_in_fast_spin_echo.8.pdf">Signal-to-noise and contrast in fast spin echo (FSE) and inversion recovery FSE imaging</a>. J Comput Assist Tomogr 1992; 16:41-47.</li>
+<li>Li T, Mirowitz SA. <a class="reference external" href="http://www.mri-q.com/uploads/3/4/5/7/34572113/li_effect_of_parameters_in_fse.pdf">Fast T2-weighted MR imaging: impact of variation in pulse sequence parameters on image quality and artifacts</a>. Mag Reson Imaging 2003;21:745-753.</li>
+<li>Sze G, Kawamura Y, Negishi C, et al. <a class="reference external" href="http://www.mri-q.com/uploads/3/4/5/7/34572113/sze_fse_spine.pdf">Fast spin-echo MR imaging of the cervical spine: influence of echo train length and echo spacing on image contrast and quality</a>. AJNR Am J Neuroradiol 1993; 14:1203-13.</li>
+</ul>
+</dd>
+<dt><strong>相关问题</strong></dt>
+<dd><ul class="first last simple">
+<li><a class="reference external" href="https://chunshan.github.io/MRI-QA/rapid-imaging/what-is-fsetse.html">什么是快速自旋回波成像？</a></li>
+</ul>
+</dd>
+</dl>
+
+            
+            
+            <hr/>
+            <aside>
+            <nav>
+            <ul class="articles-timeline">
+                <li class="previous-article">« <a href="https://chunshan.github.io/MRI-QA/rapid-imaging/what-is-fsetse.html" title="Previous: Question-快速自旋回波：什么是快速自旋回波成像？">Question-快速自旋回波：什么是快速自旋回波成像？</a></li>
+                <li class="next-article"><a href="https://chunshan.github.io/MRI-QA/rapid-imaging/bright-fat.html" title="Next: Question-FSE中明亮的脂肪：为什么脂肪在快速自旋回波序列的图像中是明亮的？">Question-FSE中明亮的脂肪：为什么脂肪在快速自旋回波序列的图像中是明亮的？</a> »</li>
+            </ul>
+            </nav>
+            </aside>
+        </div>
+        <section>
+        <div class="span2" style="float:right;font-size:0.9em;">
+            <h4>Published</h4>
+            <time pubdate="pubdate" datetime="2014-10-26T00:00:00+08:00">十月 26, 2014</time>
+            <h4>Category</h4>
+            <a class="category-link" href="https://chunshan.github.io/MRI-QA/categories.html#rapid-imaging-ref">Rapid-Imaging</a>
+            <h4>Tags</h4>
+            <ul class="list-of-tags tags-in-article">
+                <li><a href="https://chunshan.github.io/MRI-QA/tags.html#k-space-rapid-imaging-ref">K-space & Rapid Imaging
+                    <span>40</span>
+</a></li>
+                <li><a href="https://chunshan.github.io/MRI-QA/tags.html#rapid-imagingfseepi-ref">Rapid Imaging(FSE&EPI)
+                    <span>11</span>
+</a></li>
+            </ul>
+<h4>Stay in Touch</h4>
+    <a href="https://github.com/chunshan" title="My GitHub Profile" class="sidebar-social-links" target="_blank">
+    <i class="fa fa-github sidebar-social-links"></i></a>
+    <a href="mailto:shan.c.young@gmail.com" title="My Email Address" class="sidebar-social-links" target="_blank">
+    <i class="fa fa-envelope sidebar-social-links"></i></a>
+<!-- Begin MailChimp Signup Form -->
+<div id="mc-embed-signup">
+<form action="empty" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<h4>Get Monthly Updates</h4>
+<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter your email..." required>
+<div class="clear"><input type="submit" value="Send me Free updates" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+</form>
+</div>
+<!--End mc_embed_signup-->
+        </div>
+        </section>
+</div>
+</article>
+                </div>
+                <div class="span1"></div>
+            </div>
+        </div>
+        <div id="push"></div>
+    </div>
+<footer>
+<div id="footer">
+    <ul class="footer-content">
+        <li class="elegant-power">Powered by <a href="http://getpelican.com/" title="Pelican Home Page">Pelican</a>. Theme: <a href="http://oncrashreboot.com/pelican-elegant" title="Theme Elegant Home Page">Elegant</a> by <a href="http://oncrashreboot.com" title="Talha Mansoor Home Page">Talha Mansoor</a></li>
+    </ul>
+</div>
+</footer>            <script src="http://code.jquery.com/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        <script>
+            function validateForm(query)
+            {
+                return (query.length > 0);
+            }
+        </script>
+
+    
+    </body>
+    <!-- Theme: Elegant built for Pelican
+    License : http://oncrashreboot.com/pelican-elegant -->
+</html>

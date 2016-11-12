@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Chunshan" />
+        <meta name="copyright" content="Chunshan" />
+
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary">
+
+<meta name="keywords" content="K-space & Rapid Imaging, Rapid Imaging(FSE&EPI), Rapid-Imaging, " />
+
+<meta property="og:title" content="Question-双回波FSE：双回波FSE序列如何工作？似乎没有足够的空间放置两套回波。 "/>
+<meta property="og:url" content="https://chunshan.github.io/MRI-QA/rapid-imaging/dual-echo-fse.html" />
+<meta property="og:description" content="双回波FSE序列" />
+<meta property="og:site_name" content="MRI Q&amp;A" />
+<meta property="og:article:author" content="Chunshan" />
+<meta property="og:article:published_time" content="2014-10-29T00:00:00+08:00" />
+<meta name="twitter:title" content="Question-双回波FSE：双回波FSE序列如何工作？似乎没有足够的空间放置两套回波。 ">
+<meta name="twitter:description" content="双回波FSE序列">
+
+        <title>Question-双回波FSE：双回波FSE序列如何工作？似乎没有足够的空间放置两套回波。  · MRI Q&amp;A
+</title>
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="https://chunshan.github.io/MRI-QA/theme/css/style.min.css?edf95c30">
+        <link rel="shortcut icon" href="https://chunshan.github.io/MRI-QA/theme/images/favicon.ico" type="image/x-icon" type="image/png" />
+        <link rel="icon" href="https://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-152x152.png" type="image/png" />
+        <link rel="apple-touch-icon" href="https://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon.png"  type="image/png" />
+        <link rel="apple-touch-icon" sizes="57x57" href="https://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-57x57.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="https://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-72x72.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="76x76" href="https://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-76x76.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="https://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-114x114.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="120x120" href="https://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-120x120.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="https://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-144x144.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="152x152" href="https://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-152x152.png" type="image/png" />
+        <link href="https://chunshan.github.io/MRI-QA/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="MRI Q&amp;A - Full Atom Feed" />
+    </head>
+    <body>
+        <div id="content-sans-footer">
+        <div class="navbar navbar-static-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="https://chunshan.github.io/MRI-QA/"><span class=site-name>MRI Q&A</span></a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right top-menu">
+                            <li ><a href="https://chunshan.github.io/MRI-QA">Home</a></li>
+                            <li ><a href="https://chunshan.github.io/MRI-QA/about.html">About</a></li>
+                            <li ><a href="https://chunshan.github.io/MRI-QA/categories.html">Categories</a></li>
+                            <li ><a href="https://chunshan.github.io/MRI-QA/tags.html">Tags</a></li>
+                            <li ><a href="https://chunshan.github.io/MRI-QA/archives.html">Archives</a></li>
+                            <li><form class="navbar-search" action="https://chunshan.github.io/MRI-QA/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span1"></div>
+                <div class="span10">
+<article>
+<div class="row-fluid">
+    <header class="page-header span10 offset2">
+    <h1><a href="https://chunshan.github.io/MRI-QA/rapid-imaging/dual-echo-fse.html"> Question-双回波FSE：双回波FSE序列如何工作？似乎没有足够的空间放置两套回波。  </a></h1>
+    </header>
+</div>
+
+<div class="row-fluid">
+        <div class="span8 offset2 article-content">
+
+            
+            <p>原文链接:<a class="reference external" href="http://www.mri-q.com/dual-echo-fse.html">How does a dual-echo FSE sequence work? It seems there is not enough room for the two sets of echoes.</a></p>
+<dl class="docutils">
+<dt><strong>概要</strong></dt>
+<dd><div class="first last figure align-center">
+<img alt="summary" src="http://www.mri-q.com/uploads/3/4/5/7/34572113/8062216_orig.png?305" style="width: 700px;" />
+</div>
+</dd>
+</dl>
+<div class="figure align-right">
+<img alt="Dual-echo FSE" src="http://www.mri-q.com/uploads/3/4/5/7/34572113/1961184_orig.jpg" style="width: 600px;" />
+<p class="caption">双回波FSE。TR = 3000ms，TEeff 分别为17和85ms，分别产生质子密度和T2加权像。</p>
+</div>
+<p>磁共振进入临床的前20年，双回波序列是几乎所有身体部位标准协议的一部分。使用长重复时间（TR），短和长回波时间（TE）时分别采集回波信号实现在一次采集中产生质子密度和T2加权像。在过去的10年里，对于神经成像而言T2-FLAIR很大程度上取代了质子密度序列，但是双回波序列在肌肉骨骼和身体其他应用中仍然有用。</p>
+<p>双回波FSE图像可以通过一个称为视图共享的过程得到。在FSE回波链的早期和后期都进行零和低振幅相位编码，这会产生有效TE分别为短和长（通常TE1eff &lt;20 ms，TE2eff &gt;80 ms）的两套低空间分辨率图像，分别反映质子密度加权和T2加权占主要对比度。剩余的包含边缘细节的中等和高幅值相位编码产生的信号被两套数据集共享，用于最后的图像重建。</p>
+<dl class="docutils">
+<dt><strong>参考材料</strong></dt>
+<dd><ul class="first last simple">
+<li>Johnson B, Fram EK, Drayer BP, et al. <a class="reference external" href="http://www.mri-q.com/uploads/3/4/5/7/34572113/share_fse_667.full.pdf">Evaluation of shared-view acquisition using repeated echoes (SHARE): a dual-echo fast spin-echo MR technique</a>. Am J Neuoradiol 1994;15:667-673.</li>
+<li>Mekle R, Laine AF, Wu EX. <a class="reference external" href="http://www.mri-q.com/uploads/3/4/5/7/34572113/mekle_k-space.pdf">Combined MR data acquisition of mulitcontrast images using variable acquisition parameters and k-space data sharing</a>. IEEE Transact Med Imaging 2003; 22:806-823.</li>
+</ul>
+</dd>
+<dt><strong>相关问题</strong></dt>
+<dd><ul class="first last simple">
+<li><a class="reference external" href="https://chunshan.github.io/MRI-QA/rapid-imaging/what-is-fsetse.html">什么是快速自旋回波成像？</a></li>
+</ul>
+</dd>
+</dl>
+
+            
+            
+            <hr/>
+            <aside>
+            <nav>
+            <ul class="articles-timeline">
+                <li class="previous-article">« <a href="https://chunshan.github.io/MRI-QA/rapid-imaging/other-fse-differences.html" title="Previous: Question-CSE图像 vs FSE图像：除了明亮的脂肪信号，传统自旋回波和快速自旋回波之间图像属性上还有什么不同么？">Question-CSE图像 vs FSE图像：除了明亮的脂肪信号，传统自旋回波和快速自旋回波之间图像属性上还有什么不同么？</a></li>
+                <li class="next-article"><a href="https://chunshan.github.io/MRI-QA/rapid-imaging/driven-equilibrium.html" title="Next: Question-驱动平衡：驱动平衡（快速恢复）脉冲是什么？">Question-驱动平衡：驱动平衡（快速恢复）脉冲是什么？</a> »</li>
+            </ul>
+            </nav>
+            </aside>
+        </div>
+        <section>
+        <div class="span2" style="float:right;font-size:0.9em;">
+            <h4>Published</h4>
+            <time pubdate="pubdate" datetime="2014-10-29T00:00:00+08:00">十月 29, 2014</time>
+            <h4>Category</h4>
+            <a class="category-link" href="https://chunshan.github.io/MRI-QA/categories.html#rapid-imaging-ref">Rapid-Imaging</a>
+            <h4>Tags</h4>
+            <ul class="list-of-tags tags-in-article">
+                <li><a href="https://chunshan.github.io/MRI-QA/tags.html#k-space-rapid-imaging-ref">K-space & Rapid Imaging
+                    <span>40</span>
+</a></li>
+                <li><a href="https://chunshan.github.io/MRI-QA/tags.html#rapid-imagingfseepi-ref">Rapid Imaging(FSE&EPI)
+                    <span>11</span>
+</a></li>
+            </ul>
+<h4>Stay in Touch</h4>
+    <a href="https://github.com/chunshan" title="My GitHub Profile" class="sidebar-social-links" target="_blank">
+    <i class="fa fa-github sidebar-social-links"></i></a>
+    <a href="mailto:shan.c.young@gmail.com" title="My Email Address" class="sidebar-social-links" target="_blank">
+    <i class="fa fa-envelope sidebar-social-links"></i></a>
+<!-- Begin MailChimp Signup Form -->
+<div id="mc-embed-signup">
+<form action="empty" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<h4>Get Monthly Updates</h4>
+<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter your email..." required>
+<div class="clear"><input type="submit" value="Send me Free updates" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+</form>
+</div>
+<!--End mc_embed_signup-->
+        </div>
+        </section>
+</div>
+</article>
+                </div>
+                <div class="span1"></div>
+            </div>
+        </div>
+        <div id="push"></div>
+    </div>
+<footer>
+<div id="footer">
+    <ul class="footer-content">
+        <li class="elegant-power">Powered by <a href="http://getpelican.com/" title="Pelican Home Page">Pelican</a>. Theme: <a href="http://oncrashreboot.com/pelican-elegant" title="Theme Elegant Home Page">Elegant</a> by <a href="http://oncrashreboot.com" title="Talha Mansoor Home Page">Talha Mansoor</a></li>
+    </ul>
+</div>
+</footer>            <script src="http://code.jquery.com/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        <script>
+            function validateForm(query)
+            {
+                return (query.length > 0);
+            }
+        </script>
+
+    
+    </body>
+    <!-- Theme: Elegant built for Pelican
+    License : http://oncrashreboot.com/pelican-elegant -->
+</html>

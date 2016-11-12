@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Chunshan" />
+        <meta name="copyright" content="Chunshan" />
+
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary">
+
+<meta name="keywords" content="K-space & Rapid Imaging, Parallel Imaging, Parallel-Imaging, " />
+
+<meta property="og:title" content="Question-GRAPPA/ARC：GRAPPA/ARC的原理是什么？ "/>
+<meta property="og:url" content="https://chunshan.github.io/MRI-QA/parallel-imaging/grappaarc.html" />
+<meta property="og:description" content="GRAPPA/ARC的原理" />
+<meta property="og:site_name" content="MRI Q&amp;A" />
+<meta property="og:article:author" content="Chunshan" />
+<meta property="og:article:published_time" content="2014-11-16T00:00:00+08:00" />
+<meta name="twitter:title" content="Question-GRAPPA/ARC：GRAPPA/ARC的原理是什么？ ">
+<meta name="twitter:description" content="GRAPPA/ARC的原理">
+
+        <title>Question-GRAPPA/ARC：GRAPPA/ARC的原理是什么？  · MRI Q&amp;A
+</title>
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="https://chunshan.github.io/MRI-QA/theme/css/style.min.css?edf95c30">
+        <link rel="shortcut icon" href="https://chunshan.github.io/MRI-QA/theme/images/favicon.ico" type="image/x-icon" type="image/png" />
+        <link rel="icon" href="https://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-152x152.png" type="image/png" />
+        <link rel="apple-touch-icon" href="https://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon.png"  type="image/png" />
+        <link rel="apple-touch-icon" sizes="57x57" href="https://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-57x57.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="https://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-72x72.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="76x76" href="https://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-76x76.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="https://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-114x114.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="120x120" href="https://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-120x120.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="https://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-144x144.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="152x152" href="https://chunshan.github.io/MRI-QA/theme/images/apple-touch-icon-152x152.png" type="image/png" />
+        <link href="https://chunshan.github.io/MRI-QA/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="MRI Q&amp;A - Full Atom Feed" />
+    </head>
+    <body>
+        <div id="content-sans-footer">
+        <div class="navbar navbar-static-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="https://chunshan.github.io/MRI-QA/"><span class=site-name>MRI Q&A</span></a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right top-menu">
+                            <li ><a href="https://chunshan.github.io/MRI-QA">Home</a></li>
+                            <li ><a href="https://chunshan.github.io/MRI-QA/about.html">About</a></li>
+                            <li ><a href="https://chunshan.github.io/MRI-QA/categories.html">Categories</a></li>
+                            <li ><a href="https://chunshan.github.io/MRI-QA/tags.html">Tags</a></li>
+                            <li ><a href="https://chunshan.github.io/MRI-QA/archives.html">Archives</a></li>
+                            <li><form class="navbar-search" action="https://chunshan.github.io/MRI-QA/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span1"></div>
+                <div class="span10">
+<article>
+<div class="row-fluid">
+    <header class="page-header span10 offset2">
+    <h1><a href="https://chunshan.github.io/MRI-QA/parallel-imaging/grappaarc.html"> Question-GRAPPA/ARC：GRAPPA/ARC的原理是什么？  </a></h1>
+    </header>
+</div>
+
+<div class="row-fluid">
+        <div class="span8 offset2 article-content">
+
+            
+            <p>原文链接:<a class="reference external" href="http://mriquestions.com/grappaarc.html">How does GRAPPA/ARC work?</a></p>
+<dl class="docutils">
+<dt><strong>概要</strong></dt>
+<dd><div class="first last figure align-center">
+<img alt="summary" src="http://mriquestions.com/uploads/3/4/5/7/34572113/36019_orig.png" style="width: 700px;" />
+</div>
+</dd>
+</dl>
+<p>GRAPPA (GeneRalized Autocalibrating Partial Parallel Acquisition) 和 ARC (Autocalibrating Reconstruction for Cartesian imaging)都是多线圈并行成像技术。像其他的并行成像技术（如SENSE/ASSET）一样，GRAPPA/ARC仅采样数量有限的相位编码步骤。相位欠采样大大减少成像时间但是导致信号混叠，必须展开。SENSE/ASSET中，线圈敏感性用于在傅里叶变换后的图像域区分这些信号，而GRAPPA/ARC则是在傅里叶变换前的k空间中进行校正。可以说：</p>
+<p><strong>SENSE/ASSET方法是先重建，然后校正</strong></p>
+<p><strong>GRAPPA/ARC方法是先校正，然后重建</strong></p>
+<p>下表说明了GRAPPA/ARC过程中四个主要的步骤：</p>
+<ol class="arabic simple">
+<li>数据采集。对采集的MR信号进行数字化，解调，填充每个线圈的k空间矩阵。因为跳过了多个相位编码步骤，许多k空间中的线会丢失。然而穿过k空间中心的线是全采样的，构成自动校准信号（ACS）区域。这些额外的ACS线就是在图像采集过程中完成的（因此术语为“自校准”）。</li>
+<li>估计缺失的线。ACS中得到的已知数据用于计算每个线圈的权重因子。这些权重因子反应了每个线圈在全FOV的k空间数据中如何扭曲，变形和空间频率错置。估计k空间中缺失的点采用迭代方式，使用全局权重因子结合每个小区域（称为块或核）的局部已知数据。需要指出的是，使用所有线圈的权重因子和已知数据估计一个线圈的缺失数据。</li>
+<li>生成单个线圈的图像。将k空间中缺失的线填充后，进行傅里叶变换得到每个线圈的单张图像。与SENSE/ASSET中的线圈图像不同，GRAPPA/ARC得到的图像是没有混叠的。</li>
+<li>组合。最终对单个线圈的图像进行平方和运算得到最终的幅度图像。</li>
+</ol>
+<div class="figure align-center">
+<img alt="GRAPPA/ARC" src="http://mriquestions.com/uploads/3/4/5/7/34572113/4062968_orig.png?681" style="width: 700px;" />
+<p class="caption">GRAPPA/ARC重建过程概览。注意：相位编码方向为水平轴。</p>
+</div>
+<p>GRAPPA/ARC中的关键步骤是估计缺失的点，这个步骤中有很多可能的变量，包括重建核的大小和使用参数的数目。GRAPPA和ARC主要的不同是后者使用3D的核，将所有三个方向邻域的源数据考虑进去计算缺失的数据。ARC中的估计过程也有一点不同，使得3D数据计算是可控的。</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr><td><div class="first last figure">
+<img alt="GRAPPA/ARC" src="http://mriquestions.com/uploads/3/4/5/7/34572113/5088091_orig.jpg?527" style="height: 450px;" />
+</div>
+</td>
+<td><div class="first last figure">
+<img alt="GRAPPA/ARC" src="http://mriquestions.com/uploads/3/4/5/7/34572113/9781580_orig.jpeg" style="height: 450px;" />
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>GRAPPA/ARC中估计k空间中缺失的线。此处的相位编码沿垂直轴。</p>
+<p><strong>高级讨论</strong></p>
+<p>除了标准的产品，GE还提供了在“Turbo Mode”下使用ARC的选择，可使扫描速度再提高一倍。TurboARC调整数据采样模式，在k空间外围采集更少的数据点。数据的填充模式（中心圆vs中心椭圆）可能也会调整。</p>
+<dl class="docutils">
+<dt><strong>参考材料</strong></dt>
+<dd><ul class="first last simple">
+<li>Blaimer M, Breuer F, Mueller M, Heidemann RM, Griswold MA, Jakob PM. <a class="reference external" href="http://mriquestions.com/uploads/3/4/5/7/34572113/blaimer_parallelreview.pdf">SMASH, SENSE, PILS, GRAPPA. How to choose the optimal method</a>. Top Magn Reson Imaging 2004;15:223-236 [review].</li>
+<li>Brau A. <a class="reference external" href="http://mriquestions.com/uploads/3/4/5/7/34572113/arc_ge.pdf">New parallel imaging method enhances imaging speed and accuracy</a>. GE Signa Pulse, 2007; 36-38. (Promotional piece describing GE's ARC method).</li>
+<li>Brau ACS, Beatty P, Skare S, Bammer R. <a class="reference external" href="http://mriquestions.com/uploads/3/4/5/7/34572113/brau_comparison_of_ccdd_methodsnihms-388017.pdf">Comparison of reconstruction accuracy and efficiency among autocalibrating data-driven parallel imaging methods</a>. Magn Reson Med 2008; 59:382-395</li>
+<li>Deshmane A, Gulani V, Griswold MA, Seiberlich N. <a class="reference external" href="http://mriquestions.com/uploads/3/4/5/7/34572113/deshane_pi_review.pdf">Parallel MR imaging</a>. J Magn Reson Imaging 2012;36:55-72. (review)</li>
+<li>Griswold MA, Jakob PM, Heidemann RM, et al. <a class="reference external" href="http://mriquestions.com/uploads/3/4/5/7/34572113/griswold-grappa.pdf">Generalized autocalibrating partially parallel acquisitions (GRAPPA)</a>. Magn Reson Med 2002; 47:1202-1210</li>
+</ul>
+</dd>
+<dt><strong>相关问题</strong></dt>
+<dd><ul class="first last simple">
+<li><a class="reference external" href="https://chunshan.github.io/MRI-QA/parallel-imaging/two-types-of-pi.html">我们的扫描仪中并行成像有两种不同的选择SENSE和GRAPPA。它们的原理是什么？应该选择哪一个？</a></li>
+</ul>
+</dd>
+</dl>
+
+            
+            
+            <hr/>
+            <aside>
+            <nav>
+            <ul class="articles-timeline">
+                <li class="previous-article">« <a href="https://chunshan.github.io/MRI-QA/parallel-imaging/senseasset.html" title="Previous: Question-SENSE/ASSET：SENSE/ASSET的原理是什么？">Question-SENSE/ASSET：SENSE/ASSET的原理是什么？</a></li>
+                <li class="next-article"><a href="https://chunshan.github.io/MRI-QA/parallel-imaging/caipirinha.html" title="Next: Question-CAIPIRINHA：CAIPIRINHA是什么？难道不是一种饮料么？">Question-CAIPIRINHA：CAIPIRINHA是什么？难道不是一种饮料么？</a> »</li>
+            </ul>
+            </nav>
+            </aside>
+        </div>
+        <section>
+        <div class="span2" style="float:right;font-size:0.9em;">
+            <h4>Published</h4>
+            <time pubdate="pubdate" datetime="2014-11-16T00:00:00+08:00">十一月 16, 2014</time>
+            <h4>Category</h4>
+            <a class="category-link" href="https://chunshan.github.io/MRI-QA/categories.html#parallel-imaging-ref">Parallel-Imaging</a>
+            <h4>Tags</h4>
+            <ul class="list-of-tags tags-in-article">
+                <li><a href="https://chunshan.github.io/MRI-QA/tags.html#k-space-rapid-imaging-ref">K-space & Rapid Imaging
+                    <span>40</span>
+</a></li>
+                <li><a href="https://chunshan.github.io/MRI-QA/tags.html#parallel-imaging-ref">Parallel Imaging
+                    <span>10</span>
+</a></li>
+            </ul>
+<h4>Stay in Touch</h4>
+    <a href="https://github.com/chunshan" title="My GitHub Profile" class="sidebar-social-links" target="_blank">
+    <i class="fa fa-github sidebar-social-links"></i></a>
+    <a href="mailto:shan.c.young@gmail.com" title="My Email Address" class="sidebar-social-links" target="_blank">
+    <i class="fa fa-envelope sidebar-social-links"></i></a>
+<!-- Begin MailChimp Signup Form -->
+<div id="mc-embed-signup">
+<form action="empty" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<h4>Get Monthly Updates</h4>
+<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter your email..." required>
+<div class="clear"><input type="submit" value="Send me Free updates" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+</form>
+</div>
+<!--End mc_embed_signup-->
+        </div>
+        </section>
+</div>
+</article>
+                </div>
+                <div class="span1"></div>
+            </div>
+        </div>
+        <div id="push"></div>
+    </div>
+<footer>
+<div id="footer">
+    <ul class="footer-content">
+        <li class="elegant-power">Powered by <a href="http://getpelican.com/" title="Pelican Home Page">Pelican</a>. Theme: <a href="http://oncrashreboot.com/pelican-elegant" title="Theme Elegant Home Page">Elegant</a> by <a href="http://oncrashreboot.com" title="Talha Mansoor Home Page">Talha Mansoor</a></li>
+    </ul>
+</div>
+</footer>            <script src="http://code.jquery.com/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        <script>
+            function validateForm(query)
+            {
+                return (query.length > 0);
+            }
+        </script>
+
+    
+    </body>
+    <!-- Theme: Elegant built for Pelican
+    License : http://oncrashreboot.com/pelican-elegant -->
+</html>
