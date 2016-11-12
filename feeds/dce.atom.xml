@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>MRI Q&amp;A</title><link href="http://chunshan.github.io/MRI-QA/" rel="alternate"></link><link href="http://chunshan.github.io/MRI-QA/feeds/dce.atom.xml" rel="self"></link><id>http://chunshan.github.io/MRI-QA/</id><updated>2015-11-01T00:00:00+08:00</updated><entry><title>Question-量化DCE的应用 什么情况下量化的DCE成像是有用的？有没有这样的例子？</title><link href="http://chunshan.github.io/MRI-QA/dce/utility-of-dce.html" rel="alternate"></link><updated>2015-11-01T00:00:00+08:00</updated><author><name>Chunshan</name></author><id>tag:chunshan.github.io,2015-11-01:MRI-QA/dce/utility-of-dce.html</id><summary type="html">&lt;p&gt;原文链接:&lt;a class="reference external" href="http://www.mri-q.com/utility-of-dce.html"&gt;When might quantitative DCE imaging be useful? Can you give some examples?&lt;/a&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>MRI Q&amp;A</title><link href="https://chunshan.github.io/MRI-QA/" rel="alternate"></link><link href="https://chunshan.github.io/MRI-QA/feeds/dce.atom.xml" rel="self"></link><id>https://chunshan.github.io/MRI-QA/</id><updated>2015-11-01T00:00:00+08:00</updated><entry><title>Question-量化DCE的应用 什么情况下量化的DCE成像是有用的？有没有这样的例子？</title><link href="https://chunshan.github.io/MRI-QA/dce/utility-of-dce.html" rel="alternate"></link><updated>2015-11-01T00:00:00+08:00</updated><author><name>Chunshan</name></author><id>tag:chunshan.github.io,2015-11-01:MRI-QA/dce/utility-of-dce.html</id><summary type="html">&lt;p&gt;原文链接:&lt;a class="reference external" href="http://www.mri-q.com/utility-of-dce.html"&gt;When might quantitative DCE imaging be useful? Can you give some examples?&lt;/a&gt;&lt;/p&gt;
 &lt;dl class="docutils"&gt;
 &lt;dt&gt;&lt;strong&gt;概要&lt;/strong&gt;&lt;/dt&gt;
 &lt;dd&gt;&lt;div class="first last figure align-center"&gt;
@@ -102,7 +102,7 @@
 &lt;/ul&gt;
 &lt;/dd&gt;
 &lt;/dl&gt;
-</summary><category term="Perfusion"></category><category term="DCE"></category></entry><entry><title>Question-Ktrans &amp; 渗透性 Ktrans是否等同于渗透性?</title><link href="http://chunshan.github.io/MRI-QA/dce/k-trans--permeability.html" rel="alternate"></link><updated>2015-10-31T00:00:00+08:00</updated><author><name>Chunshan</name></author><id>tag:chunshan.github.io,2015-10-31:MRI-QA/dce/k-trans--permeability.html</id><summary type="html">&lt;p&gt;原文链接:&lt;a class="reference external" href="http://www.mri-q.com/k-trans--permeability.html"&gt;Is Ktrans the same as permeability?&lt;/a&gt;&lt;/p&gt;
+</summary><category term="Perfusion"></category><category term="DCE"></category></entry><entry><title>Question-Ktrans &amp; 渗透性 Ktrans是否等同于渗透性?</title><link href="https://chunshan.github.io/MRI-QA/dce/k-trans--permeability.html" rel="alternate"></link><updated>2015-10-31T00:00:00+08:00</updated><author><name>Chunshan</name></author><id>tag:chunshan.github.io,2015-10-31:MRI-QA/dce/k-trans--permeability.html</id><summary type="html">&lt;p&gt;原文链接:&lt;a class="reference external" href="http://www.mri-q.com/k-trans--permeability.html"&gt;Is Ktrans the same as permeability?&lt;/a&gt;&lt;/p&gt;
 &lt;dl class="docutils"&gt;
 &lt;dt&gt;&lt;strong&gt;概要&lt;/strong&gt;&lt;/dt&gt;
 &lt;dd&gt;&lt;div class="first last figure align-center"&gt;
@@ -163,7 +163,7 @@
 &lt;/ul&gt;
 &lt;/dd&gt;
 &lt;/dl&gt;
-</summary><category term="Perfusion"></category><category term="DCE"></category></entry><entry><title>Question-DCE参数与图像 -- 计算的DCE参数如何与我们在临床图像上看到的增强模式相联系？</title><link href="http://chunshan.github.io/MRI-QA/dce/parameters-to-images.html" rel="alternate"></link><updated>2015-10-30T00:00:00+08:00</updated><author><name>Chunshan</name></author><id>tag:chunshan.github.io,2015-10-30:MRI-QA/dce/parameters-to-images.html</id><summary type="html">&lt;p&gt;原文链接:&lt;a class="reference external" href="http://www.mri-q.com/parameters-to-images.html"&gt;How do calculated DCE parameters relate to patterns of enhancement we see on clinical images?&lt;/a&gt;&lt;/p&gt;
+</summary><category term="Perfusion"></category><category term="DCE"></category></entry><entry><title>Question-DCE参数与图像 -- 计算的DCE参数如何与我们在临床图像上看到的增强模式相联系？</title><link href="https://chunshan.github.io/MRI-QA/dce/parameters-to-images.html" rel="alternate"></link><updated>2015-10-30T00:00:00+08:00</updated><author><name>Chunshan</name></author><id>tag:chunshan.github.io,2015-10-30:MRI-QA/dce/parameters-to-images.html</id><summary type="html">&lt;p&gt;原文链接:&lt;a class="reference external" href="http://www.mri-q.com/parameters-to-images.html"&gt;How do calculated DCE parameters relate to patterns of enhancement we see on clinical images?&lt;/a&gt;&lt;/p&gt;
 &lt;dl class="docutils"&gt;
 &lt;dt&gt;&lt;strong&gt;概要&lt;/strong&gt;&lt;/dt&gt;
 &lt;dd&gt;&lt;div class="first last figure align-center"&gt;
@@ -243,7 +243,7 @@
 &lt;/ul&gt;
 &lt;/dd&gt;
 &lt;/dl&gt;
-</summary><category term="Perfusion"></category><category term="DCE"></category></entry><entry><title>Question-DCE参数：从DCE数据中能够提取哪些量化参数？</title><link href="http://chunshan.github.io/MRI-QA/dce/dce-tissue-parmeters.html" rel="alternate"></link><updated>2015-10-29T00:00:00+08:00</updated><author><name>Chunshan</name></author><id>tag:chunshan.github.io,2015-10-29:MRI-QA/dce/dce-tissue-parmeters.html</id><summary type="html">&lt;p&gt;原文链接:&lt;a class="reference external" href="http://www.mri-q.com/dce-tissue-parmeters.html"&gt;What quantitative parameters can be extracted from the DCE data?&lt;/a&gt;&lt;/p&gt;
+</summary><category term="Perfusion"></category><category term="DCE"></category></entry><entry><title>Question-DCE参数：从DCE数据中能够提取哪些量化参数？</title><link href="https://chunshan.github.io/MRI-QA/dce/dce-tissue-parmeters.html" rel="alternate"></link><updated>2015-10-29T00:00:00+08:00</updated><author><name>Chunshan</name></author><id>tag:chunshan.github.io,2015-10-29:MRI-QA/dce/dce-tissue-parmeters.html</id><summary type="html">&lt;p&gt;原文链接:&lt;a class="reference external" href="http://www.mri-q.com/dce-tissue-parmeters.html"&gt;What quantitative parameters can be extracted from the DCE data?&lt;/a&gt;&lt;/p&gt;
 &lt;dl class="docutils"&gt;
 &lt;dt&gt;&lt;strong&gt;概要&lt;/strong&gt;&lt;/dt&gt;
 &lt;dd&gt;&lt;div class="first last figure align-center"&gt;
@@ -301,7 +301,7 @@
 &lt;/ul&gt;
 &lt;/dd&gt;
 &lt;/dl&gt;
-</summary><category term="Perfusion"></category><category term="DCE"></category></entry><entry><title>Question-DCE信号与钆浓度：如何根据DCE信号强度计算血液和组织中的钆浓度？</title><link href="http://chunshan.github.io/MRI-QA/dce/dce-signal-v-gd.html" rel="alternate"></link><updated>2015-10-28T00:00:00+08:00</updated><author><name>Chunshan</name></author><id>tag:chunshan.github.io,2015-10-28:MRI-QA/dce/dce-signal-v-gd.html</id><summary type="html">&lt;p&gt;原文链接:&lt;a class="reference external" href="http://www.mri-q.com/dce-signal-v-gd.html"&gt;How is the concentration of gadolinium in blood and tissue determined from the DCE signal?&lt;/a&gt;&lt;/p&gt;
+</summary><category term="Perfusion"></category><category term="DCE"></category></entry><entry><title>Question-DCE信号与钆浓度：如何根据DCE信号强度计算血液和组织中的钆浓度？</title><link href="https://chunshan.github.io/MRI-QA/dce/dce-signal-v-gd.html" rel="alternate"></link><updated>2015-10-28T00:00:00+08:00</updated><author><name>Chunshan</name></author><id>tag:chunshan.github.io,2015-10-28:MRI-QA/dce/dce-signal-v-gd.html</id><summary type="html">&lt;p&gt;原文链接:&lt;a class="reference external" href="http://www.mri-q.com/dce-signal-v-gd.html"&gt;How is the concentration of gadolinium in blood and tissue determined from the DCE signal?&lt;/a&gt;&lt;/p&gt;
 &lt;dl class="docutils"&gt;
 &lt;dt&gt;&lt;strong&gt;概要&lt;/strong&gt;&lt;/dt&gt;
 &lt;dd&gt;&lt;div class="first last figure align-center"&gt;
@@ -336,12 +336,12 @@
 &lt;/dd&gt;
 &lt;dt&gt;&lt;strong&gt;相关问题&lt;/strong&gt;&lt;/dt&gt;
 &lt;dd&gt;&lt;ul class="first last simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="http://chunshan.github.io/MRI-QA/dsc/dsc-signal-v-gd.html"&gt;Question-DSC信号与钆：DSC中，能够从采集信号中得到量化的钆浓度实际值么？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://chunshan.github.io/MRI-QA/dsc/dsc-signal-v-gd.html"&gt;Question-DSC信号与钆：DSC中，能够从采集信号中得到量化的钆浓度实际值么？&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://www.mri-q.com/spoiled-gre-parameters.html"&gt;Why would you want to use a spoiled-GRE technique?  How do you pick the parameters?&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/dd&gt;
 &lt;/dl&gt;
-</summary><category term="Perfusion"></category><category term="DCE"></category></entry><entry><title>Question-乳腺DCE：乳腺DCE需要一些特殊的技术么？</title><link href="http://chunshan.github.io/MRI-QA/dce/breast-dce.html" rel="alternate"></link><updated>2015-10-27T00:00:00+08:00</updated><author><name>Chunshan</name></author><id>tag:chunshan.github.io,2015-10-27:MRI-QA/dce/breast-dce.html</id><summary type="html">&lt;p&gt;原文链接:&lt;a class="reference external" href="http://www.mri-q.com/breast-dce.html"&gt;Does breast DCE require any special techniques?&lt;/a&gt;&lt;/p&gt;
+</summary><category term="Perfusion"></category><category term="DCE"></category></entry><entry><title>Question-乳腺DCE：乳腺DCE需要一些特殊的技术么？</title><link href="https://chunshan.github.io/MRI-QA/dce/breast-dce.html" rel="alternate"></link><updated>2015-10-27T00:00:00+08:00</updated><author><name>Chunshan</name></author><id>tag:chunshan.github.io,2015-10-27:MRI-QA/dce/breast-dce.html</id><summary type="html">&lt;p&gt;原文链接:&lt;a class="reference external" href="http://www.mri-q.com/breast-dce.html"&gt;Does breast DCE require any special techniques?&lt;/a&gt;&lt;/p&gt;
 &lt;dl class="docutils"&gt;
 &lt;dt&gt;&lt;strong&gt;概要&lt;/strong&gt;&lt;/dt&gt;
 &lt;dd&gt;&lt;div class="first last figure align-center"&gt;
@@ -399,7 +399,7 @@
 &lt;/ul&gt;
 &lt;/dd&gt;
 &lt;/dl&gt;
-</summary><category term="Perfusion"></category><category term="DCE"></category></entry><entry><title>Question-DCE成像：如何评估从DCE检查中获得的信息？</title><link href="http://chunshan.github.io/MRI-QA/dce/how-is-dce-analyzed.html" rel="alternate"></link><updated>2015-10-26T00:00:00+08:00</updated><author><name>Chunshan</name></author><id>tag:chunshan.github.io,2015-10-26:MRI-QA/dce/how-is-dce-analyzed.html</id><summary type="html">&lt;p&gt;原文链接:&lt;a class="reference external" href="http://www.mri-q.com/how-is-dce-analyzed.html"&gt;How do you evaluate the information obtained from a DCE imaging study?&lt;/a&gt;&lt;/p&gt;
+</summary><category term="Perfusion"></category><category term="DCE"></category></entry><entry><title>Question-DCE成像：如何评估从DCE检查中获得的信息？</title><link href="https://chunshan.github.io/MRI-QA/dce/how-is-dce-analyzed.html" rel="alternate"></link><updated>2015-10-26T00:00:00+08:00</updated><author><name>Chunshan</name></author><id>tag:chunshan.github.io,2015-10-26:MRI-QA/dce/how-is-dce-analyzed.html</id><summary type="html">&lt;p&gt;原文链接:&lt;a class="reference external" href="http://www.mri-q.com/how-is-dce-analyzed.html"&gt;How do you evaluate the information obtained from a DCE imaging study?&lt;/a&gt;&lt;/p&gt;
 &lt;dl class="docutils"&gt;
 &lt;dt&gt;&lt;strong&gt;概要&lt;/strong&gt;&lt;/dt&gt;
 &lt;dd&gt;&lt;div class="first last figure align-center"&gt;
@@ -430,13 +430,13 @@
 &lt;/dd&gt;
 &lt;dt&gt;&lt;strong&gt;相关问题&lt;/strong&gt;&lt;/dt&gt;
 &lt;dd&gt;&lt;ul class="first last simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="http://chunshan.github.io/MRI-QA/dce/how-is-dce-performed.html"&gt;Question-DCE脉冲序列：使用什么脉冲序列进行DCE检查？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://chunshan.github.io/MRI-QA/dce/how-is-dce-performed.html"&gt;Question-DCE脉冲序列：使用什么脉冲序列进行DCE检查？&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://www.mri-q.com/quantifying-perfusion.html"&gt;Can myocardial perfusion be accurately quantified?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="http://chunshan.github.io/MRI-QA/dsc/dsc-v-dce-v-asl.html"&gt;How do calculated DCE parameters relate to patterns of enhancement we see on clinical images?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://chunshan.github.io/MRI-QA/dsc/dsc-v-dce-v-asl.html"&gt;How do calculated DCE parameters relate to patterns of enhancement we see on clinical images?&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/dd&gt;
 &lt;/dl&gt;
-</summary><category term="Perfusion"></category><category term="DCE"></category></entry><entry><title>Question-DCE脉冲序列：使用什么脉冲序列进行DCE检查？</title><link href="http://chunshan.github.io/MRI-QA/dce/how-is-dce-performed.html" rel="alternate"></link><updated>2015-10-25T00:00:00+08:00</updated><author><name>Chunshan</name></author><id>tag:chunshan.github.io,2015-10-25:MRI-QA/dce/how-is-dce-performed.html</id><summary type="html">&lt;p&gt;原文链接:&lt;a class="reference external" href="http://www.mri-q.com/how-is-dce-performed.html"&gt;What pulse sequences are used to perform a DCE study?&lt;/a&gt;&lt;/p&gt;
+</summary><category term="Perfusion"></category><category term="DCE"></category></entry><entry><title>Question-DCE脉冲序列：使用什么脉冲序列进行DCE检查？</title><link href="https://chunshan.github.io/MRI-QA/dce/how-is-dce-performed.html" rel="alternate"></link><updated>2015-10-25T00:00:00+08:00</updated><author><name>Chunshan</name></author><id>tag:chunshan.github.io,2015-10-25:MRI-QA/dce/how-is-dce-performed.html</id><summary type="html">&lt;p&gt;原文链接:&lt;a class="reference external" href="http://www.mri-q.com/how-is-dce-performed.html"&gt;What pulse sequences are used to perform a DCE study?&lt;/a&gt;&lt;/p&gt;
 &lt;dl class="docutils"&gt;
 &lt;dt&gt;&lt;strong&gt;概要&lt;/strong&gt;&lt;/dt&gt;
 &lt;dd&gt;&lt;div class="first last figure align-center"&gt;
@@ -464,12 +464,12 @@
 &lt;/dd&gt;
 &lt;dt&gt;&lt;strong&gt;相关问题&lt;/strong&gt;&lt;/dt&gt;
 &lt;dd&gt;&lt;ul class="first last simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="http://chunshan.github.io/MRI-QA/dce/breast-dce.html"&gt;Question-乳腺DCE：乳腺DCE需要一些特殊的技术么？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://chunshan.github.io/MRI-QA/dce/breast-dce.html"&gt;Question-乳腺DCE：乳腺DCE需要一些特殊的技术么？&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://www.mri-q.com/t1-mapping.html"&gt;How is cardiac T1 mapping performed? When is it useful?&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/dd&gt;
 &lt;/dl&gt;
-</summary><category term="Perfusion"></category><category term="DCE"></category></entry><entry><title>Question-DCE概述：DCE成像是什么？与DSC成像有何不同？</title><link href="http://chunshan.github.io/MRI-QA/dce/what-is-dce.html" rel="alternate"></link><updated>2015-10-24T00:00:00+08:00</updated><author><name>Chunshan</name></author><id>tag:chunshan.github.io,2015-10-24:MRI-QA/dce/what-is-dce.html</id><summary type="html">&lt;p&gt;原文链接:&lt;a class="reference external" href="http://www.mri-q.com/what-is-dce.html"&gt;What is DCE imaging and how does it differ from DSC imaging?&lt;/a&gt;&lt;/p&gt;
+</summary><category term="Perfusion"></category><category term="DCE"></category></entry><entry><title>Question-DCE概述：DCE成像是什么？与DSC成像有何不同？</title><link href="https://chunshan.github.io/MRI-QA/dce/what-is-dce.html" rel="alternate"></link><updated>2015-10-24T00:00:00+08:00</updated><author><name>Chunshan</name></author><id>tag:chunshan.github.io,2015-10-24:MRI-QA/dce/what-is-dce.html</id><summary type="html">&lt;p&gt;原文链接:&lt;a class="reference external" href="http://www.mri-q.com/what-is-dce.html"&gt;What is DCE imaging and how does it differ from DSC imaging?&lt;/a&gt;&lt;/p&gt;
 &lt;dl class="docutils"&gt;
 &lt;dt&gt;&lt;strong&gt;概要&lt;/strong&gt;&lt;/dt&gt;
 &lt;dd&gt;&lt;div class="first last figure align-center"&gt;
@@ -491,8 +491,8 @@
 &lt;dl class="docutils"&gt;
 &lt;dt&gt;&lt;strong&gt;相关问题&lt;/strong&gt;&lt;/dt&gt;
 &lt;dd&gt;&lt;ul class="first last simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="http://chunshan.github.io/MRI-QA/dsc/dsc-v-dce-v-asl.html"&gt;Question-MR灌注概述：MRI中的DSC，DCE和ASL灌注方法有何不同？&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="http://chunshan.github.io/MRI-QA/dce/how-is-dce-analyzed.html"&gt;Question-DCE成像：如何评估从DCE检查中获得的信息？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://chunshan.github.io/MRI-QA/dsc/dsc-v-dce-v-asl.html"&gt;Question-MR灌注概述：MRI中的DSC，DCE和ASL灌注方法有何不同？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://chunshan.github.io/MRI-QA/dce/how-is-dce-analyzed.html"&gt;Question-DCE成像：如何评估从DCE检查中获得的信息？&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://www.mri-q.com/dce-tissue-parmeters.html"&gt;What quantitative parameters can be extracted from the DCE data?&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/dd&gt;

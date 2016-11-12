@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>MRI Q&amp;A</title><link href="http://chunshan.github.io/MRI-QA/" rel="alternate"></link><link href="http://chunshan.github.io/MRI-QA/feeds/motion-related-artifacts.atom.xml" rel="self"></link><id>http://chunshan.github.io/MRI-QA/</id><updated>2015-12-08T00:00:00+08:00</updated><entry><title>Question-螺旋桨/刀锋：螺旋桨技术如何减少运动伪影？</title><link href="http://chunshan.github.io/MRI-QA/motion-related-artifacts/propellerblade.html" rel="alternate"></link><updated>2015-12-08T00:00:00+08:00</updated><author><name>Chunshan</name></author><id>tag:chunshan.github.io,2015-12-08:MRI-QA/motion-related-artifacts/propellerblade.html</id><summary type="html">&lt;p&gt;原文链接:&lt;a class="reference external" href="http://mri-q.com/propellerblade.html"&gt;How does PROPELLER reduce motion artifacts?&lt;/a&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>MRI Q&amp;A</title><link href="https://chunshan.github.io/MRI-QA/" rel="alternate"></link><link href="https://chunshan.github.io/MRI-QA/feeds/motion-related-artifacts.atom.xml" rel="self"></link><id>https://chunshan.github.io/MRI-QA/</id><updated>2015-12-08T00:00:00+08:00</updated><entry><title>Question-螺旋桨/刀锋：螺旋桨技术如何减少运动伪影？</title><link href="https://chunshan.github.io/MRI-QA/motion-related-artifacts/propellerblade.html" rel="alternate"></link><updated>2015-12-08T00:00:00+08:00</updated><author><name>Chunshan</name></author><id>tag:chunshan.github.io,2015-12-08:MRI-QA/motion-related-artifacts/propellerblade.html</id><summary type="html">&lt;p&gt;原文链接:&lt;a class="reference external" href="http://mri-q.com/propellerblade.html"&gt;How does PROPELLER reduce motion artifacts?&lt;/a&gt;&lt;/p&gt;
 &lt;dl class="docutils"&gt;
 &lt;dt&gt;&lt;strong&gt;概要&lt;/strong&gt;&lt;/dt&gt;
 &lt;dd&gt;&lt;div class="first last figure align-center"&gt;
@@ -54,7 +54,7 @@
 &lt;/ul&gt;
 &lt;/dd&gt;
 &lt;/dl&gt;
-</summary><category term="MR Artifacts"></category><category term="motion related artifacts"></category></entry><entry><title>Question-导航回波：什么是导航回波？导航回波如何减少运动伪影？</title><link href="http://chunshan.github.io/MRI-QA/motion-related-artifacts/navigator-echoes.html" rel="alternate"></link><updated>2015-12-07T00:00:00+08:00</updated><author><name>Chunshan</name></author><id>tag:chunshan.github.io,2015-12-07:MRI-QA/motion-related-artifacts/navigator-echoes.html</id><summary type="html">&lt;p&gt;原文链接:&lt;a class="reference external" href="http://mri-q.com/navigator-echoes.html"&gt;What are navigator echoes and how do they reduce motion artifacts?&lt;/a&gt;&lt;/p&gt;
+</summary><category term="MR Artifacts"></category><category term="motion related artifacts"></category></entry><entry><title>Question-导航回波：什么是导航回波？导航回波如何减少运动伪影？</title><link href="https://chunshan.github.io/MRI-QA/motion-related-artifacts/navigator-echoes.html" rel="alternate"></link><updated>2015-12-07T00:00:00+08:00</updated><author><name>Chunshan</name></author><id>tag:chunshan.github.io,2015-12-07:MRI-QA/motion-related-artifacts/navigator-echoes.html</id><summary type="html">&lt;p&gt;原文链接:&lt;a class="reference external" href="http://mri-q.com/navigator-echoes.html"&gt;What are navigator echoes and how do they reduce motion artifacts?&lt;/a&gt;&lt;/p&gt;
 &lt;dl class="docutils"&gt;
 &lt;dt&gt;&lt;strong&gt;概要&lt;/strong&gt;&lt;/dt&gt;
 &lt;dd&gt;&lt;div class="first last figure align-center"&gt;
@@ -113,7 +113,7 @@
 &lt;/ul&gt;
 &lt;/dd&gt;
 &lt;/dl&gt;
-</summary><category term="MR Artifacts"></category><category term="motion related artifacts"></category></entry><entry><title>Question-呼吸补偿：什么是呼吸补偿？与呼吸门控有何不同？</title><link href="http://chunshan.github.io/MRI-QA/motion-related-artifacts/respiratory-comp.html" rel="alternate"></link><updated>2015-12-06T00:00:00+08:00</updated><author><name>Chunshan</name></author><id>tag:chunshan.github.io,2015-12-06:MRI-QA/motion-related-artifacts/respiratory-comp.html</id><summary type="html">&lt;p&gt;原文链接:&lt;a class="reference external" href="http://mri-q.com/respiratory-comp.html"&gt;What is respiratory compensation? How does this differ from respiratory gating?&lt;/a&gt;&lt;/p&gt;
+</summary><category term="MR Artifacts"></category><category term="motion related artifacts"></category></entry><entry><title>Question-呼吸补偿：什么是呼吸补偿？与呼吸门控有何不同？</title><link href="https://chunshan.github.io/MRI-QA/motion-related-artifacts/respiratory-comp.html" rel="alternate"></link><updated>2015-12-06T00:00:00+08:00</updated><author><name>Chunshan</name></author><id>tag:chunshan.github.io,2015-12-06:MRI-QA/motion-related-artifacts/respiratory-comp.html</id><summary type="html">&lt;p&gt;原文链接:&lt;a class="reference external" href="http://mri-q.com/respiratory-comp.html"&gt;What is respiratory compensation? How does this differ from respiratory gating?&lt;/a&gt;&lt;/p&gt;
 &lt;dl class="docutils"&gt;
 &lt;dt&gt;&lt;strong&gt;概要&lt;/strong&gt;&lt;/dt&gt;
 &lt;dd&gt;&lt;div class="first last figure align-center"&gt;
@@ -159,11 +159,11 @@
 &lt;/dd&gt;
 &lt;dt&gt;&lt;strong&gt;相关问题&lt;/strong&gt;&lt;/dt&gt;
 &lt;dd&gt;&lt;ul class="first last simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="http://chunshan.github.io/MRI-QA/motion-related-artifacts/gating-methods.html"&gt;怎么做心跳和呼吸门控?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://chunshan.github.io/MRI-QA/motion-related-artifacts/gating-methods.html"&gt;怎么做心跳和呼吸门控?&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/dd&gt;
 &lt;/dl&gt;
-</summary><category term="MR Artifacts"></category><category term="motion related artifacts"></category></entry><entry><title>Question-门控/触发简介：怎么做心跳和呼吸门控？</title><link href="http://chunshan.github.io/MRI-QA/motion-related-artifacts/gating-methods.html" rel="alternate"></link><updated>2015-12-05T00:00:00+08:00</updated><author><name>Chunshan</name></author><id>tag:chunshan.github.io,2015-12-05:MRI-QA/motion-related-artifacts/gating-methods.html</id><summary type="html">&lt;p&gt;原文链接:&lt;a class="reference external" href="http://mri-q.com/gating-methods.html"&gt;How are cardiac and respiratory gating performed?&lt;/a&gt;&lt;/p&gt;
+</summary><category term="MR Artifacts"></category><category term="motion related artifacts"></category></entry><entry><title>Question-门控/触发简介：怎么做心跳和呼吸门控？</title><link href="https://chunshan.github.io/MRI-QA/motion-related-artifacts/gating-methods.html" rel="alternate"></link><updated>2015-12-05T00:00:00+08:00</updated><author><name>Chunshan</name></author><id>tag:chunshan.github.io,2015-12-05:MRI-QA/motion-related-artifacts/gating-methods.html</id><summary type="html">&lt;p&gt;原文链接:&lt;a class="reference external" href="http://mri-q.com/gating-methods.html"&gt;How are cardiac and respiratory gating performed?&lt;/a&gt;&lt;/p&gt;
 &lt;dl class="docutils"&gt;
 &lt;dt&gt;&lt;strong&gt;概要&lt;/strong&gt;&lt;/dt&gt;
 &lt;dd&gt;&lt;div class="first last figure align-center"&gt;
@@ -236,11 +236,11 @@
 &lt;dd&gt;&lt;ul class="first last simple"&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://mri-q.com/gating-parameters.html"&gt;How do you set the various parameters for a cardiac gated study, such as repetition time (TR), trigger delay, and trigger window?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://mri-q.com/gating-v-triggering.html"&gt;Is cardiac gating the same as triggering?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="http://chunshan.github.io/MRI-QA/motion-related-artifacts/respiratory-comp.html"&gt;什么是呼吸补偿？与呼吸门控有何不同？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://chunshan.github.io/MRI-QA/motion-related-artifacts/respiratory-comp.html"&gt;什么是呼吸补偿？与呼吸门控有何不同？&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/dd&gt;
 &lt;/dl&gt;
-</summary><category term="MR Artifacts"></category><category term="motion related artifacts"></category></entry><entry><title>Question-饱和脉冲：饱和脉冲如何起作用？</title><link href="http://chunshan.github.io/MRI-QA/motion-related-artifacts/saturation-pulses.html" rel="alternate"></link><updated>2015-12-04T00:00:00+08:00</updated><author><name>Chunshan</name></author><id>tag:chunshan.github.io,2015-12-04:MRI-QA/motion-related-artifacts/saturation-pulses.html</id><summary type="html">&lt;p&gt;原文链接:&lt;a class="reference external" href="http://mri-q.com/saturation-pulses.html"&gt;How do saturation pulses work?&lt;/a&gt;&lt;/p&gt;
+</summary><category term="MR Artifacts"></category><category term="motion related artifacts"></category></entry><entry><title>Question-饱和脉冲：饱和脉冲如何起作用？</title><link href="https://chunshan.github.io/MRI-QA/motion-related-artifacts/saturation-pulses.html" rel="alternate"></link><updated>2015-12-04T00:00:00+08:00</updated><author><name>Chunshan</name></author><id>tag:chunshan.github.io,2015-12-04:MRI-QA/motion-related-artifacts/saturation-pulses.html</id><summary type="html">&lt;p&gt;原文链接:&lt;a class="reference external" href="http://mri-q.com/saturation-pulses.html"&gt;How do saturation pulses work?&lt;/a&gt;&lt;/p&gt;
 &lt;dl class="docutils"&gt;
 &lt;dt&gt;&lt;strong&gt;概要&lt;/strong&gt;&lt;/dt&gt;
 &lt;dd&gt;&lt;div class="first last figure align-center"&gt;
@@ -311,7 +311,7 @@
 &lt;/ul&gt;
 &lt;/dd&gt;
 &lt;/dl&gt;
-</summary><category term="MR Artifacts"></category><category term="motion related artifacts"></category></entry><entry><title>Question-减少运动伪影：运动伪影如何减少或消除？</title><link href="http://chunshan.github.io/MRI-QA/motion-related-artifacts/reducing-motion-artifacts.html" rel="alternate"></link><updated>2015-12-03T00:00:00+08:00</updated><author><name>Chunshan</name></author><id>tag:chunshan.github.io,2015-12-03:MRI-QA/motion-related-artifacts/reducing-motion-artifacts.html</id><summary type="html">&lt;p&gt;原文链接:&lt;a class="reference external" href="http://mri-q.com/reducing-motion-artifacts.html"&gt;How can motion artifacts be reduced or eliminated?&lt;/a&gt;&lt;/p&gt;
+</summary><category term="MR Artifacts"></category><category term="motion related artifacts"></category></entry><entry><title>Question-减少运动伪影：运动伪影如何减少或消除？</title><link href="https://chunshan.github.io/MRI-QA/motion-related-artifacts/reducing-motion-artifacts.html" rel="alternate"></link><updated>2015-12-03T00:00:00+08:00</updated><author><name>Chunshan</name></author><id>tag:chunshan.github.io,2015-12-03:MRI-QA/motion-related-artifacts/reducing-motion-artifacts.html</id><summary type="html">&lt;p&gt;原文链接:&lt;a class="reference external" href="http://mri-q.com/reducing-motion-artifacts.html"&gt;How can motion artifacts be reduced or eliminated?&lt;/a&gt;&lt;/p&gt;
 &lt;dl class="docutils"&gt;
 &lt;dt&gt;&lt;strong&gt;概要&lt;/strong&gt;&lt;/dt&gt;
 &lt;dd&gt;&lt;div class="first last figure align-center"&gt;
@@ -361,11 +361,11 @@
 &lt;/dd&gt;
 &lt;dt&gt;&lt;strong&gt;相关问题&lt;/strong&gt;&lt;/dt&gt;
 &lt;dd&gt;&lt;ul class="first last simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="http://chunshan.github.io/MRI-QA/motion-related-artifacts/why-discrete-ghosts.html"&gt;为什么运动伪影常会形成离散的鬼影？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://chunshan.github.io/MRI-QA/motion-related-artifacts/why-discrete-ghosts.html"&gt;为什么运动伪影常会形成离散的鬼影？&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/dd&gt;
 &lt;/dl&gt;
-</summary><category term="MR Artifacts"></category><category term="motion related artifacts"></category></entry><entry><title>Question-运动伪影：为什么运动伪影在相位编码方向传播而不是频率编码方向？</title><link href="http://chunshan.github.io/MRI-QA/motion-related-artifacts/motion-artifact-direction.html" rel="alternate"></link><updated>2015-12-02T00:00:00+08:00</updated><author><name>Chunshan</name></author><id>tag:chunshan.github.io,2015-12-02:MRI-QA/motion-related-artifacts/motion-artifact-direction.html</id><summary type="html">&lt;p&gt;原文链接:&lt;a class="reference external" href="http://mri-q.com/motion-artifact-direction.html"&gt;Why are motion artifacts propagated in the phase-encode direction instead of the frequency-encode direction?&lt;/a&gt;&lt;/p&gt;
+</summary><category term="MR Artifacts"></category><category term="motion related artifacts"></category></entry><entry><title>Question-运动伪影：为什么运动伪影在相位编码方向传播而不是频率编码方向？</title><link href="https://chunshan.github.io/MRI-QA/motion-related-artifacts/motion-artifact-direction.html" rel="alternate"></link><updated>2015-12-02T00:00:00+08:00</updated><author><name>Chunshan</name></author><id>tag:chunshan.github.io,2015-12-02:MRI-QA/motion-related-artifacts/motion-artifact-direction.html</id><summary type="html">&lt;p&gt;原文链接:&lt;a class="reference external" href="http://mri-q.com/motion-artifact-direction.html"&gt;Why are motion artifacts propagated in the phase-encode direction instead of the frequency-encode direction?&lt;/a&gt;&lt;/p&gt;
 &lt;dl class="docutils"&gt;
 &lt;dt&gt;&lt;strong&gt;概要&lt;/strong&gt;&lt;/dt&gt;
 &lt;dd&gt;&lt;div class="first last figure align-center"&gt;
@@ -393,11 +393,11 @@
 &lt;/dd&gt;
 &lt;dt&gt;&lt;strong&gt;相关问题&lt;/strong&gt;&lt;/dt&gt;
 &lt;dd&gt;&lt;ul class="first last simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="http://chunshan.github.io/MRI-QA/motion-related-artifacts/why-discrete-ghosts.html"&gt;为什么运动伪影常会形成离散的鬼影？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://chunshan.github.io/MRI-QA/motion-related-artifacts/why-discrete-ghosts.html"&gt;为什么运动伪影常会形成离散的鬼影？&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/dd&gt;
 &lt;/dl&gt;
-</summary><category term="MR Artifacts"></category><category term="motion related artifacts"></category></entry><entry><title>Question-鬼影：为什么运动伪影常会形成离散的鬼影？</title><link href="http://chunshan.github.io/MRI-QA/motion-related-artifacts/why-discrete-ghosts.html" rel="alternate"></link><updated>2015-12-01T00:00:00+08:00</updated><author><name>Chunshan</name></author><id>tag:chunshan.github.io,2015-12-01:MRI-QA/motion-related-artifacts/why-discrete-ghosts.html</id><summary type="html">&lt;p&gt;原文链接:&lt;a class="reference external" href="http://mri-q.com/why-discrete-ghosts.html"&gt;Why do motion artifacts often form into discrete ghosts?&lt;/a&gt;&lt;/p&gt;
+</summary><category term="MR Artifacts"></category><category term="motion related artifacts"></category></entry><entry><title>Question-鬼影：为什么运动伪影常会形成离散的鬼影？</title><link href="https://chunshan.github.io/MRI-QA/motion-related-artifacts/why-discrete-ghosts.html" rel="alternate"></link><updated>2015-12-01T00:00:00+08:00</updated><author><name>Chunshan</name></author><id>tag:chunshan.github.io,2015-12-01:MRI-QA/motion-related-artifacts/why-discrete-ghosts.html</id><summary type="html">&lt;p&gt;原文链接:&lt;a class="reference external" href="http://mri-q.com/why-discrete-ghosts.html"&gt;Why do motion artifacts often form into discrete ghosts?&lt;/a&gt;&lt;/p&gt;
 &lt;dl class="docutils"&gt;
 &lt;dt&gt;&lt;strong&gt;概要&lt;/strong&gt;&lt;/dt&gt;
 &lt;dd&gt;&lt;div class="first last figure align-center"&gt;
@@ -440,7 +440,7 @@
 &lt;/dd&gt;
 &lt;dt&gt;&lt;strong&gt;相关问题&lt;/strong&gt;&lt;/dt&gt;
 &lt;dd&gt;&lt;ul class="first last simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="http://chunshan.github.io/MRI-QA/motion-related-artifacts/motion-artifact-direction.html"&gt;为什么运动伪影在相位编码方向传播而不是频率编码方向？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://chunshan.github.io/MRI-QA/motion-related-artifacts/motion-artifact-direction.html"&gt;为什么运动伪影在相位编码方向传播而不是频率编码方向？&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/dd&gt;
 &lt;/dl&gt;

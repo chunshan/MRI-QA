@@ -4,924 +4,924 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/</loc>
+<loc>https://chunshan.github.io/MRI-QA/</loc>
 <lastmod>2016-11-02T00:24:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/archives.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/archives.html</loc>
 <lastmod>2016-11-02T00:24:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/tags.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/tags.html</loc>
 <lastmod>2016-11-02T00:24:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/categories.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/categories.html</loc>
 <lastmod>2016-11-02T00:24:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/about.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/about.html</loc>
 <lastmod>2015-10-03T10:20:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/bold/language.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/bold/language.html</loc>
 <lastmod>2016-03-11T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/bold/visual.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/bold/visual.html</loc>
 <lastmod>2016-03-10T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/bold/motor-paradigms.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/bold/motor-paradigms.html</loc>
 <lastmod>2016-03-09T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/bold/why-on-off-comparison.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/bold/why-on-off-comparison.html</loc>
 <lastmod>2016-03-08T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/bold/fmri-paradigm-design.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/bold/fmri-paradigm-design.html</loc>
 <lastmod>2016-03-07T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/bold/bold-pulse-sequences.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/bold/bold-pulse-sequences.html</loc>
 <lastmod>2016-03-06T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/bold/does-boldbrain-activity.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/bold/does-boldbrain-activity.html</loc>
 <lastmod>2016-03-05T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/bold/why-does-bold-uarr-signal.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/bold/why-does-bold-uarr-signal.html</loc>
 <lastmod>2016-03-04T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/bold/bold-contrast.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/bold/bold-contrast.html</loc>
 <lastmod>2016-03-03T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/bold/how-does-fmri-work.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/bold/how-does-fmri-work.html</loc>
 <lastmod>2016-03-02T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/bold/who-invented-fmri.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/bold/who-invented-fmri.html</loc>
 <lastmod>2016-03-01T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/technique-related-artifacts/mra-artifacts-ce.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/technique-related-artifacts/mra-artifacts-ce.html</loc>
 <lastmod>2016-01-01T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/technique-related-artifacts/mra-artifacts-tof.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/technique-related-artifacts/mra-artifacts-tof.html</loc>
 <lastmod>2015-12-31T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/technique-related-artifacts/surface-coil-flare.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/technique-related-artifacts/surface-coil-flare.html</loc>
 <lastmod>2015-12-30T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/technique-related-artifacts/data-artifacts.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/technique-related-artifacts/data-artifacts.html</loc>
 <lastmod>2015-12-29T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/technique-related-artifacts/zipper-artifact.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/technique-related-artifacts/zipper-artifact.html</loc>
 <lastmod>2015-12-28T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/technique-related-artifacts/nyquist-n2-ghosts.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/technique-related-artifacts/nyquist-n2-ghosts.html</loc>
 <lastmod>2015-12-27T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/technique-related-artifacts/gibbs-artifact.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/technique-related-artifacts/gibbs-artifact.html</loc>
 <lastmod>2015-12-26T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/technique-related-artifacts/spiralradial-artifacts.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/technique-related-artifacts/spiralradial-artifacts.html</loc>
 <lastmod>2015-12-25T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/technique-related-artifacts/frequency-wrap-around.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/technique-related-artifacts/frequency-wrap-around.html</loc>
 <lastmod>2015-12-24T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/technique-related-artifacts/phase-oversampling.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/technique-related-artifacts/phase-oversampling.html</loc>
 <lastmod>2015-12-23T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/technique-related-artifacts/eliminate-wrap-around.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/technique-related-artifacts/eliminate-wrap-around.html</loc>
 <lastmod>2015-12-22T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/technique-related-artifacts/wrap-around-artifact.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/technique-related-artifacts/wrap-around-artifact.html</loc>
 <lastmod>2015-12-21T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/technique-related-artifacts/aliasing.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/technique-related-artifacts/aliasing.html</loc>
 <lastmod>2015-12-20T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/technique-related-artifacts/slice-overlap.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/technique-related-artifacts/slice-overlap.html</loc>
 <lastmod>2015-12-19T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/technique-related-artifacts/partial-volume-effects.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/technique-related-artifacts/partial-volume-effects.html</loc>
 <lastmod>2015-12-18T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/motion-related-artifacts/propellerblade.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/motion-related-artifacts/propellerblade.html</loc>
 <lastmod>2015-12-08T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/motion-related-artifacts/navigator-echoes.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/motion-related-artifacts/navigator-echoes.html</loc>
 <lastmod>2015-12-07T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/motion-related-artifacts/respiratory-comp.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/motion-related-artifacts/respiratory-comp.html</loc>
 <lastmod>2015-12-06T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/motion-related-artifacts/gating-methods.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/motion-related-artifacts/gating-methods.html</loc>
 <lastmod>2015-12-05T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/motion-related-artifacts/saturation-pulses.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/motion-related-artifacts/saturation-pulses.html</loc>
 <lastmod>2015-12-04T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/motion-related-artifacts/reducing-motion-artifacts.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/motion-related-artifacts/reducing-motion-artifacts.html</loc>
 <lastmod>2015-12-03T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/motion-related-artifacts/motion-artifact-direction.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/motion-related-artifacts/motion-artifact-direction.html</loc>
 <lastmod>2015-12-02T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/motion-related-artifacts/why-discrete-ghosts.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/motion-related-artifacts/why-discrete-ghosts.html</loc>
 <lastmod>2015-12-01T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/tissue-related-artifacts/dielectric-pads.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/tissue-related-artifacts/dielectric-pads.html</loc>
 <lastmod>2015-11-29T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/tissue-related-artifacts/dielectric-effect.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/tissue-related-artifacts/dielectric-effect.html</loc>
 <lastmod>2015-11-28T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/tissue-related-artifacts/metal-suppression.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/tissue-related-artifacts/metal-suppression.html</loc>
 <lastmod>2015-11-27T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/tissue-related-artifacts/susceptibility-artifact.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/tissue-related-artifacts/susceptibility-artifact.html</loc>
 <lastmod>2015-11-26T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/tissue-related-artifacts/ir-bounce-point.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/tissue-related-artifacts/ir-bounce-point.html</loc>
 <lastmod>2015-11-25T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/tissue-related-artifacts/in-phaseout-of-phase1.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/tissue-related-artifacts/in-phaseout-of-phase1.html</loc>
 <lastmod>2015-11-24T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/tissue-related-artifacts/chemical-shift-2nd-kind.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/tissue-related-artifacts/chemical-shift-2nd-kind.html</loc>
 <lastmod>2015-11-23T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/tissue-related-artifacts/reducing-chemical-shift.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/tissue-related-artifacts/reducing-chemical-shift.html</loc>
 <lastmod>2015-11-22T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/tissue-related-artifacts/chemical-shift-in-phase.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/tissue-related-artifacts/chemical-shift-in-phase.html</loc>
 <lastmod>2015-11-21T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/tissue-related-artifacts/chemical-shift-artifact.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/tissue-related-artifacts/chemical-shift-artifact.html</loc>
 <lastmod>2015-11-20T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/asl/quantifying-flow.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/asl/quantifying-flow.html</loc>
 <lastmod>2015-11-11T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/asl/vascular-color-maps.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/asl/vascular-color-maps.html</loc>
 <lastmod>2015-11-10T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/asl/gadolinium-and-asl.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/asl/gadolinium-and-asl.html</loc>
 <lastmod>2015-11-09T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/asl/asl-artifacts.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/asl/asl-artifacts.html</loc>
 <lastmod>2015-11-08T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/asl/asl-parameters.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/asl/asl-parameters.html</loc>
 <lastmod>2015-11-07T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/asl/pcasl.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/asl/pcasl.html</loc>
 <lastmod>2015-11-06T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/asl/pasl.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/asl/pasl.html</loc>
 <lastmod>2015-11-05T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/asl/casl.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/asl/casl.html</loc>
 <lastmod>2015-11-04T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/asl/asl-methods-overview.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/asl/asl-methods-overview.html</loc>
 <lastmod>2015-11-03T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/asl/what-is-asl.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/asl/what-is-asl.html</loc>
 <lastmod>2015-11-02T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/dce/utility-of-dce.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/dce/utility-of-dce.html</loc>
 <lastmod>2015-11-01T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/dce/k-trans--permeability.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/dce/k-trans--permeability.html</loc>
 <lastmod>2015-10-31T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/dce/parameters-to-images.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/dce/parameters-to-images.html</loc>
 <lastmod>2015-10-30T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/dce/dce-tissue-parmeters.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/dce/dce-tissue-parmeters.html</loc>
 <lastmod>2015-10-29T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/dce/dce-signal-v-gd.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/dce/dce-signal-v-gd.html</loc>
 <lastmod>2015-10-28T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/dce/breast-dce.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/dce/breast-dce.html</loc>
 <lastmod>2015-10-27T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/dce/how-is-dce-analyzed.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/dce/how-is-dce-analyzed.html</loc>
 <lastmod>2015-10-26T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/dce/how-is-dce-performed.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/dce/how-is-dce-performed.html</loc>
 <lastmod>2015-10-25T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/dce/what-is-dce.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/dce/what-is-dce.html</loc>
 <lastmod>2015-10-24T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/dsc/quantitative-dsc.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/dsc/quantitative-dsc.html</loc>
 <lastmod>2015-10-23T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/dsc/arterial-input-aif.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/dsc/arterial-input-aif.html</loc>
 <lastmod>2015-10-22T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/dsc/dsc-signal-v-gd.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/dsc/dsc-signal-v-gd.html</loc>
 <lastmod>2015-10-21T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/dsc/dsc-curve-analysis.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/dsc/dsc-curve-analysis.html</loc>
 <lastmod>2015-10-20T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/dsc/dsc-recirculation.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/dsc/dsc-recirculation.html</loc>
 <lastmod>2015-10-19T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/dsc/t1-effects-on-dsc.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/dsc/t1-effects-on-dsc.html</loc>
 <lastmod>2015-10-18T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/dsc/bolus-gd-effect.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/dsc/bolus-gd-effect.html</loc>
 <lastmod>2015-10-17T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/dsc/how-to-perform-dsc.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/dsc/how-to-perform-dsc.html</loc>
 <lastmod>2015-10-16T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/dsc/dsc-v-dce-v-asl.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/dsc/dsc-v-dce-v-asl.html</loc>
 <lastmod>2015-10-15T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/dsc/meaning_of_cbf_mtt_etc.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/dsc/meaning_of_cbf_mtt_etc.html</loc>
 <lastmod>2015-10-10T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/dsc/measuring_perfusion.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/dsc/measuring_perfusion.html</loc>
 <lastmod>2015-10-09T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/parallel-imaging/artifacts-in-pi.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/parallel-imaging/artifacts-in-pi.html</loc>
 <lastmod>2014-11-19T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/parallel-imaging/noise-in-pi.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/parallel-imaging/noise-in-pi.html</loc>
 <lastmod>2014-11-18T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/parallel-imaging/caipirinha.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/parallel-imaging/caipirinha.html</loc>
 <lastmod>2014-11-17T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/parallel-imaging/grappaarc.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/parallel-imaging/grappaarc.html</loc>
 <lastmod>2014-11-16T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/parallel-imaging/senseasset.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/parallel-imaging/senseasset.html</loc>
 <lastmod>2014-11-15T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/parallel-imaging/two-types-of-pi.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/parallel-imaging/two-types-of-pi.html</loc>
 <lastmod>2014-11-14T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/parallel-imaging/why-and-when-to-use.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/parallel-imaging/why-and-when-to-use.html</loc>
 <lastmod>2014-11-13T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/parallel-imaging/pi-coils-and-sequences.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/parallel-imaging/pi-coils-and-sequences.html</loc>
 <lastmod>2014-11-12T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/parallel-imaging/how-is-pi-different.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/parallel-imaging/how-is-pi-different.html</loc>
 <lastmod>2014-11-11T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/parallel-imaging/what-is-pi.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/parallel-imaging/what-is-pi.html</loc>
 <lastmod>2014-11-10T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/rapid-imaging/hastess-fse.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/rapid-imaging/hastess-fse.html</loc>
 <lastmod>2014-11-04T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/rapid-imaging/echo-planar-imaging.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/rapid-imaging/echo-planar-imaging.html</loc>
 <lastmod>2014-11-03T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/rapid-imaging/spacecubevista.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/rapid-imaging/spacecubevista.html</loc>
 <lastmod>2014-11-02T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/rapid-imaging/hyperechoes.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/rapid-imaging/hyperechoes.html</loc>
 <lastmod>2014-11-01T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/rapid-imaging/reduced-flip-angle-fse.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/rapid-imaging/reduced-flip-angle-fse.html</loc>
 <lastmod>2014-10-31T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/rapid-imaging/driven-equilibrium.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/rapid-imaging/driven-equilibrium.html</loc>
 <lastmod>2014-10-30T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/rapid-imaging/dual-echo-fse.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/rapid-imaging/dual-echo-fse.html</loc>
 <lastmod>2014-10-29T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/rapid-imaging/other-fse-differences.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/rapid-imaging/other-fse-differences.html</loc>
 <lastmod>2014-10-28T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/rapid-imaging/bright-fat.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/rapid-imaging/bright-fat.html</loc>
 <lastmod>2014-10-27T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/rapid-imaging/fse-parameters.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/rapid-imaging/fse-parameters.html</loc>
 <lastmod>2014-10-26T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/rapid-imaging/what-is-fsetse.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/rapid-imaging/what-is-fsetse.html</loc>
 <lastmod>2014-10-25T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/k-space/zip.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/k-space/zip.html</loc>
 <lastmod>2014-10-23T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/k-space/why-not-use-both.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/k-space/why-not-use-both.html</loc>
 <lastmod>2014-10-22T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/k-space/read-symmetry.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/k-space/read-symmetry.html</loc>
 <lastmod>2014-10-21T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/k-space/phase-symmetry.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/k-space/phase-symmetry.html</loc>
 <lastmod>2014-10-20T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/k-space/partial-fourier.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/k-space/partial-fourier.html</loc>
 <lastmod>2014-10-19T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/k-space/rectangular-fov.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/k-space/rectangular-fov.html</loc>
 <lastmod>2014-10-18T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/k-space/field-of-view-fov.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/k-space/field-of-view-fov.html</loc>
 <lastmod>2014-10-17T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/k-space/negative-frequencies.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/k-space/negative-frequencies.html</loc>
 <lastmod>2014-10-16T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/k-space/k-space-grid.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/k-space/k-space-grid.html</loc>
 <lastmod>2014-10-15T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/k-space/k-space-trajectories.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/k-space/k-space-trajectories.html</loc>
 <lastmod>2014-10-10T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/k-space/big-spot-in-middle.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/k-space/big-spot-in-middle.html</loc>
 <lastmod>2014-10-09T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/k-space/spin-warp-imaging.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/k-space/spin-warp-imaging.html</loc>
 <lastmod>2014-10-08T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/k-space/why-signal-harr-k-space.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/k-space/why-signal-harr-k-space.html</loc>
 <lastmod>2014-10-07T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/k-space/data-for-k-space.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/k-space/data-for-k-space.html</loc>
 <lastmod>2014-10-06T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/k-space/locations-in-k-space.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/k-space/locations-in-k-space.html</loc>
 <lastmod>2014-10-05T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/k-space/spatial-frequencies.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/k-space/spatial-frequencies.html</loc>
 <lastmod>2014-10-04T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/k-space/what-does-k-stand-for.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/k-space/what-does-k-stand-for.html</loc>
 <lastmod>2014-10-03T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/k-space/parts-of-k-space.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/k-space/parts-of-k-space.html</loc>
 <lastmod>2014-10-02T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/k-space/what-is-k-space.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/k-space/what-is-k-space.html</loc>
 <lastmod>2014-10-01T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/misc/welcome_to_mri_questions_answers_chinese_version.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/misc/welcome_to_mri_questions_answers_chinese_version.html</loc>
 <lastmod>2010-10-07T00:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/asl/index.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/asl/index.html</loc>
 <lastmod>2015-11-11T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/bold/index.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/bold/index.html</loc>
 <lastmod>2016-03-11T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/dce/index.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/dce/index.html</loc>
 <lastmod>2015-11-01T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/dsc/index.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/dsc/index.html</loc>
 <lastmod>2015-10-23T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/k-space/index.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/k-space/index.html</loc>
 <lastmod>2014-10-23T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/misc/index.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/misc/index.html</loc>
 <lastmod>2010-10-07T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/motion-related-artifacts/index.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/motion-related-artifacts/index.html</loc>
 <lastmod>2015-12-08T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/parallel-imaging/index.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/parallel-imaging/index.html</loc>
 <lastmod>2014-11-19T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/rapid-imaging/index.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/rapid-imaging/index.html</loc>
 <lastmod>2014-11-04T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/technique-related-artifacts/index.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/technique-related-artifacts/index.html</loc>
 <lastmod>2016-01-01T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/tissue-related-artifacts/index.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/tissue-related-artifacts/index.html</loc>
 <lastmod>2015-11-29T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://chunshan.github.io/MRI-QA/author/chunshan.html</loc>
+<loc>https://chunshan.github.io/MRI-QA/author/chunshan.html</loc>
 <lastmod>2016-03-11T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
